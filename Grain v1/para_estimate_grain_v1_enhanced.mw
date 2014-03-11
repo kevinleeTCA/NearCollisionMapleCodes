@@ -1,0 +1,2156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="15" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="true"></View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" contextmenusize="automatic" plotdriver="opengl" elisiondigitsafter="100" plotoutput="terminal" helpbrowser="standard" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" errorcursor="false" longdelim="true" plotoptions="" quiet="false" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="-1" screenpixelheight="1024" warnlevel="3" screenheight="25" latexwidth="6.0" postplot="" prompt="&gt; " ShowLabels="true"/>
+<Styles><Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="SimSun" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="SimSun" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Serif" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="SimSun" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Serif" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Serif" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Task-table>
+    <Task-category name="&lt;default&gt;">
+    </Task-category>
+</Task-table>
+<Task>
+</Task><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L5" drawlabel="true" redirect-target="L7">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="with(combinat):" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzZqaXYtSSNtb0dGJDYtUSIjRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMtSSdtc3BhY2VHRiQ2Ji8lJ2hlaWdodEdRJjAuMGV4RicvJSZ3aWR0aEdGQy8lJmRlcHRoR0ZLLyUqbGluZWJyZWFrR1EobmV3bGluZUYnLUZHNiZGSUZMRk4vRlFRJWF1dG9GJy1JI21pR0YkNiVRJXdpdGhGJy8lJ2l0YWxpY0dRJXRydWVGJy9GMFEnaXRhbGljRictSShtZmVuY2VkR0YkNiQtRiM2JC1GWDYlUSljb21iaW5hdEYnRmVuRmhuRi9GLy1GLDYtUSI6RidGL0YyRjVGN0Y5RjtGPUY/L0ZCUSwwLjI3Nzc3NzhlbUYnL0ZFRmZvLUYsNi1RIn5GJ0YvRjJGNUY3RjlGO0Y9Rj9GQUZERkZGaG8tRlg2JVEvU2FtcGxpbmdDaG9vc2VGJ0ZlbkZobi1GLDYtUSomY29sb25lcTtGJ0YvRjJGNUY3RjlGO0Y9Rj9GZW9GZ28tRiw2L1ElcHJvY0YnLyUlYm9sZEdGZ24vRjBRJWJvbGRGJy8lK2ZvbnR3ZWlnaHRHRmdwRjJGNUY3RjlGO0Y9Rj9GQUZELUZbbzYkLUYjNiQtRlg2JVEibEYnRmVuRmhuRi9GLy1GLDYuUSFGJy8lJ2ZhbWlseUdRLENvdXJpZXJ+TmV3RidGL0YyL0Y2RmduRjdGOUY7Rj1GP0ZBL0ZFUSwwLjMzMzMzMzNlbUYnRkZGaG9GaG9GaG9GaG9GaG9GaG8tRlg2JVEjTDFGJ0ZlbkZobkZecC1GW282Ji1GIzY2LUklbXN1cEdGJDYlLUkjbW5HRiQ2JFEiMkYnRi8tRiM2JC1GZXI2JFEiNEYnRi9GLy8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRictRiw2LVEiLEYnRi9GMkZncUY3RjlGO0Y9Rj9GQUZocS1GYnI2JUZkci1GIzYkLUZlcjYkUSI2RidGL0YvRl1zRmBzLUZicjYlRmRyLUYjNiQtRmVyNiRRIjhGJ0YvRi9GXXNGYHMtRmJyNiVGZHItRiM2JC1GZXI2JFEjMTlGJ0YvRi9GXXNGYHMtRmJyNiVGZHItRiM2JC1GZXI2JFEjMTFGJ0YvRi9GXXNGYHMtRmJyNiVGZHItRiM2JC1GZXI2JFEjMTNGJ0YvRi9GXXNGYHMtRmJyNiVGZHItRiM2Jy1GZXI2JFEjMTRGJ0YvRmVuLyUrZXhlY3V0YWJsZUdGNC8lMGZvbnRfc3R5bGVfbmFtZUdRKDJEfk1hdGhGJ0ZobkZdc0Zgcy1GYnI2JUZkci1GIzYnLUZlcjYkUSMxNUYnRi9GZW5GXXZGX3ZGaG5GXXNGYHMtRmJyNiVGZHItRiM2Jy1GZXI2JFEjMTZGJ0YvRmVuRl12Rl92RmhuRl1zRmBzLUZicjYlRmRyLUYjNictRmVyNiRRIzE3RidGL0ZlbkZddkZfdkZobkZdc0YvRi8vJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRidGYm9GRkZob0Zob0Zob0Zob0Zob0Zoby1GWDYlUSNMMkYnRmVuRmhuRl5wLUZbbzYmLUYjNjYtRmJyNiVGZHItRiM2JC1GZXI2JFEiN0YnRi9GL0Zdc0Zgcy1GYnI2JUZkci1GIzYkLUZlcjYkUSMxMEYnRi9GL0Zdc0Zgcy1GYnI2JUZkci1GIzYkRmp1Ri9GXXNGYHMtRmJyNiVGZHItRiM2JEZdd0YvRl1zRmBzLUZicjYlRmRyLUYjNiQtRmVyNiRRIzE4RidGL0YvRl1zRmBzLUZicjYlRmRyLUYjNiQtRmVyNiRRIzIwRidGL0YvRl1zRmBzLUZicjYlRmRyLUYjNictRmVyNiRRIzIxRidGL0ZlbkZddkZfdkZobkZdc0Zgcy1GYnI2JUZkci1GIzYnLUZlcjYkUSMyM0YnRi9GZW5GXXZGX3ZGaG5GXXNGYHMtRmJyNiVGZHItRiM2Jy1GZXI2JFEjMjRGJ0YvRmVuRl12Rl92RmhuRl1zRmBzLUZicjYlRmRyLUYjNictRmVyNiRRIzI1RidGL0ZlbkZddkZfdkZobkZdc0YvRi9GZ3dGandGYm9GaG9GaG9GaG9GaG9GaG9GaG9GRkZob0Zob0Zob0Zob0Zob0Zoby1GWDYlUSNMM0YnRmVuRmhuRl5wLUZbbzYmLUYjNjZGaHRGYHMtRmJyNiVGZHItRiM2JEZkd0YvRl1zRmBzLUZicjYlRmRyLUYjNiRGXFtsRi9GXXNGYHMtRmJyNiVGZHItRiM2JEZqW2xGL0Zdc0Zgcy1GYnI2JUZkci1GIzYkLUZlcjYkUSMyNkYnRi9GL0Zdc0Zgcy1GYnI2JUZkci1GIzYkLUZlcjYkUSMyOEYnRi9GL0Zdc0Zgcy1GYnI2JUZkci1GIzYnLUZlcjYkUSMyOUYnRi9GZW5GXXZGX3ZGaG5GXXNGYHMtRmJyNiVGZHItRiM2Jy1GZXI2JFEjMzBGJ0YvRmVuRl12Rl92RmhuRl1zRmBzLUZicjYlRmRyLUYjNictRmVyNiRRIzMyRidGL0ZlbkZddkZfdkZobkZdc0Zgcy1GYnI2JUZkci1GIzYnLUZlcjYkUSMzM0YnRi9GZW5GXXZGX3ZGaG5GXXNGL0YvRmd3Rmp3RmJvRkZGaG9GaG9GaG9GaG9GaG9GaG8tRlg2JVEjTDRGJ0ZlbkZobkZecC1GW282Ji1GIzY2RmZ5RmBzRmNdbEZgcy1GYnI2JUZkci1GIzYkRmlebEYvRl1zRmBzLUZicjYlRmRyLUYjNiRGZ19sRi9GXXNGYHMtRmJyNiVGZHItRiM2JC1GZXI2JFEjMzRGJ0YvRi9GXXNGYHMtRmJyNiVGZHItRiM2JC1GZXI2JFEjMzZGJ0YvRi9GXXNGYHMtRmJyNiVGZHItRiM2Jy1GZXI2JFEjMzdGJ0YvRmVuRl12Rl92RmhuRl1zRmBzLUZicjYlRmRyLUYjNictRmVyNiRRIzM4RidGL0ZlbkZddkZfdkZobkZdc0Zgcy1GYnI2JUZkci1GIzYnLUZlcjYkUSMzOUYnRi9GZW5GXXZGX3ZGaG5GXXNGYHMtRmJyNiVGZHItRiM2Jy1GZXI2JFEjNDFGJ0YvRmVuRl12Rl92RmhuRl1zRi9GL0Znd0Zqd0Zib0ZGRmhvRmhvRmhvRmhvRmhvRmhvLUZYNiVRI0w1RidGZW5GaG5GXnAtRltvNiYtRiM2Ni1GYnI2JUZkci1GIzYkLUZlcjYkUSMyMkYnRi9GL0Zdc0Zgcy1GYnI2JUZkci1GIzYkLUZlcjYkUSMzMUYnRi9GL0Zdc0Zgcy1GYnI2JUZkci1GIzYkLUZlcjYkUSMzNUYnRi9GL0Zdc0Zgcy1GYnI2JUZkci1GIzYkLUZlcjYkUSM0MEYnRi9GL0Zdc0Zgcy1GYnI2JUZkci1GIzYkLUZlcjYkUSM0MkYnRi9GL0Zdc0Zgcy1GYnI2JUZkci1GIzYkLUZlcjYkUSM0NEYnRi9GL0Zdc0Zgcy1GYnI2JUZkci1GIzYnLUZlcjYkUSM0NUYnRi9GZW5GXXZGX3ZGaG5GXXNGYHMtRmJyNiVGZHItRiM2Jy1GZXI2JFEjNDdGJ0YvRmVuRl12Rl92RmhuRl1zRmBzLUZicjYlRmRyLUYjNictRmVyNiRRIzQ4RidGL0ZlbkZddkZfdkZobkZdc0Zgcy1GYnI2JUZkci1GIzYnLUZlcjYkUSM0OUYnRi9GZW5GXXZGX3ZGaG5GXXNGL0YvRmd3Rmp3RmJvRkZGaG9GaG9GaG9GaG9GaG8tRiw2L1EjaWZGJ0ZkcEZmcEZocEYyRjVGN0Y5RjtGPUY/RkFGREZob0ZecS1GLDYtUSI9RidGL0YyRjVGN0Y5RjtGPUY/RmVvRmdvRmdfbEZoby1GLDYvUSV0aGVuRidGZHBGZnBGaHBGMkY1RjdGOUY7Rj1GP0ZBRkRGRkZob0Zob0Zob0Zob0Zob0Zob0Zob0Zoby1GLDYvUSdyZXR1cm5GJ0ZkcEZmcEZocEYyRjVGN0Y5RjtGPUY/RkFGREZob0ZqcUZib0ZGRmhvRmhvRmhvRmhvRmhvLUYsNi9RJWVsaWZGJ0ZkcEZmcEZocEYyRjVGN0Y5RjtGPUY/RkFGREZob0ZecUZqaGxGamVsRmhvRl1pbEZGRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmBpbEZob0ZdeEZib0Zob0ZGRmhvRmhvRmhvRmhvRmhvRmNpbEZob0ZecUZqaGxGXWhsRmhvRl1pbEZGRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmBpbEZob0ZkXGxGYm9GRkZob0Zob0Zob0Zob0Zob0ZjaWxGaG9GXnFGamhsLUZlcjYkUSM1NkYnRi9GaG9GXWlsRkZGaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GYGlsRmhvRmFgbEZib0ZGRmhvRmhvRmhvRmhvRmhvRmNpbEZob0ZecUZqaGwtRmVyNiRRIzY0RidGL0Zob0ZdaWxGRkZob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0ZgaWxGaG9GamNsRmJvRkZGaG9GaG9GaG9GaG9GaG8tRiw2L1ElZWxzZUYnRmRwRmZwRmhwRjJGNUY3RjlGO0Y9Rj9GQUZERkZGaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GYGlsRmhvLUZlcjYkRl9zRi9GYm9GRkZob0Zob0Zob0Zob0Zoby1GLDYvUSNmaUYnRmRwRmZwRmhwRjJGNUY3RjlGO0Y9Rj9GQUZERmJvRkZGaG8tRiw2L1EkZW5kRidGZHBGZnBGaHBGMkY1RjdGOUY7Rj1GP0ZBRkRGYm9GRkZoby1GWDYlUSpRbmRDaG9vc2VGJ0ZlbkZobkZecEZhcEZqcEZhcUZGRmhvRmhvRmhvRmhvLUZYNiVRI1ExRidGZW5GaG5GXnAtRltvNiYtRiM2Ni1GYnI2JUZkci1GIzYkLUZlcjYkUSQ5LjVGJ0YvRi9GXXNGYHMtRmJyNiVGZHItRiM2JC1GZXI2JFElMTcuNUYnRi9GL0Zdc0Zgcy1GYnI2JUZkci1GIzYkLUZlcjYkUSUyNy41RidGL0YvRl1zRmBzRlxhbEZgc0ZcYWxGYHNGXGFsRmBzLUZicjYlRmRyLUYjNiZGZ19sRl12Rl92Ri9GXXNGYHNGZlxtRmBzRmZcbUZgc0ZmXG1GL0YvRmd3Rmp3RmJvRkZGaG9GaG9GaG9GaG9GaG9GaG8tRlg2JVEjUTJGJ0ZlbkZobkZecC1GW282Ji1GIzY2LUZicjYlRmRyLUYjNiQtRmVyNiRRJTEyLjNGJ0YvRi9GXXNGYHMtRmJyNiVGZHItRiM2JC1GZXI2JFElMjAuNkYnRi9GL0Zdc0Zgcy1GYnI2JUZkci1GIzYkLUZlcjYkUSUyNy42RidGL0YvRl1zRmBzLUZicjYlRmRyLUYjNiQtRmVyNiRRJTMzLjNGJ0YvRi9GXXNGYHMtRmJyNiVGZHItRiM2JC1GZXI2JFElMzguNkYnRi9GL0Zdc0Zgc0ZmZWxGYHMtRmJyNiVGZHItRiM2JkZqZWxGXXZGX3ZGL0Zdc0Zgc0ZkX21GYHMtRmJyNiVGZHItRiM2JUZqZWxGZW5GaG5GXXNGYHNGaF9tRi9GL0Znd0Zqd0Zib0Zob0Zob0Zob0Zob0Zob0Zob0ZGRmhvRmhvRmhvRmhvRmhvRmhvLUZYNiVRI1EzRidGZW5GaG5GXnAtRltvNiYtRiM2Ni1GYnI2JUZkci1GIzYkLUZlcjYkUSUxMy41RidGL0YvRl1zRmBzLUZicjYlRmRyLUYjNiQtRmVyNiRRJTIxLjJGJ0YvRi9GXXNGYHNGX15tRmBzRmZebUZgc0ZdX21GYHMtRmJyNiVGZHItRiM2JC1GZXI2JFElNDMuNkYnRi9GL0Zdc0Zgc0ZpZ2xGYHMtRmJyNiVGZHItRiM2JkZdaGxGXXZGX3ZGL0Zdc0Zgc0ZoYW1GYHNGaGFtRi9GL0Znd0Zqd0Zib0ZGRmhvRmhvRmhvRmhvRmhvRmhvLUZYNiVRI1E0RidGZW5GaG5GXnAtRltvNiYtRiM2Ny1GYnI2JUZkci1GIzYkLUZlcjYkUSUxMy45RidGL0YvRl1zRmBzRmpgbUZgc0ZfXm1GYHNGZl5tRmBzRl1fbUZgc0ZhYW1GYHMtRmJyNiVGZHItRiM2Jy1GZXI2JFElNDguM0YnRi9GZW5GXXZGX3ZGaG5GXXNGYHMtRmJyNiVGZHItRiM2Jy1GZXI2JFElNTIuN0YnRi9GZW5GXXZGX3ZGaG5GXXNGYHMtRmJyNiVGZHItRiM2J0ZmaWxGZW5GXXZGX3ZGaG5GXXNGYHNGaGNtRmFxRi9GL0Znd0Zqd0Zib0ZGRmhvRmhvRmhvRmhvRmhvRmhvLUZYNiVRI1E1RidGZW5GaG5GXnAtRltvNiYtRiM2Ni1GYnI2JUZkci1GIzYkLUZlcjYkUSUxMy42RidGL0YvRl1zRmBzLUZicjYlRmRyLUYjNiQtRmVyNiRRJTIxLjNGJ0YvRi9GXXNGYHNGX15tRmBzRmZebUZgc0ZdX21GYHNGYWFtRmBzRmpibUZgc0ZhY21GYHMtRmJyNiVGZHItRiM2Jy1GZXI2JFEjNTdGJ0YvRmVuRl12Rl92RmhuRl1zRmBzLUZicjYlRmRyLUYjNictRmVyNiRRJTYxLjFGJ0YvRmVuRl12Rl92RmhuRl1zRi9GL0Znd0Zqd0Zib0ZGRmhvRmhvRmhvRmhvRmhvRmhvRmdobEZob0ZecUZqaGxGZ19sRmhvRl1pbEZGRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmBpbEZob0ZqamxGYm9GRkZob0Zob0Zob0Zob0Zob0ZjaWxGaG9GXnFGamhsRmplbEZob0ZdaWxGRkZob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0ZgaWxGaG9GalxtRmJvRmhvRkZGaG9GaG9GaG9GaG9GaG9GY2lsRmhvRl5xRmpobEZdaGxGaG9GXWlsRkZGaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GYGlsRmhvRlxgbUZib0ZGRmhvRmhvRmhvRmhvRmhvRmNpbEZob0ZecUZqaGxGZmlsRmhvRl1pbEZGRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmBpbEZob0ZcYm1GYm9GRkZob0Zob0Zob0Zob0Zob0ZjaWxGaG9GXnFGamhsRmlpbEZob0ZdaWxGRkZob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0ZgaWxGaG9GXGRtRmJvRkZGaG9GaG9GaG9GaG9GaG9GXGpsRkZGaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GYGlsRmhvRl9qbEZib0ZGRmhvRmhvRmhvRmhvRmhvRmFqbEZib0ZGRmhvRmRqbEZib0ZGLUYsNi5Gam8vRmVxUTBUaW1lc35OZXd+Um9tYW5GJ0YvRjJGNUY3RjlGO0Y9Rj9GQUZELUZYNiVRMVN1Y2Nlc3NQcm9SZWNvcmRGJ0ZlbkZobkZecEZhcC1GW282JC1GIzYmRl5xRl12Rl92Ri9GL0ZhcUZGRmhvRmhvRmhvRmhvRmhvRmhvLUZYNiVRI1AxRidGZW5GaG5GXnAtRltvNiYtRiM2OC1GZXI2JFEiMUYnRi9GYHNGYWdtRmBzRmFnbUZgcy1GZXI2JFEkMC45RidGL0Zgcy1GZXI2JFElMC43NkYnRi9GYHMtRmVyNiRRJTAuNTlGJ0YvRmBzLUZlcjYkUSUwLjQ3RidGL0Zgcy1GZXI2JFElMC4zNkYnRi9GYHMtRmVyNiRRJTAuMzFGJ0YvRmBzLUZlcjYkUSUwLjI0RidGL0ZddkZfdkYvRi9GZ3dGandGYm9GRkZob0Zob0Zob0Zob0Zob0Zoby1GWDYlUSNQMkYnL0ZmbkY0Ri9GXnAtRltvNiYtRiM2OC1GZXI2JFElMC45OUYnRi9GYHMtRmVyNiRRJTAuNzNGJ0YvRmBzLUZlcjYkUSUwLjQxRidGL0Zgcy1GZXI2JFElMC4yMkYnRi9GYHMtRmVyNiRRJTAuMTNGJ0YvRmBzLUZlcjYkUSUwLjA4RidGL0Zgcy1GZXI2JFElMC4wNEYnRi9GYHMtRmVyNiRRJTAuMDNGJ0YvRmBzLUZlcjYkUSUwLjAxRidGL0Zgcy1GZXI2JFEmMC4wMDVGJ0YvRl12Rl92Ri9GL0Znd0Zqd0Zib0Zob0Zob0Zob0Zob0Zob0Zob0ZGRmhvRmhvRmhvRmhvRmhvRmhvLUZYNiVRI1AzRidGZW5GaG5GXnAtRltvNiYtRiM2OC1GZXI2JFElMC42NkYnRi9GYHMtRmVyNiRRJTAuMjFGJ0YvRmBzLUZlcjYkUSUwLjA5RidGL0Zgc0Zmam1GYHNGaWptRmBzRmlqbUZgcy1GZXI2JFEmMC4wMDRGJ0YvRmBzRl9cbkZgcy1GZXI2JFEmMC4wMDJGJ0YvRmBzRmJcbkZddkZfdkYvRi9GZ3dGandGYm9GRkZob0Zob0Zob0Zob0Zob0Zoby1GWDYlUSNQNEYnRmVuRmhuRl5wLUZbbzYmLUYjNjgtRmVyNiRRJTAuMzdGJ0YvRmBzRmNqbUZgcy1GZXI2JFElMC4wMkYnRi9GYHMtRmVyNiRRJjAuMDAzRidGL0Zgcy1GZXI2JFEmMC4wMDFGJ0YvRmBzRmJcbkZgc0ZlXW5GYHNGZV1uRmBzRmVdbkZgc0ZlXW5GXXZGX3ZGL0YvRmd3Rmp3RmJvRkZGaG9GaG9GaG9GaG9GaG9GaG8tRlg2JVEjUDVGJ0ZlbkZobkZecC1GW282Ji1GIzY4LUZlcjYkUSUwLjE3RidGL0Zgc0ZfXW5GYHNGXFtuRmBzRmVdbkZgcy1GZXI2JFEnMC4wMDA1RidGL0Zgcy1GZXI2JFEnMC4wMDA2RidGL0Zgcy1GZXI2JFEnMC4wMDA3RidGL0Zgcy1GZXI2JFEnMC4wMDA4RidGL0Zgcy1GZXI2JFEnMC4wMDA5RidGL0Zgc0ZeX25GXXZGX3ZGL0YvRmd3Rmp3RmJvRkZGaG9GaG9GaG9GaG9GaG9GZ2hsRmhvRl5xRmpobEZnX2xGaG9GXWlsRkZGaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GYGlsRmhvRmpmbUZib0ZGRmhvRmhvRmhvRmhvRmhvRmNpbEZob0ZecUZqaGxGamVsRmhvRl1pbEZGRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmBpbEZoby1GWDYlRltpbUZlbkZobkZib0Zob0ZGRmhvRmhvRmhvRmhvRmhvRmNpbEZob0ZecUZqaGxGXWhsRmhvRl1pbEZGRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmBpbEZob0ZfW25GYm9GRkZob0Zob0Zob0Zob0Zob0ZjaWxGaG9GXnFGamhsRmZpbEZob0ZdaWxGRkZob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0ZgaWxGaG9GZVxuRmJvRkZGaG9GaG9GaG9GaG9GaG9GY2lsRmhvRl5xRmpobEZpaWxGaG9GXWlsRkZGaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GYGlsRmhvRmhdbkZib0ZGRmhvRmhvRmhvRmhvRmhvRlxqbEZGRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmBpbEZob0ZfamxGYm9GRkZob0Zob0Zob0Zob0Zob0ZhamxGYm9GRkZob0ZkamxGYm9GRi1GWDYmUSRWbmRGJ0ZhZm1GZW5GaG4tRiw2LkZgcEZhZm1GL0YyRjVGN0Y5RjtGPUY/RmVvRmdvLUYsNjBGY3BGYWZtRmRwRmZwRmhwRjJGNUY3RjlGO0Y9Rj9GQUZELUZbbzYlLUYjNiYtRlg2JlEibkYnRmFmbUZlbkZobi1GLDYuRmJzRmFmbUYvRjJGZ3FGN0Y5RjtGPUY/RkFGaHEtRlg2JlEiZEYnRmFmbUZlbkZobkYvRmFmbUYvRmFxRkZGX2ZtRl9mbUZfZm1GX2ZtRmhvRmhvLUZYNiVRIlZGJ0ZlbkZobkZecEZfamxGYm9GRkZob0Zob0Zob0Zob0Zoby1GLDYvUSRmb3JGJ0ZkcEZmcEZocEYyRjVGN0Y5RjtGPUY/RkFGREZoby1GWDYlUSJpRidGZW5GaG5GaG8tRiw2L1ElZnJvbUYnRmRwRmZwRmhwRjJGNUY3RjlGO0Y9Rj9GQUZERmhvRl9qbEZoby1GLDYvUSN0b0YnRmRwRmZwRmhwRjJGNUY3RjlGO0Y9Rj9GQUZERmhvLUZYNiVGZWBuRmVuRmhuRmhvLUYsNi9RI2RvRidGZHBGZnBGaHBGMkY1RjdGOUY7Rj1GP0ZBRkRGRkZob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0ZmYG5GXnBGZmBuLUYsNi1RIitGJ0YvRjJGNUY3RjlGO0Y9Rj8vRkJRLDAuMjIyMjIyMmVtRicvRkVGXmJuLUZYNiVRKW51bWJjb21iRidGZW5GaG4tRltvNiQtRiM2Ji1GWDYlRmBgbkZlbkZobkZgc0ZcYW5GL0YvRmJvRkZGaG9GaG9GaG9GaG9GZGpsRmhvRmdhbkZib0ZGRmhvRmhvRmhvRmhvRmBpbEZoby1GWDYlUSZldmFsZkYnRmVuRmhuLUZbbzYkLUYjNiUtSSVtc3ViR0YkNiUtRlg2JVEkbG9nRidGXGltRi8tRiM2JEZkckYvLyUvc3Vic2NyaXB0c2hpZnRHRl9zLUZbbzYkLUYjNiRGZmBuRi9GL0YvRi9GYm9GRkZfZm0tRiw2MEZmamxGYWZtRmRwRmZwRmhwRjJGNUY3RjlGO0Y9Rj9GQUZELUYsNi5GZG9GYWZtRi9GMkY1RjdGOUY7Rj1GP0Zlb0Znb0ZfZm1GRkZTRkZGaG8tRlg2JVEuUHJlQ29tcGxleGl0eUYnRmVuRmhuRl5wRmFwLUZbbzYkLUYjNipGZ2JuRmBzRmVhbkZgcy1GWDYlUSJORidGXGltRi8tRiw2LVEtJlByb3BvcnRpb247RidGL0YyRjVGN0Y5RjtGPUY/RmVvRmdvLUZYNiVRJWxpc3RGJ0ZlbkZobkYvRi9GYXFGRkZob0Zob0Zob0Zoby1GWDYlUSRyZXNGJ0ZlbkZobkZecEZfamxGYm9GRkZob0Zob0Zob0Zob0ZpYG5GaG8tRlg2JVEia0YnRmVuRmhuRmhvRl9hbkZob0ZhZ21GaG9GYmFuRmhvRmVhbkZob0ZnYW5GRkZob0Zob0Zob0Zob0Zob0Zob0Zob0ZiZW5GXnBGYmVuRmphbkZgYm4tRltvNiQtRiM2JkZnYm5GYHNGZWVuRi9GLy1GLDYtUScmc2RvdDtGJ0YvRjJGNUY3RjlGO0Y9Rj9GQUZELUZYNiVGW2VuRmVuRmhuLUZbbzYmLUYjNiRGZWVuRi9GL0Znd0Zqd0Zib0ZGRmhvRmhvRmhvRmhvRmRqbEZob0ZnYW5GYm9GRkZob0Zob0Zob0Zob0ZgaWxGaG9GaWJuLUZbbzYkLUYjNiVGYGNuLUZbbzYkLUYjNiRGYmVuRi9GL0YvRi9GYm9GRkZob0ZkamxGYm9GRkZob0ZGRmhvLUZYNiVRKU1PZmZsaW5lRidGZW5GaG5GXnBGYXAtRltvNiQtRiM2KkZnYm5GYHNGZWFuRmBzLUZYNiVRIkxGJ0ZlbkZobkZcZW5GX2VuRi9GL0ZhcUZGRmhvRmhvRmhvRmhvRmhvRmJlbkZecEZfamxGYm9GRkZob0Zob0Zob0Zob0ZpYG5GaG9GZWVuRmhvRl9hbkZob0ZhZ21GaG9GYmFuRmhvRmVhbkZob0ZnYW5GRkZob0Zob0Zob0Zob0Zob0Zob0Zob0ZiZW5GXnBGYmVuRmphbkZgYm5GaGVuRlxmbkZkZ25GYWZuRmJvRkZGaG9GaG9GaG9GaG9GZGpsRmhvRmdhbkZib0ZGRmhvRmhvRmhvRmhvRmBpbEZob0ZpYm5GZWZuRmJvRkZGaG9GZGpsRmJvRkZGaG9GRkZoby1GWDYlUS9EYXRhQ29tcGxleGl0eUYnRmVuRmhuRl5wRmFwLUZbbzYkLUYjNiZGZ2JuRmBzRmVhbkYvRi9GYXFGRkZob0Zob0Zob0Zob0Zob0ZmYG5GXnBGX2psRmJvRkZGaG9GaG9GaG9GaG9GaG9GaWBuRmhvRlxhbkZob0ZfYW5GaG9GX2psRmhvRmJhbkZob0ZlYW5GaG9GZ2FuRkZGaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GZmBuRl5wRmZgbkZqYW5GYGJuRmNibkZib0ZGRmhvRmhvRmhvRmhvRmRqbEZob0ZnYW5GYm9GRkZob0Zob0Zob0Zob0ZgaWxGaG9GaWJuLUZbbzYkLUYjNiVGYGNuLUZbbzYkLUYjNiQtSSZtZnJhY0dGJDYoLUZicjYlRmRyLUYjNiQtRmdobjYoRmdibkZmY24vJS5saW5ldGhpY2tuZXNzR0ZjZ20vJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGY2luLyUpYmV2ZWxsZWRHRjRGL0Zdcy1GIzYlLUZYNiVRJXNxcnRGJ0ZcaW1GL0ZqY25GL0ZfaW5GYWluRmRpbkZmaW5GL0YvRi9GL0Zib0ZGRmhvRmRqbEZib0ZGRmhvRkZGaG8tRlg2JVEoTU9ubGluZUYnRmVuRmhuRl5wRmFwRmpnbkZhcUZGRmhvRmhvRmhvRmhvRmZgbkZecEZfamxGYm9GRkZob0Zob0Zob0Zob0Zob0ZpYG5GaG9GXGFuRmhvRl9hbkZob0ZfamxGaG9GYmFuRmhvRmVhbkZob0ZnYW5GRkZob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0ZmYG5GXnBGZmBuRmphbkZgYm5GY2JuRmJvRkZGaG9GaG9GaG9GaG9GZGpsRmhvRmdhbkZib0ZGRmhvRmhvRmhvRmhvRmBpbEZob0ZpYm5GXmhuRmJvRkZGaG9GZGpsRmJvRkZGaG9GRkZoby1GWDYlUSNUMUYnRmVuRmhuRl5wRmFwLUZbbzYkLUYjNiYtRlg2JVEibUYnRmVuRmhuRmBzLUZYNiVRInRGJ0ZlbkZobkYvRi9GYXFGRkZob0Zob0Zob0Zob0Zob0ZGRmhvRmhvRmhvRmhvRmBpbEZob0ZpYm4tRltvNiQtRiM2JUZgY24tRltvNiQtRiM2JkZnam5GXGZuRmpqbkYvRi9GL0YvRmFxRkZGaG9GZGpsRmJvRkZGaG9GRkZoby1GWDYlUSNUMkYnRmVuRmhuRl5wRmFwLUZbbzYkLUYjNipGZ2puRmBzRl5xRmBzLUZYNiVRIlFGJ0ZlbkZobkZgc0Zqam5GL0YvRmFxRkZGaG9GaG9GaG9GaG9GZ2hsRmhvRmdqbi1GLDYtUSYmbGVxO0YnRi9GMkY1RjdGOUY7Rj1GP0Zlb0Znby1GYnI2JUZkckZccUZdc0Zob0ZdaWxGRkZob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0ZnaGxGaG9GXFxvRlxmbkZnam4tRiw2LVEiPEYnRi9GMkY1RjdGOUY7Rj1GP0Zlb0Znby1GYnI2JUZnam5GZmNuRl1zRmhvRl1pbEZob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0YrLUZYNiVRLH5zdHJhdGVneX5JRidGZW5GaG5GRkZob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0ZgaWxGaG9GaWJuLUZbbzYkLUYjNiVGYGNuLUZbbzYkLUYjNihGXFxvRlxmbkZnam5GXGZuRmpqbkYvRi9GL0YvRmJvRkZGaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GXGpsRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRistRlg2JVEtfnN0cmF0ZWd5fklJRidGZW5GaG5GRkZob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0ZgaWxGaG9GaWJuLUZbbzYkLUYjNiVGYGNuLUZbbzYkLUYjNiZGZ1xvRlxmbkZqam5GL0YvRi9GL0Zib0ZGRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmFqbEZib0ZGRmhvRmhvRmhvLUYsNi9Gam9GZHBGZnBGaHBGMkY1RjdGOUY7Rj1GP0ZBRkRGXGpsRkZGaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GZ2hsRmhvRlxcb0ZcZm5GYlxvRmRcby1GYnI2JUZkci1GIzYmRmRyRlxmbkZecUYvRl1zRmhvRl1pbEZob0Zob0Zob0Zob0Zob0Zob0YrLUZYNiVRLX5zdHJhdGVneX5JfkYnRmVuRmhuRkZGaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GYGlsRmhvRmlibi1GW282JC1GIzYlRmBjbi1GW282JC1GIzYoRlxcb0ZcZm5GYlxvRlxmbkZqam5GL0YvRi9GL0Zib0ZGRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRlxqbEZob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0YrRmRdb0ZGRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmBpbEZob0ZpYm4tRltvNiQtRiM2JUZgY24tRltvNiQtRiM2JkZhXm9GXGZuRmpqbkYvRi9GL0YvRmJvRkZGaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GYWpsRmJvRkZGaG9GaG9GaG9GaG9GYWpsRmJvRlNGRkZob0ZkamxGYm9GRkZob0ZGRmhvLUZYNiVRI1QzRidGZW5GaG5GXnBGYXAtRltvNiQtRiM2LkZnam5GYHNGXnFGYHNGXFxvRmBzRmVhbkZgcy1GWDYlRmBgbkZcaW1GL0Zgc0Zqam5GL0YvRmFxRkZGaG9GaG9GaG9GaG9GaG9GKy1GWDYlUTZQJiM4Nzg4O1ByZUNvbXBsZXhpdHlGJ0ZlbkZobi1GW282JC1GIzYpRmdibkZgc0ZlYW5GYHNGW3BGanBGL0YvRmJvRkZGaG9GaG9GaG9GaG9GaG9GZGduRl5wLUZbbzYmLUYjNjgtRmVyNiRRJDEwMEYnRi9GYHMtRmVyNiRRJDIwMEYnRi9GYHMtRmVyNiRRJDMwMEYnRi9GYHMtRmVyNiRRJDQwMEYnRi9GYHMtRmVyNiRRJDUwMEYnRi9GYHMtRmVyNiRRJDYwMEYnRi9GYHMtRmVyNiRRJDcwMEYnRi9GYHMtRmVyNiRRJDgwMEYnRi9GYHMtRmVyNiRRJDkwMEYnRi9GYHMtRmVyNiRRJTEwMDBGJ0YvRmFmbUZddkYvRi9GZ3dGandGYm9GRkZob0Zob0Zob0Zob0Zoby1GWDYlUSJQRidGZW5GaG5GXnBGXWduLUZbbzYkLUYjNipGZ2JuRmBzRmVhbkZgc0ZkZ25GYWZtRl12Ri9GL0Zib0ZGRmhvRmhvRmhvRmhvRmdobEZob0Znam5GX1xvRmJcb0Zob0ZdaWxGRkZob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0ZnaGxGaG9GZ2puRmRcby1GZ2huNihGZ1xvLUYjNiRGXFxvRi9GX2luRmFpbkZkaW5GZmluRmhvRl1pbEZob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0YrRmlcb0ZGRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmBpbEZob0ZpYm4tRltvNiQtRiM2JUZgY24tRltvNiQtRiM2KC1GYnI2JUZkci1GIzYkRmpib0YvRl1zRlxmbkZnam5GXGZuRmpqbkYvRi9GL0YvRmJvRkZGaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GXGpsRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRitGZF1vRkZGaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GYGlsRmhvRmlibi1GW282JC1GIzYlRmBjbi1GW282JC1GIzYlLUZnaG42KC1GIzYoRl1kb0ZcZm5GZ1xvRlxmbkZqam5GL0ZjY29GX2luRmFpbkZkaW5GZmluRmFxRi9GL0YvRi9GYm9GRkZob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0ZhamxGYm9GRkZob0Zob0Zob0ZfXm9GXGpsRkZGaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GZ2hsRmhvLUZnaG42KC1GYnI2JS1GWDYlRmlqbkZcaW1GL0ZmY25GXXMtRiM2JEZiXG9GL0ZfaW5GYWluRmRpbkZmaW5GZFxvLUZnaG42KEZfZW9GY2NvRl9pbkZhaW5GZGluRmZpbkZob0ZdaWxGaG9GaG9GaG9GaG9GaG9GaG9GK0ZlXm9GRkZob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0ZgaWxGaG9GaWJuLUZbbzYkLUYjNiVGYGNuLUZbbzYkLUYjNiQtRmdobjYoRltlb0ZjZW9GX2luRmFpbkZkaW5GZmluRi9GL0YvRi9GYm9GRkZob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0ZcamxGaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GK0ZkXW9GRkZob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0ZgaWxGaG9GaWJuLUZbbzYkLUYjNiVGYGNuLUZbbzYkLUYjNiUtRmdobjYoRltlby1GIzYkLUZYNiVGXlxvRlxpbUYvRi9GX2luRmFpbkZkaW5GZmluRmFxRi9GL0YvRi9GYm9GRkZob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0ZhamxGYm9GRkZob0Zob0Zob0Zob0ZhamxGYm9GRkZob0ZkamxGYm9GRkZob0ZGRmhvLUZYNiVRK3N1Y2Nlc3NQcm9GJ0ZlbkZobkZecEZhcC1GW282JC1GIzYsRmdibkZgc0ZlYW5GYHNGZ2puRmBzRl5xRmBzRmpqbkYvRi9GYXFGRkZob0Zob0Zob0Zob0Zob0ZmYG5GXnBGX2psRmJvRkZGaG9GaG9GaG9GaG9GaG9GaWBuRmhvRlxhbkZob0ZfYW5GaG9GX2psRmhvRmJhbkZob0ZlYW5GaG9GZ2FuRkZGaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GZmBuRl5wRmZgbkZqYW5GYGJuRmNibkZib0ZGRmhvRmhvRmhvRmhvRmRqbEZob0ZnYW5GYm9GRkZob0Zob0Zob0Zob0Zob0ZqYm9GXnBGY2ZtLUZbbzYkLUYjNiZGXnFGYWZtRl12Ri9GL0Zib0ZGRmhvRmhvRmhvRmhvRmhvLUZYNiVRIkFGJ0ZlbkZobkZecEZmaG5GYm9GRkZob0Zob0Zob0Zob0Zob0ZnaGxGaG9GaWJuLUZbbzYkLUYjNiZGYXEtRiM2KC1GLDYtUSomdW1pbnVzMDtGJ0YvRjJGNUY3RjlGO0Y9Rj9GXWJuRl9ibi1GZ2huNigtRiM2JkZqam5GXGZuRmdcb0YvLUYjNiZGZHJGXGZuLUZicjYlRmpnb0ZmY25GXXNGL0ZfaW5GYWluRmRpbkZmaW5GXGZuRmpiby1GW282Ji1GIzYkRmVhbkYvRi9GZ3dGandGL0ZhcUYvRi9GX1xvRmNoby1GZXI2JFEuMC4wMTAwNTAzMzU4NUYnRi9GaG9GXWlsRkZGaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GYGlsRmhvRmFnbUZib0ZGRmhvRmhvRmhvRmhvRmhvRlxqbEZGRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmBpbEZob0ZfamxGYm9GRkZob0Zob0Zob0Zob0Zob0ZhamxGYm9GRkZob0ZkamxGYm9GRkZob0ZGLUZYNiVRK3BhcmFTZWFyY2hGJ0ZlbkZobkZecEZhcC1GW282JC1GIzYmRmdibkZgcy1GWDYlUSVkTWF4RidGZW5GaG5GL0YvRmFxRkZGaG9GaG9GaG9GaWBuRmhvRmVhbkZob0ZfYW5GaG9GYWdtRmhvRmJhbkZoby1GWDYlRl5qb0ZcaW1GL0Zob0ZnYW5GRkZob0Zob0Zob0Zob0Zob0Zob0Zoby1GWDYlUSdwcmludGZGJ0ZlbkZobi1GW282JC1GIzYnRmFxLUkjbXNHRiQ2I1FGLS0tLS0tLS0tLS0tLS0tLWQ6JWQtLS0tLS0tLS0tLS0tLS1cbkYnRmBzRmVhbkYvRi9GYm9GRkZob0Zob0Zob0Zob0Zob0Zob0Zoby1GWDYlUShtSWR4TWF4RidGZW5GaG5GXnBGaWJuLUZbbzYkLUYjNiVGYGNuLUZbbzYkLUYjNiQtRmdobjYoRmlobi1GIzYlRmppbi1GW282JC1GIzYlLUZicjYlRmRyLUYjNiUtRlg2JUZlX25GZW5GaG5GamduRi9GXXNGYXFGL0YvRi9GX2luRmFpbkZkaW5GZmluRi9GL0YvRi9GYm9GaG9GaG9GaG9GKy1GWDYlUSt+c2l6ZX5vZn5BRidGZW5GaG5GRkZob0Zob0Zob0Zob0Zob0Zob0Zoby1GWDYlUShtSWR4TWluRidGZW5GaG5GXnBGX3lGYm9GRkZob0Zob0Zob0Zob0Zob0Zob0Zoby1GWDYlUSh0SWR4TWF4RidGZW5GaG5GXnAtRmVyNiRRIzgwRidGL0Zib0ZGRmhvRmhvRmhvRmhvRmhvRmhvRmhvLUZYNiVRKHRJZHhNaW5GJ0ZlbkZobkZecEZhZ21GYm9GRkZob0Zob0Zob0Zob0Zob0Zob0Zob0ZkZ25GXnAtRltvNiYtRiM2LkZnX2xGYHNGamVsRmBzRl1obEZgc0ZmaWxGYHNGaWlsRl12Rl92Ri9GL0Znd0Zqd0Zib0ZGRmhvRmhvRmhvRmhvRmhvRmhvRmhvLUZYNiVRJXN1Yk5GJ0ZlbkZobkZecC1GW282Ji1GIzY4Rlxhb0Zgc0ZfYW9GYHNGYmFvRmBzRmVhb0Zgc0ZoYW9GYHNGW2JvRmBzRl5ib0Zgc0ZhYm9GYHNGZGJvRmBzRmdib0ZddkZfdkYvRi9GZ3dGandGYm9GaG9GRkZob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zham8tRltvNiQtRiM2J0ZhcS1GaWpvNiNRTC0tLS0tLS0tLS0tLS0tLS1tSWR4TWF4OiVmLS0tLS0tLS0tLS0tLS0tXG5GJ0Zgc0ZcW3BGL0YvRmJvRkZGaG9GaG9GaG9GaG9GaG9GaG9GaG9GaWBuRmhvRlxhbkZob0ZfYW5GaG9GYWdtRmhvRmJhbkZoby1GZXI2JFEiNUYnRi9GaG9GZ2FuRkZGaG9GaG9GaG9GaG9GaG9GaG9GaG9GaWBuRmhvLUZYNiVRJW1JZHhGJ0ZlbkZobkZob0ZfYW5GaG9GaFxwRmhvRmJhbkZob0ZcW3BGaG9GZ2FuRkZGaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GRkZob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0ZpYG5GaG8tRlg2JVEldElkeEYnRmVuRmhuRmhvRl9hbkZob0ZhXXBGaG9GYmFuRmhvRltdcEZob0ZnYW5GRkZob0Zob0Zob0Zob0Zob0Zob0Zob0ZGRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmdobEZob0ZfZ28tRltvNiQtRiM2LUZnYm5GYHNGZWFuRmBzLUZicjYlRmRyLUYjNiRGaV5wRi9GXXNGYHNGZGduLUZbbzYmLUYjNiRGXGFuRi9GL0Znd0Zqd0Zgcy1GYnI2JUZkci1GIzYkRlxfcEYvRl1zRi9GL0ZqaGxGYWdtRmhvRl1pbEZob0Zob0Zob0Zob0ZGRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRkZGaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GK0Zham8tRltvNiQtRiM2KEZhcS1GaWpvNiNRQmhlbGxvfnN1Y2Nlc3N+cHJvYmFiaWxpdHl+PjAuMDFcbkYnRmFxRmFmbUZddkYvRi9GYm9GRkZob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0ZcXG9GXnBGZ2psLUZbbzYkLUYjNiVGZGduRmdfcEYvRi9GYm9GaG9GaG9GaG9GRkZob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0ZfZm5GXnBGW3BGZmBwRmJvRkZGaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG8tRlg2JVEnQ3VyclQxRidGXGltRi9GXnAtRlg2JUZiam5GXGltRi8tRltvNiQtRiM2JkZjX3BGYHNGW2BwRi9GL0Zib0Zob0Zob0YrLUZicjYlLUZYNiVRPH5jYWxjdWxhdGV+VDEsVDIsVDN+dW5kZXJ+MkYnRmVuRmhuLUYjNiQtRmVyNiRRIzg1RidGL0YvRl1zRmFxRkZGaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GZ2hsRmhvLUZYNiVGXGFwRmVuRmhuRmRcby1GZXI2JFEjOTBGJ0YvRmhvRl1pbEZGRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRkZGaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG8tRlg2JVEnQ3VyclQyRidGXGltRi9GXnAtRlg2JUZnW29GXGltRi8tRltvNiQtRiM2LEZjX3BGYHNGZGduRmdfcEZgc0ZcXG9GXmlvRmBzRltgcEYvRi9GYm9GRkZob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0ZnaGxGaG8tRlg2JUZkYnBGZW5GaG5GZFxvRl9icEZob0ZdaWxGRkZGRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvLUZYNiVRJ0N1cnJUM0YnRmVuRmhuRl5wRmhfby1GW282JC1GIzYwRmNfcEZgc0ZkZ25GZ19wRmBzRlxcb0ZeaW9GYHNGZWFuRmBzRmdibkZgc0ZbYHBGL0YvRmJvRkZGaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GRkZob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0ZnaGxGaG9GXWNwRmRcb0ZfYnBGaG9GXWlsRkZGaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GYWpvLUZbbzYkLUYjNiZGYXEtRmlqbzYjUVBcbnxpcnxpcnxpcnxpcnxpcnxpcnxpcnxpckF+cG9zc2libGV+YXR0YWNrfmlzfmZvdW5kOnxpcnxpcnxpcnxpcnxpcnxpcnxpcnxpclxuRidGYXFGL0YvRmJvRkZGaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GYWpvLUZbbzYkLUYjNjNGYXEtRmlqbzYjUUxcbi0tLS0tLS1tOiVhfnQ6JWF+bDolYX5ROiVhfmQ6JWEtLS0tLS0tLVxuRidGYHNGaV5wRmBzRlxfcEZgc0ZkZ24tRltvNiYtRiM2JkZcYW5GXXZGX3ZGL0YvRmd3Rmp3RmBzRmlibi1GW282JC1GIzYnLUZhY242JUZjY24tRiM2JkZkckZddkZfdkYvRmhjbi1GW282JC1GIzYnRlxcby1GW282Ji1GIzYmRmVhbkZddkZfdkYvRi9GZ3dGandGXXZGX3ZGL0YvRl12Rl92Ri9GL0Zgc0ZlYW5GXXZGX3ZGL0YvRmJvRkZGaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GYWpvLUZbbzYkLUYjNihGYXEtRmlqbzYjUTRQcmVjb21wdXRhdGlvbjolYVxuRidGYHNGYmRuLUZbbzYkLUYjNilGZ2JuRmBzRmVhbkZgc0ZbcEZmYHBGL0YvRi9GL0Zib0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zham8tRltvNiQtRiM2KEZhcS1GaWpvNiNRNU1lbW9yeShvZmZMaW5lKTolYVxuRidGYHNGXWduLUZbbzYkLUYjNihGZ2JuRmBzRmVhbkZgc0ZoXXBGL0YvRi9GL0Zib0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zham8tRltvNiQtRiM2KEZhcS1GaWpvNiNRNE1lbW9yeShvbkxpbmUpOiVhXG5GJ0Zgc0Zdam5GamduRi9GL0Zib0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0ZGRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmFqby1GW282JC1GIzYoRmFxLUZpam82I1EqRGF0YTolYVxuRidGYHNGZ2duRmpnbkYvRi9GYm9GRkZob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zham8tRltvNiQtRiM2J0ZhcS1GaWpvNiNRKFQxOiVhXG5GJ0Zgc0ZdYnBGL0YvRmJvRkZGaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GaG9GYWpvLUZbbzYkLUYjNidGYXEtRmlqbzYjUShUMjolYVxuRidGYHNGW2NwRi9GL0Zib0ZGRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmFqby1GW282JC1GIzYnRmFxLUZpam82I1EoVDM6JWFcbkYnRmBzRl1jcEYvRi9GYm9GRkZob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0ZhamxGYm9GRkZob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0ZhamxGYm9GRkZob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0ZhamxGYm9GRkZob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0Zob0ZGRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmFqbEZib0ZGRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmhvRmRqbEZob0ZnYW5GYm9GRkZob0Zob0Zob0Zob0Zob0Zob0Zob0ZkamxGX15vRmdhbi1GLDYvRmRvRmRwRmZwRmhwRjJGNUY3RjlGO0Y9Rj9GZW9GZ29GRkZfXm9GX15vRl9eb0ZfXm9GZGpsRmhvRmdhbkZib0Zob0Zob0ZGRmhvRmhvRmhvRmRqbEZob0ZnYW5GYm9GRkZob0ZkamxGYm9GYWZtRl12Ri8=">Qz4tSSV3aXRoRzYiNiNJKWNvbWJpbmF0RzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliR0YlISIiPkkvU2FtcGxpbmdDaG9vc2VHRiVmKjYjSSJsR0YlRiVGJUYlQyg+SSNMMUdGJTcsIiM7IiNrIiRjIyInKUdDJiIlWz8iJSM+KSImJVE7IiZvRiQiJk9iJyInczU4PkkjTDJHRiU3LCIkRyIiJUM1RjtGPSInV0BFIih3Jls1IihfcjQjIigzJylRKSIpO3N4OyIpS1diTD5JI0wzR0YlNyxGOUY+RkZGSCIpaykzciciKmNhVm8jIio3NChvYCIrQz11dDUiKydIblxIJSIrI2ZNKiplKT5JI0w0R0YlNyxGPUZIRk9GUSIsJT1wKXpyIiIsT25aPihvIi1zTSYqUXU4Ii1XcCF6KFtGIi0pKVEiZXZcJiIuX2JEQiEqPiM+SSNMNUdGJTcsIigvVj4lIitbT1taQCIsbyRRKGZWJCIud3hpNiYqNCIiLi82XlkhKVIlIi87Vy8nPSNmPCIvSykpM3NWPU4iMEdgTilbUDI5IjBjMXJ3XFoiRyIwNzhVYCpcSGNALS85JCIjS09GMy9GZW8iI1NPRkAvRmVvIiNbT0ZLL0ZlbyIjY09GVC9GZW9GNk9GZ25PIiIhRiVGJUYlRis+SSpRbmRDaG9vc2VHRiVmKkYvRiVGJUYlQyg+SSNRMUdGJTcsKSIiIyQiIyYqRispRl1xJCIkdiJGKylGXXEkIiR2I0YrRlFGUUZRRlFGUUZRRlE+SSNRMkdGJTcsKUZdcSQiJEIiRispRl1xJCIkMSNGKylGXXEkIiR3I0YrKUZdcSQiJEwkRispRl1xJCIkJ1FGK0Zcb0Zcb0Zcb0Zcb0Zcbz5JI1EzR0YlNywpRl1xJCIkTiJGKylGXXEkIiQ3I0YrRl9yRmJyRmVyKUZdcSQiJE8lRitGYW9GYW9GYW9GYW8+SSNRNEdGJTcsKUZdcSQiJFIiRitGXnNGX3JGYnJGZXJGYXMpRl1xJCIkJFtGKylGXXEkIiRGJkYrIjJPeiN6LiVmZD8oRmB0PkkjUTVHRiU3LClGXXEkIiRPIkYrKUZdcSQiJDgjRitGX3JGYnJGZXJGYXNGanNGXXQiM3NlJmUyKT06VDkpRl1xJCIkNidGK0AtRmRvT0ZqcEZob09GZ3FGW3BPRmlyRl5wT0Zlc0ZhcE9GYnRGY3BGJUYlRiVGKz5JMVN1Y2Nlc3NQcm9SZWNvcmRHRiVmKkYvRiVGJUYlQyg+SSNQMUdGJTcsIiIiRlt2Rlt2JCIiKkYrJCIjdyEiIyQiI2ZGYHYkIiNaRmB2JCIjT0ZgdiQiI0pGYHYkIiNDRmB2PkkjUDJHRiU3LCQiIyoqRmB2JCIjdEZgdiQiI1RGYHYkIiNBRmB2JCIjOEZgdiQiIilGYHYkIiIlRmB2JCIiJEZgdiRGW3ZGYHYkIiImISIkPkkjUDNHRiU3LCQiI21GYHYkIiNARmB2JEZddkZgdkZceEZeeEZeeCRGW3hGYXhGangkRl1xRmF4Rlt5PkkjUDRHRiU3LCQiI1BGYHZGanckRl1xRmB2JEZdeEZheCRGW3ZGYXhGW3lGY3lGY3lGY3lGY3k+SSNQNUdGJTcsJCIjPEZgdkZheUZfeEZjeSRGYHghIiUkIiInRmp5JCIiKEZqeSRGaXdGankkRl12Rmp5RmB6QC1GZG9PRml1RmhvT0Zcd0ZbcE9GY3hGXnBPRl15RmFwT0ZleUZjcEYlRiVGJUYrPkkkVm5kR0YlZio2JEkibkdGJUkiZEdGJUYlRiVGJUMlPkkiVkdGJUZkcD8oSSJpR0YlRmRwRlt2OSVJJXRydWVHRik+Rl9bbCwmRl9bbEZbdi1JKW51bWJjb21iR0YlNiRGZW9GYVtsRlt2Ty1JJmV2YWxmR0YpNiMtJkkkbG9nR0YoNiNGXXE2I0ZfW2xGJUYlRiVGKz5JLlByZUNvbXBsZXhpdHlHRiVmKjYlRltbbEZcW2wnSSJOR0YlSSVsaXN0R0YpRiVGJUYlQyU+SSRyZXNHRiVGZHA/KEkia0dGJUZbdkZbdkZiW2xGY1tsPkZbXWwsJkZbXWxGW3YqJi1GZ1tsNiRGZW9GXV1sRlt2JjkmNiNGXV1sRlt2Rlt2Ty1GW1xsNiMtRl5cbDYjRltdbEYlRiVGJUYrPkkpTU9mZmxpbmVHRiVmKjYlRltbbEZcW2wnSSJMR0YlRmhcbEYlRiVGJUZpXGxGJUYlRiVGKz5JL0RhdGFDb21wbGV4aXR5R0YlZipGanpGJUYlRiVDJUZeW2xGYFtsTy1GW1xsNiMtRl5cbDYjKiYpRl1xLCRGZW8jRlt2Rl1xRlt2LUklc3FydEdGJUZhXGxGK0YlRiVGJUYrPkkoTU9ubGluZUdGJUZjXmxGKz5JI1QxR0YlZio2JEkibUdGJUkidEdGJUYlRiVGJU8tRltcbDYjLUZeXGw2IyomRmVvRlt2RmJbbEZbdkYlRiVGJUYrPkkjVDJHRiVmKjYmRmZfbEYwSSJRR0YlRmdfbEYlRiVGJUAlMUZlbylGXXFGYltsQCUyKiZGZF1sRlt2RmVvRlt2KiRGZW9GXXFPLUZbXGw2Iy1GXlxsNiMqKEZkXWxGW3ZGZW9GW3Y5J0Zbdk8tRltcbDYjLUZeXGw2IyomRmVvRl1xRmBhbEZbdkAlMiomRmRdbEZbdkZlYGxGW3YpRl1xLCRGYltsRl1xTy1GW1xsNiMtRl5cbDYjKihGZF1sRlt2RmVgbEZbdkZgYWxGW3ZPLUZbXGw2Iy1GXlxsNiMqJkZqYWxGW3ZGYGFsRlt2RiVGJUYlRis+SSNUM0dGJWYqNihGZl9sRjBGYmBsRlxbbEZbW2xGZ19sRiVGJUYlQyU+RmBebDcsIiQrIiIkKyMiJCskIiQrJSIkKyYiJCsnIiQrKCIkKykiJCsqIiUrNT5JIlBHRiUtRlxebDYlOShGYGFsRmBebEAlRmRgbEAlMkZlbyomRmVvRl1xRmRdbEYrTy1GW1xsNiMtRl5cbDYjKigpRl1xRmpjbEZbdkZlb0ZbdjkpRlt2Ty1GW1xsNiMtRl5cbDYjKipGaGRsRlt2RmVvRl1xRmlkbEZbdkZkXWxGK0AlMiomRmVvRl1xRmVgbEYrRmFkbE8tRltcbDYjLUZeXGw2IyoqRmhkbEZbdkZlb0ZdcUZpZGxGW3ZGZWBsRitGamRsRiVGJUYlRis+SStzdWNjZXNzUHJvR0YlZio2J0ZbW2xGXFtsRmZfbEYwRmdfbEYlRiVGJUMnRl5bbEZgW2w+RmpjbC1GZXU2I0ZgYWw+SSJBR0YlRmpebEAlMS1GW1xsNiMsJCoqRl1kbEZbdkZkXWxGXXFGYmZsRmB2JkZqY2w2I0ZiW2xGW3YjRitGXXEqJkYrRlt2JCIrJmVMXSsiISM2Rlt2T0ZbdkZjcEYlRiVGJUYrPkkrcGFyYVNlYXJjaEdGJWYqNiRGW1tsSSVkTWF4R0YlRiVGJUYlPyhGXFtsRlt2Rlt2RmJbbEZjW2xDKy1JJ3ByaW50ZkdGJTYkUUYtLS0tLS0tLS0tLS0tLS0tZDolZC0tLS0tLS0tLS0tLS0tLVxuRiVGXFtsPkkobUlkeE1heEdGJS1GW1xsNiMtRl5cbDYjKiZGW19sRlt2LUZfX2w2IylGXXEtRmh6NiRGZW9GXFtsRis+SShtSWR4TWluR0YlIiM1PkkodElkeE1heEdGJSIjISk+SSh0SWR4TWluR0YlRlt2PkZgXmw3J0Zmb0Zpb0ZccEZfcEY2Pkklc3ViTkdGJUZeY2wtRmlnbDYkUUwtLS0tLS0tLS0tLS0tLS0tbUlkeE1heDolZi0tLS0tLS0tLS0tLS0tLVxuRiVGXWhsPyhGYVtsRlt2Rlt2RmB4RmNbbD8oSSVtSWR4R0YlRmlobEZbdkZdaGxGY1tsPyhJJXRJZHhHRiVGX2lsRlt2RlxpbEZjW2xAJC8tRmplbDYnRmVvRlxbbClGXXFGaWlsJkZgXmw2I0ZhW2wpRl1xRltqbEZbdkMmPkZiYGwtRmZwNiNGYWpsPkZnXGwtRi1GZ2psPkknQ3VyclQxR0YlLUZjX2w2JEZgamxGY2psQCQyRltbbSIjISpDJD5JJ0N1cnJUMkdGJS1GX2BsNiZGYGpsRmFqbCZGYmBsNiNGXFtsRmNqbEAkMkZjW21GYFttQyQ+SSdDdXJyVDNHRiUtRmlibDYoRmBqbEZhamxGZlttRlxbbEZlb0ZjamxAJDJGXFxtRmBbbUMrLUZpZ2w2I1FQXG58aXJ8aXJ8aXJ8aXJ8aXJ8aXJ8aXJ8aXJBfnBvc3NpYmxlfmF0dGFja35pc35mb3VuZDp8aXJ8aXJ8aXJ8aXJ8aXJ8aXJ8aXJ8aXJcbkYlLUZpZ2w2KFFMXG4tLS0tLS0tbTolYX50OiVhfmw6JWF+UTolYX5kOiVhLS0tLS0tLS1cbkYlRmlpbEZbamxGYWpsLUZbXGw2Iy1GXlxsNiNGZlttRlxbbC1GaWdsNiRRNFByZWNvbXB1dGF0aW9uOiVhXG5GJS1GY1xsNiVGZW9GXFtsRmlqbC1GaWdsNiRRNU1lbW9yeShvZmZMaW5lKTolYVxuRiUtRlxebDYlRmVvRlxbbEZjaWwtRmlnbDYkUTRNZW1vcnkob25MaW5lKTolYVxuRiUtRmFfbEZnaGwtRmlnbDYkUSpEYXRhOiVhXG5GJS1GYl5sRmdobC1GaWdsNiRRKFQxOiVhXG5GJUZbW20tRmlnbDYkUShUMjolYVxuRiVGY1ttLUZpZ2w2JFEoVDM6JWFcbkYlRlxcbUYlRiVGJUYr</Equation></Text-field>
+</Input>
+<Output>
+<Text-field superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" alignment="centred" firstindent="0" spacebelow="0" leftmargin="0" linespacing="0.0" initial="0" linebreak="space" rightmargin="0" bulletsuffix="" spaceabove="0" bullet="none" pagebreak-before="false"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVE1b3V0cHV0fnJlZGlyZWN0ZWQuLi5GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=">LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVE1b3V0cHV0fnJlZGlyZWN0ZWQuLi5GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=</Equation></Text-field>
+</Output>
+</Group>
+<Group view="presentation" hide-input="true" hide-output="false" inline-output="false" labelreference="L7" drawlabel="true" redirect-source="L5">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">%;</Text-field>
+</Input>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60L1%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60SamplingChoose%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `L1` is implicitly declared local to procedure `SamplingChoose`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60L2%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60SamplingChoose%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `L2` is implicitly declared local to procedure `SamplingChoose`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60L3%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60SamplingChoose%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `L3` is implicitly declared local to procedure `SamplingChoose`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60L4%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60SamplingChoose%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `L4` is implicitly declared local to procedure `SamplingChoose`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60L5%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60SamplingChoose%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `L5` is implicitly declared local to procedure `SamplingChoose`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60Q1%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60QndChoose%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `Q1` is implicitly declared local to procedure `QndChoose`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60Q2%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60QndChoose%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `Q2` is implicitly declared local to procedure `QndChoose`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60Q3%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60QndChoose%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `Q3` is implicitly declared local to procedure `QndChoose`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60Q4%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60QndChoose%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `Q4` is implicitly declared local to procedure `QndChoose`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60Q5%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60QndChoose%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `Q5` is implicitly declared local to procedure `QndChoose`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60P1%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60SuccessProRecord%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `P1` is implicitly declared local to procedure `SuccessProRecord`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60P2%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60SuccessProRecord%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `P2` is implicitly declared local to procedure `SuccessProRecord`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60P3%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60SuccessProRecord%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `P3` is implicitly declared local to procedure `SuccessProRecord`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60P4%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60SuccessProRecord%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `P4` is implicitly declared local to procedure `SuccessProRecord`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60P5%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60SuccessProRecord%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `P5` is implicitly declared local to procedure `SuccessProRecord`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60V%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60Vnd%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `V` is implicitly declared local to procedure `Vnd`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60i%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60Vnd%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `i` is implicitly declared local to procedure `Vnd`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60res%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60PreComplexity%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `res` is implicitly declared local to procedure `PreComplexity`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60k%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60PreComplexity%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `k` is implicitly declared local to procedure `PreComplexity`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60res%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60MOffline%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `res` is implicitly declared local to procedure `MOffline`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60k%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60MOffline%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `k` is implicitly declared local to procedure `MOffline`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60V%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60DataComplexity%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `V` is implicitly declared local to procedure `DataComplexity`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60i%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60DataComplexity%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `i` is implicitly declared local to procedure `DataComplexity`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60V%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60MOnline%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `V` is implicitly declared local to procedure `MOnline`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60i%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60MOnline%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `i` is implicitly declared local to procedure `MOnline`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60L%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60T3%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `L` is implicitly declared local to procedure `T3`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60P%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60T3%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `P` is implicitly declared local to procedure `T3`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60V%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60successPro%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `V` is implicitly declared local to procedure `successPro`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60i%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60successPro%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `i` is implicitly declared local to procedure `successPro`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60P%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60successPro%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `P` is implicitly declared local to procedure `successPro`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60A%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60successPro%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `A` is implicitly declared local to procedure `successPro`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60d%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `d` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60mIdxMax%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `mIdxMax` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60mIdxMin%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `mIdxMin` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60tIdxMax%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `tIdxMax` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60tIdxMin%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `tIdxMin` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60L%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `L` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60subN%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `subN` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60i%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `i` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60mIdx%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `mIdx` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60tIdx%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `tIdx` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60Q%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `Q` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60N%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `N` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60CurrT1%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `CurrT1` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60CurrT2%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `CurrT2` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60CurrT3%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `CurrT3` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L6" drawlabel="true" redirect-target="L20">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="paraSearch(139, 10):" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVErcGFyYVNlYXJjaEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JKG1mZW5jZWRHRiQ2JC1GIzYoLUkjbW5HRiQ2JFEkMTM5RicvRjNRJ25vcm1hbEYnLUkjbW9HRiQ2LVEiLEYnRj4vJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGRi8lKnN5bW1ldHJpY0dGRi8lKGxhcmdlb3BHRkYvJS5tb3ZhYmxlbGltaXRzR0ZGLyUnYWNjZW50R0ZGLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRjs2JFEjMTBGJ0Y+LyUnZmFtaWx5R1EwVGltZXN+TmV3flJvbWFuRicvJStleGVjdXRhYmxlR0ZGRj5GPi1GQTYtUSI6RidGPkZEL0ZIRkZGSUZLRk1GT0ZRL0ZUUSwwLjI3Nzc3NzhlbUYnL0ZXRmBvRmZuRmluRj4=">QyQtSStwYXJhU2VhcmNoRzYiNiQiJFIiIiM1ISIi</Equation></Text-field>
+</Input>
+<Output>
+<Text-field superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" alignment="centred" firstindent="0" spacebelow="0" leftmargin="0" linespacing="0.0" initial="0" linebreak="space" rightmargin="0" bulletsuffix="" spaceabove="0" bullet="none" pagebreak-before="false"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVE1b3V0cHV0fnJlZGlyZWN0ZWQuLi5GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=">LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVE1b3V0cHV0fnJlZGlyZWN0ZWQuLi5GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=</Equation></Text-field>
+</Output>
+</Group>
+<Group view="presentation" hide-input="true" hide-output="false" inline-output="false" labelreference="L20" drawlabel="true" redirect-source="L6">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">%;</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">----------------d:1---------------</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">----------------mIdxMax:65.935358---------------</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:52 t:24 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:76.
+T2:89.90000000
+T3:89.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:53 t:22 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:75.
+T2:88.90000000
+T3:88.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:53 t:23 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:76.
+T2:89.90000000
+T3:89.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:54 t:20 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:74.
+T2:87.90000000
+T3:87.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:54 t:21 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:75.
+T2:88.90000000
+T3:88.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:54 t:22 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:76.
+T2:89.90000000
+T3:89.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:55 t:18 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:73.
+T2:86.90000000
+T3:86.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:55 t:19 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:74.
+T2:87.90000000
+T3:87.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:55 t:20 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:75.
+T2:88.90000000
+T3:88.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:55 t:21 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:76.
+T2:89.90000000
+T3:89.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:56 t:16 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:72.
+T2:85.90000000
+T3:85.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:56 t:17 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:73.
+T2:86.90000000
+T3:86.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:56 t:18 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:74.
+T2:87.90000000
+T3:87.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:56 t:19 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:75.
+T2:88.90000000
+T3:88.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:56 t:20 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:76.
+T2:89.90000000
+T3:89.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:57 t:14 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:71.
+T2:83.90000000
+T3:85.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:57 t:15 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:72.
+T2:84.90000000
+T3:86.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:57 t:16 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:73.
+T2:85.90000000
+T3:87.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:57 t:17 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:74.
+T2:86.90000000
+T3:88.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:57 t:18 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:75.
+T2:87.90000000
+T3:89.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:58 t:12 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:70.
+T2:81.90000000
+T3:85.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:58 t:13 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:71.
+T2:82.90000000
+T3:86.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:58 t:14 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:72.
+T2:83.90000000
+T3:87.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:58 t:15 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:73.
+T2:84.90000000
+T3:88.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:58 t:16 l:56 Q:13.90000000 d:1--------</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:74.
+T2:85.90000000
+T3:89.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:59 t:10 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:69.
+T2:79.90000000
+T3:85.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:59 t:11 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:70.
+T2:80.90000000
+T3:86.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:59 t:12 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:71.
+T2:81.90000000
+T3:87.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:59 t:13 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:72.
+T2:82.90000000
+T3:88.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:59 t:14 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:73.
+T2:83.90000000
+T3:89.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:60 t:8 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:68.
+T2:77.90000000
+T3:85.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:60 t:9 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:69.
+T2:78.90000000
+T3:86.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:60 t:10 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:70.
+T2:79.90000000
+T3:87.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:60 t:11 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:71.
+T2:80.90000000
+T3:88.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:60 t:12 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:72.
+T2:81.90000000
+T3:89.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:61 t:6 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:67.
+T2:75.90000000
+T3:85.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:61 t:7 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:68.
+T2:76.90000000
+T3:86.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:61 t:8 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:69.
+T2:77.90000000
+T3:87.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:61 t:9 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:70.
+T2:78.90000000
+T3:88.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:61 t:10 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:71.
+T2:79.90000000
+T3:89.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:62 t:4 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:66.
+T2:73.90000000
+T3:85.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:62 t:5 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:67.
+T2:74.90000000
+T3:86.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:62 t:6 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:68.
+T2:75.90000000
+T3:87.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:62 t:7 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:69.
+T2:76.90000000
+T3:88.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:62 t:8 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:70.
+T2:77.90000000
+T3:89.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:63 t:2 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:65.
+T2:71.90000000
+T3:85.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:63 t:3 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:66.
+T2:72.90000000
+T3:86.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:63 t:4 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:67.
+T2:73.90000000
+T3:87.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:63 t:5 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:68.
+T2:74.90000000
+T3:88.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:63 t:6 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:69.
+T2:75.90000000
+T3:89.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:64 t:1 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:65.
+T2:70.90000000
+T3:86.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:64 t:2 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:66.
+T2:71.90000000
+T3:87.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:64 t:3 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:67.
+T2:72.90000000
+T3:88.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:64 t:4 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:68.
+T2:73.90000000
+T3:89.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:65 t:1 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:66.
+T2:70.90000000
+T3:88.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:65 t:2 l:56 Q:13.90000000 d:1--------
+Precomputation:23.11894107
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:67.
+T2:71.90000000
+T3:89.76279726</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:53 t:23 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:76.
+T2:89.60000000
+T3:89.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:54 t:21 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:75.
+T2:88.60000000
+T3:88.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:54 t:22 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:76.
+T2:89.60000000
+T3:89.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:55 t:19 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:74.
+T2:87.60000000
+T3:87.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:55 t:20 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:75.
+T2:88.60000000
+T3:88.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:55 t:21 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:76.
+T2:89.60000000
+T3:89.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:56 t:17 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:73.
+T2:86.60000000
+T3:86.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:56 t:18 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:74.
+T2:87.60000000
+T3:87.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:56 t:19 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:75.
+T2:88.60000000
+T3:88.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:56 t:20 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:76.
+T2:89.60000000
+T3:89.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:57 t:15 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:72.
+T2:85.60000000
+T3:85.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:57 t:16 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:73.
+T2:86.60000000
+T3:86.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:57 t:17 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:74.
+T2:87.60000000
+T3:87.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:57 t:18 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:75.
+T2:88.60000000
+T3:88.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:57 t:19 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:76.
+T2:89.60000000
+T3:89.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:58 t:13 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:71.
+T2:84.60000000
+T3:84.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:58 t:14 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:72.
+T2:85.60000000
+T3:85.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:58 t:15 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:73.
+T2:86.60000000
+T3:86.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:58 t:16 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:74.
+T2:87.60000000
+T3:87.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:58 t:17 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:75.
+T2:88.60000000
+T3:88.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:58 t:18 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:76.
+T2:89.60000000
+T3:89.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:59 t:11 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:70.
+T2:83.60000000
+T3:83.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:59 t:12 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:71.
+T2:84.60000000
+T3:84.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:59 t:13 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:72.
+T2:85.60000000
+T3:85.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:59 t:14 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:73.
+T2:86.60000000
+T3:86.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:59 t:15 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:74.
+T2:87.60000000
+T3:87.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:59 t:16 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:75.
+T2:88.60000000
+T3:88.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:59 t:17 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:76.
+T2:89.60000000
+T3:89.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:60 t:9 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:69.
+T2:82.60000000
+T3:82.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:60 t:10 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:70.</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">T2:83.60000000
+T3:83.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:60 t:11 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:71.
+T2:84.60000000
+T3:84.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:60 t:12 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:72.
+T2:85.60000000
+T3:85.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:60 t:13 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:73.
+T2:86.60000000
+T3:86.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:60 t:14 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:74.
+T2:87.60000000
+T3:87.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:60 t:15 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:75.
+T2:88.60000000
+T3:88.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:60 t:16 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:76.
+T2:89.60000000
+T3:89.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:61 t:7 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:68.
+T2:81.60000000
+T3:81.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:61 t:8 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:69.
+T2:82.60000000
+T3:82.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:61 t:9 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:70.
+T2:83.60000000
+T3:83.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:61 t:10 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:71.
+T2:84.60000000
+T3:84.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:61 t:11 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:72.
+T2:85.60000000
+T3:85.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:61 t:12 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:73.
+T2:86.60000000
+T3:86.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:61 t:13 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:74.
+T2:87.60000000
+T3:87.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:61 t:14 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:75.
+T2:88.60000000
+T3:88.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:61 t:15 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:76.
+T2:89.60000000
+T3:89.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:62 t:5 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:67.
+T2:80.60000000
+T3:80.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:62 t:6 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:68.
+T2:81.60000000
+T3:81.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:62 t:7 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:69.
+T2:82.60000000
+T3:82.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:62 t:8 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:70.
+T2:83.60000000
+T3:83.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:62 t:9 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:71.
+T2:84.60000000
+T3:84.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:62 t:10 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:72.
+T2:85.60000000
+T3:85.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:62 t:11 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:73.
+T2:86.60000000
+T3:86.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:62 t:12 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:74.
+T2:87.60000000
+T3:87.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:62 t:13 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:75.
+T2:88.60000000
+T3:88.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:62 t:14 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:76.
+T2:89.60000000
+T3:89.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:63 t:3 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:66.
+T2:79.60000000
+T3:79.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:63 t:4 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:67.
+T2:80.60000000
+T3:80.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:63 t:5 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:68.
+T2:81.60000000
+T3:81.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:63 t:6 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:69.
+T2:82.60000000
+T3:82.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:63 t:7 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:70.
+T2:83.60000000
+T3:83.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:63 t:8 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:71.
+T2:84.60000000
+T3:84.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:63 t:9 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:72.
+T2:85.60000000
+T3:85.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:63 t:10 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:73.
+T2:86.60000000
+T3:86.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:63 t:11 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:74.
+T2:87.60000000
+T3:87.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:63 t:12 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:75.
+T2:88.60000000
+T3:88.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:63 t:13 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:76.
+T2:89.60000000
+T3:89.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:64 t:1 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:65.
+T2:78.60000000
+T3:78.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:64 t:2 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:66.
+T2:79.60000000
+T3:79.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:64 t:3 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:67.
+T2:80.60000000
+T3:80.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:64 t:4 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:68.
+T2:81.60000000
+T3:81.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:64 t:5 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:69.
+T2:82.60000000
+T3:82.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:64 t:6 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:70.
+T2:83.60000000
+T3:83.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:64 t:7 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:71.
+T2:84.60000000
+T3:84.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:64 t:8 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:72.
+T2:85.60000000
+T3:85.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:64 t:9 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:73.
+T2:86.60000000
+T3:86.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:64 t:10 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:74.
+T2:87.60000000
+T3:87.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:64 t:11 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:75.
+T2:88.60000000
+T3:88.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:64 t:12 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:76.
+T2:89.60000000
+T3:89.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:65 t:1 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:66.
+T2:78.60000000
+T3:80.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:65 t:2 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:67.
+T2:79.60000000
+T3:81.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:65 t:3 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:68.
+T2:80.60000000
+T3:82.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:65 t:4 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:69.
+T2:81.60000000
+T3:83.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:65 t:5 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:70.
+T2:82.60000000
+T3:84.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:65 t:6 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:71.
+T2:83.60000000
+T3:85.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:65 t:7 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:72.
+T2:84.60000000
+T3:86.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:65 t:8 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:73.
+T2:85.60000000
+T3:87.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:65 t:9 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:74.
+T2:86.60000000
+T3:88.76279726
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:65 t:10 l:64 Q:13.60000000 d:1--------
+Precomputation:29.11894108
+Memory(offLine):13.76279726
+Memory(onLine):65.93535849
+Data:65.93535849
+T1:75.
+T2:87.60000000
+T3:89.76279726
+----------------d:2---------------
+----------------mIdxMax:62.875814---------------</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:57 t:11 l:56 Q:21.20000000 d:2--------
+Precomputation:37.22754720
+Memory(offLine):20.88173834
+Memory(onLine):62.87581382
+Data:62.87581382
+T1:68.
+T2:88.20000000
+T3:89.88173834
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:58 t:9 l:56 Q:21.20000000 d:2--------
+Precomputation:37.22754720
+Memory(offLine):20.88173834
+Memory(onLine):62.87581382
+Data:62.87581382
+T1:67.
+T2:86.20000000
+T3:89.88173834
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:59 t:7 l:56 Q:21.20000000 d:2--------
+Precomputation:37.22754720
+Memory(offLine):20.88173834
+Memory(onLine):62.87581382
+Data:62.87581382
+T1:66.
+T2:84.20000000
+T3:89.88173834
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:60 t:5 l:56 Q:21.20000000 d:2--------
+Precomputation:37.22754720
+Memory(offLine):20.88173834
+Memory(onLine):62.87581382
+Data:62.87581382
+T1:65.
+T2:82.20000000
+T3:89.88173834
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:61 t:3 l:56 Q:21.20000000 d:2--------
+Precomputation:37.22754720
+Memory(offLine):20.88173834
+Memory(onLine):62.87581382
+Data:62.87581382
+T1:64.
+T2:80.20000000
+T3:89.88173834
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:62 t:1 l:56 Q:21.20000000 d:2--------
+Precomputation:37.22754720
+Memory(offLine):20.88173834
+Memory(onLine):62.87581382
+Data:62.87581382
+T1:63.
+T2:78.20000000
+T3:89.88173834</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:58 t:10 l:64 Q:21.30000000 d:2--------
+Precomputation:44.22750636
+Memory(offLine):20.88173834
+Memory(onLine):62.87581382
+Data:62.87581382
+T1:68.
+T2:89.30000000
+T3:88.88173834
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:59 t:8 l:64 Q:21.30000000 d:2--------
+Precomputation:44.22750636
+Memory(offLine):20.88173834
+Memory(onLine):62.87581382
+Data:62.87581382
+T1:67.
+T2:88.30000000
+T3:87.88173834
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:59 t:9 l:64 Q:21.30000000 d:2--------
+Precomputation:44.22750636
+Memory(offLine):20.88173834
+Memory(onLine):62.87581382
+Data:62.87581382
+T1:68.
+T2:89.30000000
+T3:88.88173834
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:60 t:6 l:64 Q:21.30000000 d:2--------
+Precomputation:44.22750636
+Memory(offLine):20.88173834
+Memory(onLine):62.87581382
+Data:62.87581382
+T1:66.
+T2:87.30000000
+T3:86.88173834
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:60 t:7 l:64 Q:21.30000000 d:2--------
+Precomputation:44.22750636
+Memory(offLine):20.88173834
+Memory(onLine):62.87581382
+Data:62.87581382
+T1:67.
+T2:88.30000000
+T3:87.88173834
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:60 t:8 l:64 Q:21.30000000 d:2--------
+Precomputation:44.22750636
+Memory(offLine):20.88173834
+Memory(onLine):62.87581382
+Data:62.87581382
+T1:68.
+T2:89.30000000
+T3:88.88173834
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:61 t:4 l:64 Q:21.30000000 d:2--------
+Precomputation:44.22750636
+Memory(offLine):20.88173834
+Memory(onLine):62.87581382
+Data:62.87581382
+T1:65.
+T2:86.30000000
+T3:85.88173834
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:61 t:5 l:64 Q:21.30000000 d:2--------
+Precomputation:44.22750636
+Memory(offLine):20.88173834
+Memory(onLine):62.87581382
+Data:62.87581382
+T1:66.
+T2:87.30000000
+T3:86.88173834
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:61 t:6 l:64 Q:21.30000000 d:2--------
+Precomputation:44.22750636
+Memory(offLine):20.88173834
+Memory(onLine):62.87581382
+Data:62.87581382
+T1:67.
+T2:88.30000000
+T3:87.88173834
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:61 t:7 l:64 Q:21.30000000 d:2--------
+Precomputation:44.22750636
+Memory(offLine):20.88173834
+Memory(onLine):62.87581382
+Data:62.87581382
+T1:68.
+T2:89.30000000
+T3:88.88173834
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:62 t:2 l:64 Q:21.30000000 d:2--------
+Precomputation:44.22750636
+Memory(offLine):20.88173834
+Memory(onLine):62.87581382
+Data:62.87581382
+T1:64.
+T2:85.30000000
+T3:84.88173834
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:62 t:3 l:64 Q:21.30000000 d:2--------
+Precomputation:44.22750636
+Memory(offLine):20.88173834
+Memory(onLine):62.87581382
+Data:62.87581382
+T1:65.
+T2:86.30000000
+T3:85.88173834
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:62 t:4 l:64 Q:21.30000000 d:2--------
+Precomputation:44.22750636
+Memory(offLine):20.88173834
+Memory(onLine):62.87581382
+Data:62.87581382
+T1:66.
+T2:87.30000000
+T3:86.88173834
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:62 t:5 l:64 Q:21.30000000 d:2--------
+Precomputation:44.22750636
+Memory(offLine):20.88173834
+Memory(onLine):62.87581382
+Data:62.87581382
+T1:67.
+T2:88.30000000
+T3:87.88173834
+
+~~~~~~~~A possible attack is found:~~~~~~~~
+
+-------m:62 t:6 l:64 Q:21.30000000 d:2--------
+Precomputation:44.22750636
+Memory(offLine):20.88173834
+Memory(onLine):62.87581382
+Data:62.87581382
+T1:68.
+T2:89.30000000
+T3:88.88173834
+----------------d:3---------------
+----------------mIdxMax:60.113881---------------</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">----------------d:4---------------
+----------------mIdxMax:57.564633---------------</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">----------------d:5---------------
+----------------mIdxMax:55.181549---------------</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">----------------d:6---------------
+----------------mIdxMax:52.935219---------------</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">----------------d:7---------------
+----------------mIdxMax:50.805355---------------</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">----------------d:8---------------
+----------------mIdxMax:48.777122---------------</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">----------------d:9---------------
+----------------mIdxMax:46.839195---------------</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">----------------d:10---------------
+----------------mIdxMax:44.982650---------------</Text-field>
+</Output>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L1" drawlabel="true" redirect-target="L9">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzZFLUkjbW9HRiQ2L1EjaWZGJy8lJWJvbGRHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJWJvbGRGJy8lK2ZvbnR3ZWlnaHRHRjQvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjkvJSlzdHJldGNoeUdGOS8lKnN5bW1ldHJpY0dGOS8lKGxhcmdlb3BHRjkvJS5tb3ZhYmxlbGltaXRzR0Y5LyUnYWNjZW50R0Y5LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGSC1GLDYtUSJ+RicvRjNRJ25vcm1hbEYnRjdGOkY8Rj5GQEZCRkRGRkZJLUkjbWlHRiQ2JVEmZXZhbGZGJy8lJ2l0YWxpY0dGMS9GM1EnaXRhbGljRictSShtZmVuY2VkR0YkNiQtRiM2Ky1GLDYtUSomdW1pbnVzMDtGJ0ZORjdGOkY8Rj5GQEZCRkQvRkdRLDAuMjIyMjIyMmVtRicvRkpGW28tSSZtZnJhY0dGJDYoLUklbXN1cEdGJDYlLUkjbW5HRiQ2JFEiMkYnRk4tRiM2Jy1GZG82JFEkMTIwRidGTkZULyUrZXhlY3V0YWJsZUdGOS8lMGZvbnRfc3R5bGVfbmFtZUdRKDJEfk1hdGhGJ0ZWLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1GIzYnLUZhbzYlRmNvLUYjNictRmRvNiRRJDE0MEYnRk5GVEZccEZecEZWRmFwRlRGXHBGXnBGVi8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGYnEvJSliZXZlbGxlZEdGOS1GLDYtUScmc2RvdDtGJ0ZORjdGOkY8Rj5GQEZCRkRGRkZJLUZkbzYkUSQwLjVGJ0ZORmdxLUZhbzYlRmNvLUYjNiUtRmRvNiRRIzMwRidGTkZURlZGYXAvJSdmYW1pbHlHUTBUaW1lc35OZXd+Um9tYW5GJ0ZccEZORk4tRiw2LVEmJmxlcTtGJ0ZORjdGOkY8Rj5GQEZCRkQvRkdRLDAuMjc3Nzc3OGVtRicvRkpGW3NGZ24tRmRvNiRRKDAuMDAwMDFGJ0ZORkstRiw2L1EldGhlbkYnRi9GMkY1RjdGOkY8Rj5GQEZCRkRGRkZJLUknbXNwYWNlR0YkNiYvJSdoZWlnaHRHUSYwLjBleEYnLyUmd2lkdGhHRkgvJSZkZXB0aEdGaHMvJSpsaW5lYnJlYWtHUShuZXdsaW5lRidGS0ZLRktGSy1GUTYlUSdwcmludGZGJ0ZURlYtRlk2JC1GIzYoLUYsNi5RIUYnL0ZlclEsQ291cmllcn5OZXdGJ0ZORjcvRjtGMUY8Rj5GQEZCRkRGRi9GSlEsMC4zMzMzMzMzZW1GJy1JI21zR0YkNiNGX3FGZ3RGZHJGXHBGTkZOLUYsNi1RIjpGJ0ZORjdGOkY8Rj5GQEZCRkRGanJGXHNGY3NGSy1GLDYvUSVlbHNlRidGL0YyRjVGN0Y6RjxGPkZARkJGREZGRklGY3NGS0ZLRktGS0ZgdC1GWTYkLUYjNihGZ3QtRmB1NiNGY3BGZ3RGZHJGXHBGTkZORmJ1RmNzRkstRiw2L1EjZmlGJ0YvRjJGNUY3RjpGPEY+RkBGQkZERkZGSUZidUZkckZccEZO">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzZFLUkjbW9HRiQ2L1EjaWZGJy8lJWJvbGRHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJWJvbGRGJy8lK2ZvbnR3ZWlnaHRHRjQvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjkvJSlzdHJldGNoeUdGOS8lKnN5bW1ldHJpY0dGOS8lKGxhcmdlb3BHRjkvJS5tb3ZhYmxlbGltaXRzR0Y5LyUnYWNjZW50R0Y5LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGSC1GLDYtUSJ+RicvRjNRJ25vcm1hbEYnRjdGOkY8Rj5GQEZCRkRGRkZJLUkjbWlHRiQ2JVEmZXZhbGZGJy8lJ2l0YWxpY0dGMS9GM1EnaXRhbGljRictSShtZmVuY2VkR0YkNiQtRiM2Ky1GLDYtUSomdW1pbnVzMDtGJ0ZORjdGOkY8Rj5GQEZCRkQvRkdRLDAuMjIyMjIyMmVtRicvRkpGW28tSSZtZnJhY0dGJDYoLUklbXN1cEdGJDYlLUkjbW5HRiQ2JFEiMkYnRk4tRiM2Jy1GZG82JFEkMTIwRidGTkZULyUrZXhlY3V0YWJsZUdGOS8lMGZvbnRfc3R5bGVfbmFtZUdRKDJEfk1hdGhGJ0ZWLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy1GIzYnLUZhbzYlRmNvLUYjNictRmRvNiRRJDE0MEYnRk5GVEZccEZecEZWRmFwRlRGXHBGXnBGVi8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGYnEvJSliZXZlbGxlZEdGOS1GLDYtUScmc2RvdDtGJ0ZORjdGOkY8Rj5GQEZCRkRGRkZJLUZkbzYkUSQwLjVGJ0ZORmdxLUZhbzYlRmNvLUYjNiUtRmRvNiRRIzMwRidGTkZURlZGYXAvJSdmYW1pbHlHUTBUaW1lc35OZXd+Um9tYW5GJ0ZccEZORk4tRiw2LVEmJmxlcTtGJ0ZORjdGOkY8Rj5GQEZCRkQvRkdRLDAuMjc3Nzc3OGVtRicvRkpGW3NGZ24tRmRvNiRRKDAuMDAwMDFGJ0ZORkstRiw2L1EldGhlbkYnRi9GMkY1RjdGOkY8Rj5GQEZCRkRGRkZJLUknbXNwYWNlR0YkNiYvJSdoZWlnaHRHUSYwLjBleEYnLyUmd2lkdGhHRkgvJSZkZXB0aEdGaHMvJSpsaW5lYnJlYWtHUShuZXdsaW5lRidGS0ZLRktGSy1GUTYlUSdwcmludGZGJ0ZURlYtRlk2JC1GIzYoLUYsNi5RIUYnL0ZlclEsQ291cmllcn5OZXdGJ0ZORjcvRjtGMUY8Rj5GQEZCRkRGRi9GSlEsMC4zMzMzMzMzZW1GJy1JI21zR0YkNiNGX3FGZ3RGZHJGXHBGTkZOLUYsNi1RIjpGJ0ZORjdGOkY8Rj5GQEZCRkRGanJGXHNGY3NGSy1GLDYvUSVlbHNlRidGL0YyRjVGN0Y6RjxGPkZARkJGREZGRklGY3NGS0ZLRktGS0ZgdC1GWTYkLUYjNihGZ3QtRmB1NiNGY3BGZ3RGZHJGXHBGTkZORmJ1RmNzRkstRiw2L1EjZmlGJ0YvRjJGNUY3RjpGPEY+RkBGQkZERkZGSUZidUZkckZccEZO</Equation></Text-field>
+</Input>
+<Output>
+<Text-field superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" alignment="centred" firstindent="0" spacebelow="0" leftmargin="0" linespacing="0.0" initial="0" linebreak="space" rightmargin="0" bulletsuffix="" spaceabove="0" bullet="none" pagebreak-before="false"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVE1b3V0cHV0fnJlZGlyZWN0ZWQuLi5GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=">LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVE1b3V0cHV0fnJlZGlyZWN0ZWQuLi5GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=</Equation></Text-field>
+</Output>
+</Group>
+<Group view="presentation" hide-input="true" hide-output="false" inline-output="false" labelreference="L9" drawlabel="true" redirect-source="L1">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">%;</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">1</Text-field>
+</Output>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L8" drawlabel="true" redirect-target="L11">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYvLUkjbWlHRiQ2JVEmZXZhbGZGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSShtZmVuY2VkR0YkNiQtRiM2KS1JI21vR0YkNi1RKiZ1bWludXMwO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGQi8lKXN0cmV0Y2h5R0ZCLyUqc3ltbWV0cmljR0ZCLyUobGFyZ2VvcEdGQi8lLm1vdmFibGVsaW1pdHNHRkIvJSdhY2NlbnRHRkIvJSdsc3BhY2VHUSwwLjIyMjIyMjJlbUYnLyUncnNwYWNlR0ZRLUkmbWZyYWNHRiQ2KC1JJW1zdXBHRiQ2JS1JI21uR0YkNiRRIjJGJ0Y+LUYjNiQtRmVuNiRRJDEyMEYnRj5GPi8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRictRiM2JC1GWDYlRlotRiM2JC1GZW42JFEkMTUwRidGPkY+Rl1vRj4vJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRl5wLyUpYmV2ZWxsZWRHRkItRjs2LVEnJnNkb3Q7RidGPkZARkNGRUZHRklGS0ZNL0ZQUSYwLjBlbUYnL0ZTRmdwLUZlbjYkUSQwLjVGJ0Y+RmNwLUZYNiVGWi1GIzYkLUZlbjYkUSMyMEYnRj5GPkZdb0Y+Rj4tRjs2LVEiOkYnRj5GQEZDRkVGR0ZJRktGTS9GUFEsMC4yNzc3Nzc4ZW1GJy9GU0ZncS1JJ21zcGFjZUdGJDYmLyUnaGVpZ2h0R1EmMC4wZXhGJy8lJndpZHRoR0ZncC8lJmRlcHRoR0Zeci8lKmxpbmVicmVha0dRKG5ld2xpbmVGJy1GanE2JkZcckZfckZhci9GZHJRJWF1dG9GJ0ZpcUZmckZpcS1GLDYlUStzdWNjZXNzUHJvRidGL0YyLUY2NiQtRiM2LS1GZW42JFEkMTYwRidGPi1GOzYtUSIsRidGPkZAL0ZERjFGRUZHRklGS0ZNRmZwL0ZTUSwwLjMzMzMzMzNlbUYnLUZlbjYkUSIzRidGPkZkcy1GWDYlRlotRiM2JS1GZW42JFEjNjBGJ0Y+Ri9GMkZdb0Zkcy1GZW42JFEjNDhGJ0Y+RmRzLUZYNiVGWi1GIzYlLUZlbjYkUSMzMEYnRj5GL0YyRl1vRi9GMkY+LUY7Ni1RIn5GJ0Y+RkBGQ0ZFRkdGSUZLRk1GZnBGaHBGL0Yy">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYvLUkjbWlHRiQ2JVEmZXZhbGZGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSShtZmVuY2VkR0YkNiQtRiM2KS1JI21vR0YkNi1RKiZ1bWludXMwO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGQi8lKXN0cmV0Y2h5R0ZCLyUqc3ltbWV0cmljR0ZCLyUobGFyZ2VvcEdGQi8lLm1vdmFibGVsaW1pdHNHRkIvJSdhY2NlbnRHRkIvJSdsc3BhY2VHUSwwLjIyMjIyMjJlbUYnLyUncnNwYWNlR0ZRLUkmbWZyYWNHRiQ2KC1JJW1zdXBHRiQ2JS1JI21uR0YkNiRRIjJGJ0Y+LUYjNiQtRmVuNiRRJDEyMEYnRj5GPi8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRictRiM2JC1GWDYlRlotRiM2JC1GZW42JFEkMTUwRidGPkY+Rl1vRj4vJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRl5wLyUpYmV2ZWxsZWRHRkItRjs2LVEnJnNkb3Q7RidGPkZARkNGRUZHRklGS0ZNL0ZQUSYwLjBlbUYnL0ZTRmdwLUZlbjYkUSQwLjVGJ0Y+RmNwLUZYNiVGWi1GIzYkLUZlbjYkUSMyMEYnRj5GPkZdb0Y+Rj4tRjs2LVEiOkYnRj5GQEZDRkVGR0ZJRktGTS9GUFEsMC4yNzc3Nzc4ZW1GJy9GU0ZncS1JJ21zcGFjZUdGJDYmLyUnaGVpZ2h0R1EmMC4wZXhGJy8lJndpZHRoR0ZncC8lJmRlcHRoR0Zeci8lKmxpbmVicmVha0dRKG5ld2xpbmVGJy1GanE2JkZcckZfckZhci9GZHJRJWF1dG9GJ0ZpcUZmckZpcS1GLDYlUStzdWNjZXNzUHJvRidGL0YyLUY2NiQtRiM2LS1GZW42JFEkMTYwRidGPi1GOzYtUSIsRidGPkZAL0ZERjFGRUZHRklGS0ZNRmZwL0ZTUSwwLjMzMzMzMzNlbUYnLUZlbjYkUSIzRidGPkZkcy1GWDYlRlotRiM2JS1GZW42JFEjNjBGJ0Y+Ri9GMkZdb0Zkcy1GZW42JFEjNDhGJ0Y+RmRzLUZYNiVGWi1GIzYlLUZlbjYkUSMzMEYnRj5GL0YyRl1vRi9GMkY+LUY7Ni1RIn5GJ0Y+RkBGQ0ZFRkdGSUZLRk1GZnBGaHBGL0Yy</Equation></Text-field>
+</Input>
+<Output>
+<Text-field superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" alignment="centred" firstindent="0" spacebelow="0" leftmargin="0" linespacing="0.0" initial="0" linebreak="space" rightmargin="0" bulletsuffix="" spaceabove="0" bullet="none" pagebreak-before="false"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVE1b3V0cHV0fnJlZGlyZWN0ZWQuLi5GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=">LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVE1b3V0cHV0fnJlZGlyZWN0ZWQuLi5GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=</Equation></Text-field>
+</Output>
+</Group>
+<Group view="presentation" hide-input="true" hide-output="false" inline-output="false" labelreference="L11" drawlabel="true" redirect-source="L8">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">print(<Label label="L8" view="label" executable="true"></Label>); # input placeholder</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">IiIi</Equation></Text-field>
+</Output>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L10" drawlabel="true" redirect-target="L13">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjbG5GJy8lJ2l0YWxpY0dRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUkobWZlbmNlZEdGJDYkLUYjNiYtSSNtbkdGJDYkUSUwLjk5RidGMi8lJ2ZhbWlseUdRMFRpbWVzfk5ld35Sb21hbkYnLyUrZXhlY3V0YWJsZUdGMUYyRjJGPkZBRjI=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjbG5GJy8lJ2l0YWxpY0dRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUkobWZlbmNlZEdGJDYkLUYjNiYtSSNtbkdGJDYkUSUwLjk5RidGMi8lJ2ZhbWlseUdRMFRpbWVzfk5ld35Sb21hbkYnLyUrZXhlY3V0YWJsZUdGMUYyRjJGPkZBRjI=</Equation></Text-field>
+</Input>
+<Output>
+<Text-field superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" alignment="centred" firstindent="0" spacebelow="0" leftmargin="0" linespacing="0.0" initial="0" linebreak="space" rightmargin="0" bulletsuffix="" spaceabove="0" bullet="none" pagebreak-before="false"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVE1b3V0cHV0fnJlZGlyZWN0ZWQuLi5GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=">LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVE1b3V0cHV0fnJlZGlyZWN0ZWQuLi5GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=</Equation></Text-field>
+</Output>
+</Group>
+<Group view="presentation" hide-input="true" hide-output="false" inline-output="false" labelreference="L13" drawlabel="true" redirect-source="L10">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">print(<Label label="L10" view="label" executable="true"></Label>); # input placeholder</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">JCErJmVMXSsiISM2</Equation></Text-field>
+</Output>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L12" drawlabel="true" redirect-target="L15">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEmZXZhbGZGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSShtZmVuY2VkR0YkNiQtRiM2Ji1JJW1zdXBHRiQ2JS1GNjYkLUYjNiYtSSNtbkdGJDYkUSUyLjcyRicvRjNRJ25vcm1hbEYnLyUnZmFtaWx5R1EwVGltZXN+TmV3flJvbWFuRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJ0ZFRkUtRiM2KC1JI21vR0YkNi1RKiZ1bWludXMwO0YnRkUvJSZmZW5jZUdGTC8lKnNlcGFyYXRvckdGTC8lKXN0cmV0Y2h5R0ZMLyUqc3ltbWV0cmljR0ZMLyUobGFyZ2VvcEdGTC8lLm1vdmFibGVsaW1pdHNHRkwvJSdhY2NlbnRHRkwvJSdsc3BhY2VHUSwwLjIyMjIyMjJlbUYnLyUncnNwYWNlR0Zdby1GQjYkUSYwLjAxMUYnRkVGL0ZKLyUwZm9udF9zdHlsZV9uYW1lR1EoMkR+TWF0aEYnRjIvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnRkdGSkZFRkVGR0ZKRkU=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEmZXZhbGZGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSShtZmVuY2VkR0YkNiQtRiM2Ji1JJW1zdXBHRiQ2JS1GNjYkLUYjNiYtSSNtbkdGJDYkUSUyLjcyRicvRjNRJ25vcm1hbEYnLyUnZmFtaWx5R1EwVGltZXN+TmV3flJvbWFuRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJ0ZFRkUtRiM2KC1JI21vR0YkNi1RKiZ1bWludXMwO0YnRkUvJSZmZW5jZUdGTC8lKnNlcGFyYXRvckdGTC8lKXN0cmV0Y2h5R0ZMLyUqc3ltbWV0cmljR0ZMLyUobGFyZ2VvcEdGTC8lLm1vdmFibGVsaW1pdHNHRkwvJSdhY2NlbnRHRkwvJSdsc3BhY2VHUSwwLjIyMjIyMjJlbUYnLyUncnNwYWNlR0Zdby1GQjYkUSYwLjAxMUYnRkVGL0ZKLyUwZm9udF9zdHlsZV9uYW1lR1EoMkR+TWF0aEYnRjIvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnRkdGSkZFRkVGR0ZKRkU=</Equation></Text-field>
+</Input>
+<Output>
+<Text-field superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" alignment="centred" firstindent="0" spacebelow="0" leftmargin="0" linespacing="0.0" initial="0" linebreak="space" rightmargin="0" bulletsuffix="" spaceabove="0" bullet="none" pagebreak-before="false"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVE1b3V0cHV0fnJlZGlyZWN0ZWQuLi5GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=">LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVE1b3V0cHV0fnJlZGlyZWN0ZWQuLi5GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=</Equation></Text-field>
+</Output>
+</Group>
+<Group view="presentation" hide-input="true" hide-output="false" inline-output="false" labelreference="L15" drawlabel="true" redirect-source="L12">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">print(<Label label="L12" view="label" executable="true"></Label>); # input placeholder</Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output">JCIrVVNgISopKiEjNQ==</Equation></Text-field>
+</Output>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L14" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbW9HRiQ2LlEhRicvJSdmYW1pbHlHUSxDb3VyaWVyfk5ld0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdRJXRydWVGJy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy9GMFEwVGltZXN+TmV3flJvbWFuRidGMg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbW9HRiQ2LlEhRicvJSdmYW1pbHlHUSxDb3VyaWVyfk5ld0YnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdRJXRydWVGJy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJw==</Equation></Text-field>
+</Input>
+</Group></Presentation-Block>
+</Worksheet>

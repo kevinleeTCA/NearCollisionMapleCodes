@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="16" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="true"></View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" contextmenusize="automatic" plotdriver="opengl" elisiondigitsafter="100" plotoutput="terminal" helpbrowser="standard" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" errorcursor="false" longdelim="true" plotoptions="" quiet="false" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="-1" screenpixelheight="1024" warnlevel="3" screenheight="25" latexwidth="6.0" postplot="" prompt="&gt; " ShowLabels="true"/>
+<Styles><Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="SimSun" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="SimSun" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Serif" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="SimSun" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Serif" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Serif" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Task-table>
+    <Task-category name="&lt;default&gt;">
+    </Task-category>
+</Task-table>
+<Task>
+</Task><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L1" drawlabel="true" redirect-target="L3">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="L3 := [43.8, 28.2, 23.5, 20.1, 17.3, 15.5, 13.8, 12.4, 11.4, 10.5, 9.9, 8.8, 8.8, 8, 7.4, 6.9, 6.7, 6.23, 5.9, 5.5, 5.1, 4.9, 4.7, 4.5, 4.1]:" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzZpZXItSSNtaUdGJDYlUSNMM0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKiZjb2xvbmVxO0YnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkobWZlbmNlZEdGJDYmLUYjNlQtSSNtbkdGJDYkUSU0My44RidGOS1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZOUSwwLjMzMzMzMzNlbUYnLUZVNiRRJTI4LjJGJ0Y5RlgtRlU2JFElMjMuNUYnRjlGWC1GVTYkUSUyMC4xRidGOUZYLUZVNiRRJTE3LjNGJ0Y5RlgtRlU2JFElMTUuNUYnRjlGWC1GVTYkUSUxMy44RidGOUZYLUZVNiRRJTEyLjRGJ0Y5RlgtRlU2JFElMTEuNEYnRjlGWC1GVTYkUSUxMC41RidGOUZYLUZVNiRRJDkuOUYnRjlGWC1GVTYkUSQ4LjhGJ0Y5RlhGaHBGWC1GVTYkUSI4RidGOUZYLUZVNiRRJDcuNEYnRjlGWC1GVTYkUSQ2LjlGJ0Y5RlgtRlU2JFEkNi43RidGOUZYLUZVNiRRJTYuMjNGJ0Y5RlgtRlU2JFEkNS45RidGOUZYLUZVNiRRJDUuNUYnRjlGWC1GVTYkUSQ1LjFGJ0Y5RlgtRlU2JFEkNC45RidGOUZYLUZVNiRRJDQuN0YnRjlGWC1GVTYkUSQ0LjVGJ0Y5RlgtRlU2JFEkNC4xRidGOUY5RjkvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRictRjY2LVEiOkYnRjlGO0Y+RkBGQkZERkZGSEZKRk0tSSdtc3BhY2VHRiQ2Ji8lJ2hlaWdodEdRJjAuMGV4RicvJSZ3aWR0aEdGZ24vJSZkZXB0aEdGXXQvJSpsaW5lYnJlYWtHUShuZXdsaW5lRictRiw2JVEjTDRGJ0YvRjJGNS1GUDYmLUYjNlQtRlU2JFElNDAuNEYnRjlGWC1GVTYkUSUyNi40RidGOUZYLUZVNiRRJTIxLjRGJ0Y5RlgtRlU2JFEjMThGJ0Y5RlgtRlU2JFElMTUuM0YnRjlGWC1GVTYkUSUxMy40RidGOUZYLUZVNiRRJTEyLjFGJ0Y5RlgtRlU2JFElMTAuOEYnRjlGWC1GVTYkUSUxMC4xRidGOUZYLUZVNiRRJDkuM0YnRjlGWC1GVTYkUSQ4LjNGJ0Y5RlgtRlU2JFEkNy42RidGOUZYLUZVNiRRJDcuM0YnRjlGWEZkcUZYLUZVNiRRJDYuMkYnRjlGWC1GVTYkUSQ1LjdGJ0Y5RlgtRlU2JFEkNS40RidGOUZYRmByRlgtRlU2JFEkNC42RidGOUZYRlx4RlgtRlU2JFEkNC4yRidGOUZYLUZVNiRRJDMuOUYnRjlGWEZieEZYLUZVNiRRJDMuNUYnRjlGWC1GVTYkUSQzLjJGJ0Y5RjlGOUZfc0Zic0Zlc0Zocy1GLDYlUSNMNUYnRi9GMkY1LUZQNiYtRiM2VC1GVTYkUSMzOEYnRjlGWC1GVTYkUSUyNC4yRidGOUZYLUZVNiRRJTE5LjVGJ0Y5RlgtRlU2JFElMTYuM0YnRjlGWC1GVTYkUSUxNC4xRidGOUZYRlxwRlgtRlU2JFElMTAuNEYnRjlGWC1GVTYkUSQ5LjRGJ0Y5RlhGanZGWC1GVTYkUSQ3LjdGJ0Y5RlgtRlU2JFEiN0YnRjlGWC1GVTYkUSQ2LjZGJ0Y5RlgtRlU2JFEkNS42RidGOUZYLUZVNiRRJDUuM0YnRjlGWC1GVTYkUSQ1LjJGJ0Y5RlgtRlU2JFEkNC40RidGOUZYRmlyRlhGYnhGWC1GVTYkUSQzLjdGJ0Y5RlgtRlU2JFEkMy40RidGOUZYLUZVNiRRJDMuMUYnRjlGWEZiXGxGWC1GVTYkUSQyLjhGJ0Y5RlgtRlU2JFEkMi42RidGOUZYLUZVNiRRJDIuNEYnRjlGOUY5Rl9zRmJzRmVzRmhzLUY2Ni1RIn5GJ0Y5RjtGPkZARkJGREZGRkhGZm4vRk5GZ24tRiw2JVEjTDZGJ0YvRjJGNS1GUDYmLUYjNlQtRlU2JFElMzQuN0YnRjlGWC1GVTYkUSUyMi40RidGOUZYLUZVNiRRJTE3LjFGJ0Y5RlgtRlU2JFElMTQuMkYnRjlGWC1GVTYkUSUxMS43RidGOUZYLUZVNiRRJTEwLjJGJ0Y5RlhGaHBGWC1GVTYkUSQ3LjhGJ0Y5RlhGYXFGWEZqcUZYRml3RlgtRlU2JFEkNC44RidGOUZYRl94RlhGYnhGWEZleEZYRmV4RlhGYlxsRlgtRlU2JFEkMi43RidGOUZYRmhcbEZYRltdbEZYLUZVNiRRJDIuMUYnRjlGWC1GVTYkUSIyRidGOUZYLUZVNiRRJDEuOEYnRjlGWEZqX2xGWC1GVTYkUSQxLjZGJ0Y5RjlGOUZfc0Zic0Zlc0Zoc0ZeXWwtRiw2JVEjTDdGJ0YvRjJGNS1GUDYmLUYjNlQtRlU2JFElMzUuOEYnRjlGWC1GVTYkUSUyMC40RidGOUZYLUZVNiRRJTE0LjNGJ0Y5RlgtRlU2JFElMTEuNUYnRjlGWEZndkZYLUZVNiRRJDcuOUYnRjlGWEZdW2xGWEZqcUZYLUZVNiRRIjVGJ0Y5RlgtRlU2JFEkNC4zRidGOUZYRlxcbEZYRl9cbEZYRmh4RlgtRlU2JFEkMi41RidGOUZYRltdbEZYRmRfbEZYRmpfbEZYRl1gbEZYLUZVNiRRJDEuNUYnRjlGWC1GVTYkUSQxLjRGJ0Y5RlgtRlU2JFEkMS4yRidGOUZYLUZVNiRRIjFGJ0Y5RlhGaGJsRlgtRlU2JFEkMC45RidGOUZYLUZVNiRRJDAuOEYnRjlGOUY5Rl9zRmJzRmVzRmhzRl5dbC1GLDYlUSNMOEYnRi9GMkY1LUZQNiYtRiM2VC1GVTYkUSUzNC41RidGOUZYLUZVNiRRJTE2LjlGJ0Y5RlgtRlU2JFElMTMuM0YnRjlGWC1GVTYkUSQ5LjVGJ0Y5RlhGXnFGWC1GVTYkUSI2RidGOUZYRmByRlgtRlU2JFEiNEYnRjlGWEZfXGxGWC1GVTYkUSQyLjlGJ0Y5RlhGXGJsRlgtRlU2JFEkMi4zRidGOUZYRmpfbEZYRl9ibEZYLUZVNiRRJDEuM0YnRjlGWC1GVTYkUSQxLjFGJ0Y5RlhGaGJsRlgtRlU2JFEkMC43RidGOUZYRmZlbEZYLUZVNiRRJDAuNUYnRjlGWEZpZWxGWC1GVTYkUSQwLjRGJ0Y5RlgtRlU2JFEkMC4zRidGOUZYRl9mbEZYRl9mbEY5RjlGX3NGYnNGZXNGaHNGXl1sLUYsNiVRI0w5RidGL0YyRjUtRlA2Ji1GIzZULUZVNiRRJTMzLjVGJ0Y5RlgtRlU2JFElMTQuNkYnRjlGWC1GVTYkUSUxMC45RidGOUZYRmB3RlgtRlU2JFEkNi4xRidGOUZYRlx4RlhGZ2RsRlgtRlU2JFEiM0YnRjlGWEZdZWxGWC1GVTYkUSQyLjJGJ0Y5RlhGal9sRlhGYmJsRlhGaGJsRlhGaGJsRlhGZmVsRlhGZmVsRlgtRlU2JFEkMC42RidGOUZYRmllbEZYRmllbEZYRlxmbEZYRl9mbEZYLUZVNiRRJDAuMkYnRjlGWEZeaGxGWC1GVTYkUSQwLjFGJ0Y5RlhGYWhsRjlGOUZfc0Zic0Zlc0Zoc0ZeXWwtRiw2JVEkTDEwRidGL0YyRjUtRlA2Ji1GIzZULUZVNiRRJTMwLjFGJ0Y5RlhGW3ZGWC1GVTYkUSQ4LjRGJ0Y5RlhGY3dGWEZmYWxGWC1GVTYkUSQzLjhGJ0Y5RlhGamRsRlhGXWVsRlhGZ19sRlhGX2JsRlhGYGVsRlhGY2VsRlhGXmNsRlhGXmNsRlhGW2hsRlhGW2hsRlhGXGZsRlhGX2ZsRlhGX2ZsRlhGX2ZsRlhGXmhsRlhGXmhsRlhGXmhsRlhGYWhsRlhGYWhsRjlGOUZfc0Zic0Zlc0Zoc0ZeXWwtRiw2JVEkTDExRidGL0YyRjUtRlA2Ji1GIzZULUZVNiRRJTE2LjhGJ0Y5RlhGYGFsRlgtRlU2JFEkNy4yRidGOUZYRml3RlhGXFxsRlhGZVxsRlhGXWVsRlhGal9sRlhGX2JsRlhGZWJsRlhGW2NsRlhGZmVsRlhGZmVsRlhGW2hsRlhGXGZsRlhGXGZsRlhGXGZsRlhGXmhsRlhGYWhsRlhGXmhsRlhGYWhsRlhGYWhsRlhGYWhsRlhGYWhsRlhGYWhsRjlGOUZfc0Zic0Zlc0Zoc0ZeXWwtRiw2JVEkTDEyRidGL0YyRjUtRlA2Ji1GIzZULUZVNiRRJTI0LjRGJ0Y5RlhGaF5sRlhGYmdsRlgtRlU2JFEkMy42RidGOUZYRmVnbEZYRmRfbEZYRmpfbEZYRmJibEZYRmNlbEZYRltjbEZYRltobEZYRltobEZYRlxmbEZYRlxmbEZYRl9mbEZYRl9mbEZYRl9mbEZYRl5obEZYRmFobEZYRmFobEZYRmFobEZYRmFobEZYRmFobEZYLUZVNiRRIjBGJ0Y5RlhGXlttRjlGOUZfc0Zic0Zlc0Zoc0ZeXWwtRiw2JVEkTDEzRidGL0YyRjUtRlA2Ji1GIzZULUZVNiRRJTI1LjlGJ0Y5RlgtRlU2JFEkOC4xRidGOUZYRmlbbEZYRmh4RlhGZ19sRlgtRlU2JFEkMS43RidGOUZYRmNlbEZYRmhibEZYRltjbEZYRmZlbEZYRmllbEZYRltobEZYRlxmbEZYRl9mbEZYRl5obEZYRl5obEZYRl5obEZYRmFobEZYRmFobEZYRmFobEZYRmFobEZYRmFobEZYRl5bbUZYRl5bbUZYRl5bbUY5RjlGX3NGYnNGZXNGaHNGXl1sLUYsNiVRJEwxNEYnRi9GMkY1LUZQNiYtRiM2VC1GVTYkUSUyNi4xRidGOUZYRmFxRlhGW1ttRlhGaGdsRlhGXWBsRlhGZWJsRlhGW2NsRlhGZmVsRlhGW2hsRlhGaWVsRlhGaWVsRlhGX2ZsRlhGX2ZsRlhGX2ZsRlhGXmhsRlhGXmhsRlhGYWhsRlhGYWhsRlhGYWhsRlhGXlttRlhGYWhsRlhGYWhsRlhGXlttRlhGXlttRlhGXlttRjlGOUZfc0Zic0Zlc0Zoc0ZeXWwtRiw2JVEkTDE1RidGL0YyRjUtRlA2Ji1GIzZULUZVNiRRJTE5LjhGJ0Y5RlhGXl9sRlhGYV9sRlhGXWBsRlhGaGJsRlhGW2NsRlhGW2hsRlhGXGZsRlhGX2ZsRlhGX2ZsRlhGYWhsRlhGXmhsRlhGXmhsRlhGYWhsRlhGXmhsRlhGYWhsRlhGYWhsRlhGYWhsRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRjlGOUZfc0Zic0Zlc0Zoc0ZeXWwtRiw2JVEkTDE2RidGL0YyRjUtRlA2Ji1GIzZURmZvRlhGYWlsRlhGX2JsRlhGW2NsRlhGW2hsRlhGXGZsRlhGX2ZsRlhGXmhsRlhGYWhsRlhGYWhsRlhGYWhsRlhGYWhsRlhGYWhsRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRjlGOUZfc0Zic0Zlc0Zoc0ZeXWwtRiw2JVEkTDE3RidGL0YyRjUtRlA2Ji1GIzZULUZVNiRRJTE2LjFGJ0Y5RlhGamRsRlhGXmNsRlhGXGZsRlhGXmhsRlhGYWhsRlhGYWhsRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRjlGOUZfc0Zic0Zlc0Zoc0ZeXWwtRiw2JVEkTDE4RidGL0YyRjUtRlA2Ji1GIzZULUZVNiRRJTIwLjhGJ0Y5RlhGZ19sRlhGZmVsRlhGXmhsRlhGYWhsRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRlhGXlttRjlGOUZfc0Zic0Zlc0Zoc0ZeXWwtRiw2JVEld2l0aEYnRi9GMi1GUDYkLUYjNiQtRiw2JVEpY29tYmluYXRGJ0YvRjJGOUY5RmVzRl5dbEZoc0ZeXWwtRjY2LVEiI0YnRjlGO0Y+RkBGQkZERkZGSEZmbkZhXWwtRiw2JVFCfmR+aW5+WzEmbWludXM7MjVdfn5+c3B+aW5+WzMsMThdRidGL0YyRmhzRl5dbC1GLDYlUSlnZXRGaXhlZEYnL0YwRj1GOUY1LUY2Ni9RJXByb2NGJy8lJWJvbGRHRjEvRjNRJWJvbGRGJy8lK2ZvbnR3ZWlnaHRHRmpgbUY7Rj5GQEZCRkRGRkZIRmZuRmFdbC1GUDYkLUYjNiYtRiw2JVEiZEYnRi9GMkZYLUYsNiVRI3NwRidGL0YyRjlGOS1GLDYjUSFGJ0Zoc0ZeXWxGXl1sRl5dbC1GNjYvUSNpZkYnRmdgbUZpYG1GW2FtRjtGPkZARkJGREZGRkhGZm5GYV1sRl5dbEZkYW0tRjY2LVEiPUYnRjlGO0Y+RkBGQkZERkZGSEZKRk1GZWdsRl5dbC1GNjYvUSV0aGVuRidGZ2BtRmlgbUZbYW1GO0Y+RkBGQkZERkZGSEZmbkZhXWxGaHNGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWwtRjY2L1EncmV0dXJuRidGZ2BtRmlgbUZbYW1GO0Y+RkBGQkZERkZGSEZmbkZhXWxGXl1sRistRlA2Ji1GIzYkRmFhbUY5RjlGX3NGYnNGZXNGaHNGXl1sRl5dbEZeXWwtRjY2L1ElZWxpZkYnRmdgbUZpYG1GW2FtRjtGPkZARkJGREZGRkhGZm5GYV1sRl5dbEZkYW1GXWJtRmdkbEZeXWxGYGJtRmhzRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZjYm1GXl1sRmV0RmZibUZlc0Zoc0ZeXWxGXl1sRl5dbEZqYm1GXl1sRmRhbUZdYm1GZmFsRl5dbEZgYm1GaHNGaHNGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRmNibUZeXWxGW3lGZmJtRmVzRl5dbEZocy1GaXM2JkZbdEZedEZgdC9GY3RRJWF1dG9GJ0ZeXWxGamJtRl5dbEZkYW1GXWJtRmRkbEZeXWxGYGJtRmhzRl5dbEZeXWxGXl1sRl5dbEZeXWxGY2JtRl5dbEZiXWxGZmJtRmVzRmhzRl5dbEZeXWxGXl1sRmpibUZeXWxGZGFtRl1ibUZqekZeXWxGYGJtRmhzRl5dbEZeXWxGXl1sRl5dbEZeXWxGY2JtRl5dbEZgYGxGZmJtRmVzRmhzRl5dbEZeXWxGXl1sRmpibUZeXWxGZGFtRl1ibUZbcUZeXWxGYGJtRmhzRl5dbEZeXWxGXl1sRl5dbEZeXWxGY2JtRl5dbEZhY2xGZmJtRmVzRmhzRl5dbEZeXWxGXl1sRmpibUZeXWxGZGFtRl1ibS1GVTYkUSI5RidGOUZeXWxGYGJtRmhzRl5dbEZeXWxGXl1sRl5dbEZeXWxGY2JtRl5dbEZiZmxGZmJtRmVzRmhzRl5dbEZeXWxGXl1sRmpibUZeXWxGZGFtRl1ibS1GVTYkUSMxMEYnRjlGXl1sRmBibUZoc0ZeXWxGXl1sRl5dbEZeXWxGXl1sRmNibUZeXWxGZGhsRmZibUZlc0Zoc0ZeXWxGXl1sRl5dbEZqYm1GXl1sRmRhbUZdYm0tRlU2JFEjMTFGJ0Y5Rl5dbEZgYm1GaHNGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGY2JtRl5dbEZkaWxGZmJtRmVzRmhzRl5dbEZeXWxGXl1sRmpibUZeXWxGZGFtRl1ibS1GVTYkUSMxMkYnRjlGXl1sRmBibUZoc0ZeXWxGXl1sRl5dbEZeXWxGXl1sRmNibUZeXWxGYWpsRmZibUZlc0Zoc0ZeXWxGXl1sRl5dbEZqYm1GXl1sRmRhbUZdYm0tRlU2JFEjMTNGJ0Y5Rl5dbEZgYm1GaHMtRjY2LkZgXWwvJSdmYW1pbHlHUTBUaW1lc35OZXd+Um9tYW5GJ0Y5RjtGPkZARkJGREZGRkhGZm5GYV1sRmBkbUZgZG1GYGRtRmBkbUZeXWxGXl1sRmNibUZeXWxGYVttRmZibUZlc0Zoc0ZeXWxGXl1sRl5dbEZqYm1GXl1sRmRhbUZdYm0tRlU2JFEjMTRGJ0Y5Rl5dbEZgYm1GaHNGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGY2JtRl5dbEZhXG1GZmJtRmVzRmhzRl5dbEZeXWxGXl1sRmpibUZeXWxGZGFtRl1ibS1GVTYkUSMxNUYnRjlGXl1sRmBibUZoc0ZgZG1GYGRtRmBkbUZgZG1GYGRtRmBkbUZgZG1GXl1sRmNibUZeXWxGW11tRmZibUZlc0Zoc0ZeXWxGXl1sRl5dbEZqYm1GXl1sRmRhbUZdYm0tRlU2JFEjMTZGJ0Y5Rl5dbEZgYm1GaHNGXl1sRl5dbEZeXWxGXl1sRl5dbEZjYm1GXl1sRmVdbUZmYm1GZXNGaHNGXl1sRl5dbEZeXWxGamJtRl5dbEZkYW1GXWJtLUZVNiRRIzE3RidGOUZeXWxGYGJtRmhzRmBkbUZgZG1GYGRtRmBkbUZgZG1GYGRtRmBkbUZgZG1GXl1sRmNibUZeXWxGXF5tRmZibUZlc0Zoc0ZeXWxGXl1sRl5dbEZqYm1GXl1sRmRhbUZdYm1GZXVGXl1sRmBibUZoc0ZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGY2JtRl5dbEZmXm1GZmJtRmVzRmhzRl5dbEZeXWxGXl1sLUY2Ni9RJWVsc2VGJ0ZnYG1GaWBtRlthbUY7Rj5GQEZCRkRGRkZIRmZuRmFdbEZoc0ZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZjYm1GXl1sRl5bbUZlc0Zoc0ZeXWxGXl1sRl5dbC1GNjYvUSNmaUYnRmdgbUZpYG1GW2FtRjtGPkZARkJGREZGRkhGZm5GYV1sRmVzRmhzRl5dbC1GNjYvUSRlbmRGJ0ZnYG1GaWBtRlthbUY7Rj5GQEZCRkRGRkZIRmZuRmFdbEZlc0Zoc0ZdY21GaHNGXl1sLUYsNiZRJFZuZEYnRmJkbUYvRjItRjY2LkY4RmJkbUY5RjtGPkZARkJGREZGRkhGSkZNLUY2NjBGZmBtRmJkbUZnYG1GaWBtRlthbUY7Rj5GQEZCRkRGRkZIRmZuRmFdbC1GUDYlLUYjNiYtRiw2JlEibkYnRmJkbUYvRjItRjY2LkZaRmJkbUY5RjtGZW5GQEZCRkRGRkZIRmZuRmhuLUYsNiZGY2FtRmJkbUYvRjJGOUZiZG1GOUZnYW1GaHNGYGRtRmBkbUZgZG1GYGRtRl5dbEZeXWwtRiw2JVEiVkYnRi9GMkY1Rl5bbUZlc0Zoc0ZeXWxGXl1sRl5dbEZeXWxGXl1sLUY2Ni9RJGZvckYnRmdgbUZpYG1GW2FtRjtGPkZARkJGREZGRkhGZm5GYV1sRl5dbC1GLDYlUSJpRidGL0YyRl5dbC1GNjYvUSVmcm9tRidGZ2BtRmlgbUZbYW1GO0Y+RkBGQkZERkZGSEZmbkZhXWxGXl1sRl5bbUZeXWwtRjY2L1EjdG9GJ0ZnYG1GaWBtRlthbUY7Rj5GQEZCRkRGRkZIRmZuRmFdbEZeXWxGYWFtRl5dbC1GNjYvUSNkb0YnRmdgbUZpYG1GW2FtRjtGPkZARkJGREZGRkhGZm5GYV1sRmhzRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXGdtRjVGXGdtLUY2Ni1RIitGJ0Y5RjtGPkZARkJGREZGRkgvRktRLDAuMjIyMjIyMmVtRicvRk5GYmhtLUYsNiVRKW51bWJjb21iRidGL0YyLUZQNiQtRiM2Ji1GLDYlRmdmbUYvRjJGWEZiZ21GOUY5RmVzRmhzRl5dbEZeXWxGXl1sRl5dbEZnZW1GXl1sRltobUZlc0Zoc0ZeXWxGXl1sRl5dbEZeXWxGY2JtRl5dbC1GLDYlUSZldmFsZkYnRi9GMi1GUDYkLUYjNiUtSSVtc3ViR0YkNiUtRiw2JVEkbG9nRidGY2BtRjktRiM2JEZnX2xGOS8lL3N1YnNjcmlwdHNoaWZ0R0ZgW20tRlA2JC1GIzYkRlxnbUY5RjlGOUY5RmVzRmhzRmBkbS1GNjYwRmllbUZiZG1GZ2BtRmlgbUZbYW1GO0Y+RkBGQkZERkZGSEZmbkZhXWwtRjY2LkZnc0ZiZG1GOUY7Rj5GQEZCRkRGRkZIRkpGTUZgZG1GaHNGXl1sRmhzRl1jbUZoc0ZeXWwtRiw2JVEuUHJlQ29tcGxleGl0eUYnRi9GMkY1RmRgbS1GUDYkLUYjNihGW2ltRlhGYWFtRlgtRiw2JVEibEYnRi9GMkY5RjlGZ2FtRmhzRl5dbEZeXWxGXl1sRl5dbC1GLDYlUSRyZXNGJ0YvRjJGNUZeW21GZXNGaHNGXl1sRl5dbEZeXWxGXl1sRl9nbUZeXWwtRiw2JVEia0YnRi9GMkZeXWxGZWdtRl5dbEZoYmxGXl1sRmhnbUZeXWxGYWFtRl5dbEZbaG1GaHNGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRmBbbkY1RmBbbkZeaG1GZGhtLUZQNiQtRiM2JkZbaW1GWEZjW25GOUY5RmVzRmhzRl5dbEZeXWxGXl1sRl5dbEZnZW1GXl1sRltobUZlc0Zoc0ZeXWxGXl1sRl5dbEZeXWxGY2JtRl5dbEZdaW0tRlA2JC1GIzYlRmRpbS1GUDYkLUYjNiZGYFtuLUY2Ni1RJyZzZG90O0YnRjlGO0Y+RkBGQkZERkZGSEZmbkZhXWxGXVtuRjlGOUY5RjlGZXNGaHNGXl1sRmdlbUZlc0Zoc0ZdY21GaHNGaHNGXl1sLUYsNiVRKU1PZmZsaW5lRidGL0YyRjVGZGBtLUZQNiQtRiM2JkZbaW1GWEZhYW1GOUY5RmdhbUZoc0ZeXWxGXl1sRl5dbEZeXWxGXl1sRmBbbkY1Rl5bbUZlc0Zoc0ZeXWxGXl1sRl5dbEZeXWxGX2dtRl5dbEZjW25GXl1sRmVnbUZeXWxGaGJsRl5dbEZoZ21GXl1sRmFhbUZeXWxGW2htRmhzRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZgW25GNUZgW25GXmhtRmRobUZmW25GZXNGaHNGXl1sRl5dbEZeXWxGXl1sRmdlbUZeXWxGW2htRmVzRmhzRl5dbEZeXWxGXl1sRl5dbEZjYm1GXl1sRl1pbS1GUDYkLUYjNiVGZGltLUZQNiQtRiM2KEZgW25GYlxuRltxRmJcbkZhYW1GOUY5RjlGOUZlc0Zoc0ZeXWxGZ2VtRmVzRmhzRl1jbUZoc0ZeXWwtRiw2JVEvRGF0YUNvbXBsZXhpdHlGJ0YvRjJGNUZkYG0tRlA2JC1GIzYqRltpbUZYRmFhbUZYRl1bbkZYRmRhbUY5RjlGZ2FtRmhzRl5dbEZeXWxGXl1sRl5dbEZeXWxGXGdtRjVGXlttRmVzRmhzRl5dbEZeXWxGXl1sRl5dbEZeXWxGX2dtRl5dbEZiZ21GXl1sRmVnbUZeXWxGXlttRl5dbEZoZ21GXl1sRmFhbUZeXWxGW2htRmhzRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXGdtRjVGXGdtRl5obUZkaG1GZ2htRmVzRmhzRl5dbEZeXWxGXl1sRl5dbEZnZW1GXl1sRltobUZlc0Zoc0ZeXWxGXl1sRl5dbEZeXWxGY2JtRl5dbEZdaW0tRlA2JC1GIzYlRmRpbS1GUDYkLUYjNiYtRlA2JC1GIzYoLUkmbWZyYWNHRiQ2KC1JJW1zdXBHRiQ2JUZnX2wtRiM2JC1GaF5uNihGW2ltRmppbS8lLmxpbmV0aGlja25lc3NHRmpibC8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZlX24vJSliZXZlbGxlZEdGPUY5LyUxc3VwZXJzY3JpcHRzaGlmdEdGYFttLUYjNiUtRiw2JVElc3FydEYnRmNgbUY5Rl5qbUY5RmFfbkZjX25GZl9uRmhfbkZeaG1GXVtuLUY2Ni1RKCZtaW51cztGJ0Y5RjtGPkZARkJGREZGRkhGYWhtRmNobUZoYmxGOUY5RmJcbi1GW19uNiVGZ19sLUYjNiVGZGFtRi9GMkZqX25GOUY5RjlGOUZlc0Zoc0ZeXWxGZ2VtRmVzRmhzRl5dbEZoc0ZeXWxGal9tLUYsNiVRR35tfmlzfmN1cnJlbnRseX5jaG9zZW5+ZGF0YX5jb21wbGV4aXR5RidGL0YyRmhzRl5dbC1GLDYlUS1UdGFibGVMb29rdXBGJ0YvRjJGNUZkYG0tRlA2JC1GIzYmLUYsNiVRIm1GJ0YvRjJGWC1GLDYlUSJ0RidGL0YyRjlGOUZeXWxGaHNGXl1sRl5dbEZeXWxGXl1sRmNibUZeXWxGXWltLUZQNiQtRiM2JUZkaW0tRlA2JC1GIzYmLUZbX242JUZiYW4tRiM2J0ZnX2xGLy8lK2V4ZWN1dGFibGVHRj0vJTBmb250X3N0eWxlX25hbWVHUSgyRH5NYXRoRidGMkZqX25GYlxuRmVhbkY5RjlGOUY5RmVzRmhzRl5dbEZnZW1GZXNGaHNGXl1sRmhzRl5dbC1GLDYlUStzdWNjZXNzUHJvRidGL0YyRjVGZGBtLUZQNiQtRiM2LEZbaW1GWEZhYW1GWEZiYW5GWEZlYW5GWC1GLDYlUSR2YWxGJ0YvRjJGOUY5RmdhbUZoc0ZeXWxGXl1sRl5dbEZeXWxGXl1sRlxnbUY1Rl5bbUZlc0Zoc0ZeXWxGXl1sRl5dbEZeXWxGXl1sRl9nbUZeXWxGYmdtRl5dbEZlZ21GXl1sRl5bbUZeXWxGaGdtRl5dbEZhYW1GXl1sRltobUZoc0ZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRlxnbUY1RlxnbUZeaG1GZGhtRmdobUZlc0Zoc0ZeXWxGXl1sRl5dbEZeXWxGZ2VtRl5dbEZbaG1GZXNGaHNGXl1sRl5dbEZeXWxGXl1sRl5dbC1GLDYlUSJBRidGL0YyRjVGZ15uRmVzRmhzRl5dbEZeXWxGXl1sRl5dbEZeXWxGamFtRl5dbEZdaW0tRlA2JC1GIzYmLUY2Ni1RKiZ1bWludXMwO0YnRjlGO0Y+RkBGQkZERkZGSEZhaG1GY2htLUZoXm42KC1GIzYmRmVhbkZiXG4tRltfbjYlRmJhbkZqaW1Gal9uRjktRiM2JkZnX2xGYlxuLUZbX242JUZjY25GamltRmpfbkY5RmFfbkZjX25GZl9uRmhfbkZnYW1GOUY5LUY2Ni1RJiZsZXE7RidGOUY7Rj5GQEZCRkRGRkZIRkpGTS1GLDYlRmJjbkZjYG1GOUZeXWxGYGJtRmhzRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRmNibUZeXWxGaGJsRmVzRmhzRl5dbEZeXWxGXl1sRl5dbEZeXWxGYWVtRmhzRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRmNibUZeXWxGXlttRmVzRmhzRl5dbEZeXWxGXl1sRl5dbEZeXWxGZGVtRmVzRmhzRl5dbEZnZW1GZXNGaHNGXl1sRmhzRl1jbUZoc0ZeXWwtRiw2JVElVHZlckYnRi9GMkY1RmRgbS1GUDYkLUYjNiotRiw2JUZkYW5GY2BtRjlGWC1GLDYlUSJnRidGY2BtRjlGWC1GLDYlUSNUa0YnRmNgbUY5RlgtRiw2JUZnYW5GY2BtRjlGOUY5RmdhbUZoc0ZeXWxGXl1sRl5dbEZgW25GNUZbYW5GXmFuRmVzRmhzRl5dbEZeXWxGXl1sRmNibUZeXWxGXWltLUZQNiQtRiM2JUZkaW0tRlA2JC1GIzYoLUZbX242JUZnX2wtRiM2JEZgW25GOUZqX25GYlxuLUZbX242JUZnX2wtRiM2JUZqY24tRiw2JUZnZW5GL0YyRjlGal9uRmJcbi1GLDYlRmplbkYvRjJGOUY5RjlGOUZlc0Zoc0ZeXWxGZ2VtRmVzRmhzRl1jbUZoc0ZeXWwtRiw2JVErcGFyYVNlYXJjaEYnRi9GMkY1RmRgbS1GUDYkLUYjNjBGW2ltRlgtRiw2JVElZE1heEYnRi9GMkZYLUYsNiVRKHNwU3RhcnRGJ0YvRjJGWC1GLDYlUSZzcEVuZEYnRi9GMkZYRl1bbkZYRl9nbkZYLUYsNiVRK0VzdFN1Y2NQcm9GJ0YvRjJGOUY5RmdhbUZoc0ZeXWxGXl1sRl9nbUZeXWxGZGFtRl5dbEZlZ21GXl1sRltobkZeXWxGaGdtRl5dbEZeaG5GXl1sRltobUZoc0ZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbC1GLDYlUSZuU3RhckYnRi9GMkY1RltpbUZhYG5GZGFtRmVzRl5dbEZoc0ZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZfZ21GXl1sRmFhbUZeXWxGZWdtRl5dbEZoYmxGXl1sRmhnbUZeXWwtRiw2JUZqZ25GY2BtRjlGXl1sRltobUZoc0ZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZqX20tRiw2JVEofnByaW50ZkYnRi9GMi1GUDYkLUYjNidGZ2FtLUkjbXNHRiQ2I1FGLS0tLS0tLS0tLS0tLS0tLWQ6JWQtLS0tLS0tLS0tLS0tLS1cbkYnRlhGYWFtRjlGOUZlc0Zoc0ZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGZWVuRjVGYGBtRl1hbUZlc0Zoc0ZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWwtRiw2JVEiUEYnRi9GMkY1RmZqbS1GUDYkLUYjNihGZGhuRlhGYWFtRlhGXVtuRjlGOUZlc0Zoc0ZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWwtRiw2JVEiTUYnRi9GMkY1RmVcbi1GUDYkLUYjNiZGZGhuRlhGYWFtRjlGOUZlc0Zoc0ZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWwtRiw2JVEiREYnRmNgbUY5RjVGZF1uLUZQNiQtRiM2LEZkaG5GWEZhYW1GWEZdW25GWEZkYW1GZGJuRmZibkY5RjlGZXNGaHNGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRmphbUZeXWxGZGluRmdkbi1GVTYkUSM4M0YnRjlGXl1sLUY2Ni9RJGFuZEYnRmdgbUZpYG1GW2FtRjtGPkZARkJGREZGRkhGZm5GYV1sRl5dbEZbam5GZ2RuRmlqbkZeXWxGXFtvRl5dbEZiam5GZ2RuLUZVNiRRIzgwRidGOUZeXWxGYGJtRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGaHNGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWwtRiw2JVEobUlkeE1heEYnRi9GMkY1Rl1pbS1GUDYkLUYjNiVGZGltLUZQNiQtRiM2JC1GaF5uNihGal5uLUYjNiVGXmBuLUZQNiQtRiM2JS1GW19uNiVGZ19sLUYjNiUtRiw2JUZcZm1GL0YyRmhcbkY5RmpfbkZnYW1GOUY5RjlGYV9uRmNfbkZmX25GaF9uRjlGOUY5RjlGZXNGXl1sRl5dbEZeXWxGal9tLUYsNiVRK35zaXplfm9mfkFGJ0YvRjJGaHNGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWwtRiw2JVEobUlkeE1pbkYnRi9GMkY1RmRjbUZlc0Zoc0ZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbC1GLDYlUSh0SWR4TWF4RidGL0YyRjVGX1tvRmVzRmhzRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sLUYsNiVRKHRJZHhNaW5GJ0YvRjJGNUZoYmxGZXNGaHNGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGX2dtRl5dbC1GLDYlUSVtSWR4RidGL0YyRl5dbEZlZ21GXl1sRl5db0ZeXWxGaGdtRl5dbEZiW29GXl1sRltobUZoc0ZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGX2dtRl5dbC1GLDYlUSV0SWR4RidGL0YyRl5dbEZlZ21GXl1sRmRdb0ZeXWxGaGdtRl5dbEZhXW9GXl1sRltobUZoc0ZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRmBjbkY1Rl1pbS1GUDYkLUYjNiUtRmVpbTYlRmdpbS1GIzYkLUZVNiRRJTIuNzJGJ0Y5RjlGXGptLUZQNiQtRiM2JkZoYmxGYWBuRmFobkY5RjlGOUY5RmVzRmhzRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGamFtRl5dbEZpYm4tRlA2JC1GIzYuRmRobkZYRmFhbUZYLUZbX242JUZnX2wtRiM2J0ZnXW9GL0ZkYm5GZmJuRjJGal9uRlgtRltfbjYlRmdfbC1GIzYnRmpdb0YvRmRibkZmYm5GMkZqX25GWEZgY25GYmRtRmRibkY5RjlGXWJtRmhibEZeXWxGYGJtRmhzRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbC1GLDYlUSNUMUYnRi9GMkY1Rlthbi1GUDYkLUYjNihGYF9vRlhGZF9vRmJkbUZkYm5GOUY5RmVzRmhzRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZqYW1GXl1sRmhfb0ZnZG5GX1tvRl5dbEZgYm1GaHNGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sLUYsNiVRI1QyRidGL0YyRjVGXGVuLUZQNiQtRiM2LC1GW19uNiVGZ19sLUYjNiZGZ11vRmRibkZmYm5GOUZqX25GWEZlZW5GWEZoZW5GWC1GW19uNiVGZ19sLUYjNiZGal1vRmRibkZmYm5GOUZqX25GYmRtRmRibkY5RjlGZXNGaHNGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRmphbUZeXWxGX2BvRmdkbi1GVTYkUSM4MUYnRjlGXl1sRlxbb0ZeXWxGXWduLUY2Ni1RLyZHcmVhdGVyRXF1YWw7RidGOUY7Rj5GQEZCRkRGRkZIRkpGTUZhaGxGXl1sRmBibUZoc0ZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbC1GLDYlUSdwcmludGZGJ0YvRjItRlA2JC1GIzYmRmdhbS1GYWluNiNRQSoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKlxuRidGZ2FtRjlGOUZlc0Zoc0ZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZkYW8tRlA2JC1GIzYrRmdhbS1GYWluNiNRMChtLHQpPSglZCwlZClcbkYnRlhGZ11vRlhGal1vRmRibkZmYm5GOUY5RmVzRmhzRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRmRhby1GUDYkLUYjNilGZ2FtLUZhaW42I1ExKHNwLGQpPSglZCwlZClcbkYnRlhGZGFtRlhGYWFtRjlGOUZlc0Zoc0ZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZkYW8tRlA2JC1GIzYnRmdhbS1GYWluNiNRNFByZWNvbXB1dGF0aW9uOiVhXG5GJ0ZYRmRpbkY5RjlGZXNGaHNGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGZGFvLUZQNiQtRiM2J0ZnYW0tRmFpbjYjUSxNZW1vcnk6JWFcbkYnRlhGW2puRjlGOUZlc0Zoc0ZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZkYW8tRlA2JC1GIzYnRmdhbS1GYWluNiNRKkRhdGE6JWFcbkYnRlhGYmpuRjlGOUZlc0Zoc0ZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZkYW8tRlA2JC1GIzYnRmdhbS1GYWluNiNRM1RfdGFibGVMb29rdXA6JWFcbkYnRlgtRiw2JUZqX29GY2BtRjlGOUY5RmVzRmhzRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRmRhby1GUDYkLUYjNidGZ2FtLUZhaW42I1ErVF92ZXI6JWFcbkYnRlgtRiw2JUZhYG9GY2BtRjlGOUY5RmVzRmhzRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRmRhby1GUDYkLUYjNidGZ2FtLUZhaW42I1E8QXZlcmFnZX5maXhlZH5udW1iZXJ+ZzolZlxuRidGWEZdZ25GOUY5RmVzRmhzRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRmRhb0ZnYW9GZXNGaHNGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRmRlbUZlc0Zoc0ZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGZGVtRmVzRmhzRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGZGVtRmVzRmhzRmhzRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZnZW1GXl1sRltobUZlc0Zoc0ZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZnZW1GXl1sRltobUZlc0Zoc0ZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRl5dbEZeXWxGZGVtRmVzRmhzRl5dbEZeXWxGXl1sRl5dbEZeXWxGXl1sRmdlbUZeXWxGW2htRmVzRmhzRl5dbEZeXWxGZ2VtRl5dbEZbaG1GZXNGaHNGXl1sRmdlbUZlc0ZiZG1GZGJuRjk=">Q1Y+SSNMM0c2Ijc7JCIkUSUhIiIkIiQjR0YpJCIkTiNGKSQiJCwjRikkIiR0IkYpJCIkYiJGKSQiJFEiRikkIiRDIkYpJCIkOSJGKSQiJDAiRikkIiMqKkYpJCIjKSlGKUY+IiIpJCIjdUYpJCIjcEYpJCIjbkYpJCIkQichIiMkIiNmRikkIiNiRikkIiNeRikkIiNcRikkIiNaRikkIiNYRikkIiNURilGKT5JI0w0R0YlNzskIiQvJUYpJCIkayNGKSQiJDkjRikiIz0kIiRgIkYpJCIkTSJGKSQiJEAiRikkIiQzIkYpJCIkLCJGKSQiIyQqRikkIiMkKUYpJCIjd0YpJCIjdEYpRkUkIiNpRikkIiNkRikkIiNhRilGTiQiI1lGKUZkcCQiI1VGKSQiI1JGKUZocCQiI05GKSQiI0tGKUYpPkkjTDVHRiU3OyIjUSQiJFUjRikkIiQmPkYpJCIkaiJGKSQiJFQiRilGNiQiJC8iRikkIiMlKkYpRmhvJCIjeEYpIiIoJCIjbUYpJCIjY0YpJCIjYEYpJCIjX0YpJCIjV0YpRlRGaHAkIiNQRikkIiNNRikkIiNKRilGX3MkIiNHRikkIiNFRikkIiNDRilGKT5JI0w2R0YlNzskIiRaJEYpJCIkQyNGKSQiJHIiRikkIiRVIkYpJCIkPCJGKSQiJC0iRilGPiQiI3lGKUZDRkpGYnAkIiNbRilGZnBGaHBGanBGanBGX3MkIiNGRilGY3NGZXMkIiNARikiIiMkRltvRilGX3UkIiM7RilGKT5JI0w3R0YlNzskIiRlJEYpJCIkLyNGKSQiJFYiRikkIiQ6IkYpRmZvJCIjekYpRmFyRkoiIiYkIiNWRilGW3NGXXNGXHEkIiNERilGZXNGXHVGX3VGYHUkIiM6RikkIiM5RikkIiM3RikiIiJGanYkIiIqRikkRkBGKUYpPkkjTDhHRiU3OyQiJFgkRikkIiRwIkYpJCIkTCJGKSQiIyYqRilGQSIiJ0ZOIiIlRl1zJCIjSEYpRmJ2JCIjQkYpRl91RmR2JCIjOEYpJCIjNkYpRmp2JEZgckYpRmN4JEZfdkYpRmR4JEZqd0YpJCIiJEYpRmZ4RmZ4Rik+SSNMOUdGJTc7JCIkTiRGKSQiJFkiRikkIiQ0IkYpRlxwJCIjaEYpRmRwRmp3Rmd4Rl14JCIjQUYpRl91RmZ2Rmp2Rmp2RmN4RmN4JEZpd0YpRmR4RmR4RmV4RmZ4JEZedUYpRmZ5JEZqdkYpRmd5Rik+SSRMMTBHRiU3OyQiJCwkRilGXm8kIiMlKUYpRl5wRl92JEZhcUYpRlt4Rl14Rl51RmR2Rl94RmF4Rl13Rl13RmV5RmV5RmV4RmZ4RmZ4RmZ4RmZ5RmZ5RmZ5Rmd5Rmd5Rik+SSRMMTFHRiU3OyQiJG8iRilGW3YkIiNzRilGYnBGW3NGYXNGXXhGX3VGZHZGaHZGW3dGY3hGY3hGZXlGZXhGZXhGZXhGZnlGZ3lGZnlGZ3lGZ3lGZ3lGZ3lGZ3lGKT5JJEwxMkdGJTc7JCIkVyNGKUZkdEZheSQiI09GKUZneEZcdUZfdUZmdkZheEZbd0ZleUZleUZleEZleEZmeEZmeEZmeEZmeUZneUZneUZneUZneUZneSIiIUZeW2xGKT5JJEwxM0dGJTc7JCIkZiNGKSQiIyIpRilGaXJGXHFGXnUkIiM8RilGYXhGanZGW3dGY3hGZHhGZXlGZXhGZnhGZnlGZnlGZnlGZ3lGZ3lGZ3lGZ3lGZ3lGXltsRl5bbEZeW2xGKT5JJEwxNEdGJTc7JCIkaCNGKUZDRlxbbEZjeUZgdUZodkZbd0ZjeEZleUZkeEZkeEZmeEZmeEZmeEZmeUZmeUZneUZneUZneUZeW2xGZ3lGZ3lGXltsRl5bbEZeW2xGKT5JJEwxNUdGJTc7JCIkKT5GKUZodEZqdEZgdUZqdkZbd0ZleUZleEZmeEZmeEZneUZmeUZmeUZneUZmeUZneUZneUZneUZeW2xGXltsRl5bbEZeW2xGXltsRl5bbEZeW2xGKT5JJEwxNkdGJTc7RjJGX3pGZHZGW3dGZXlGZXhGZnhGZnlGZ3lGZ3lGZ3lGZ3lGZ3lGXltsRl5bbEZeW2xGXltsRl5bbEZeW2xGXltsRl5bbEZeW2xGXltsRl5bbEZeW2xGKT5JJEwxN0dGJTc7JCIkaCJGKUZbeEZdd0ZleEZmeUZneUZneUZeW2xGXltsRl5bbEZeW2xGXltsRl5bbEZeW2xGXltsRl5bbEZeW2xGXltsRl5bbEZeW2xGXltsRl5bbEZeW2xGXltsRl5bbEYpPkkkTDE4R0YlNzskIiQzI0YpRl51RmN4RmZ5Rmd5Rl5bbEZeW2xGXltsRl5bbEZeW2xGXltsRl5bbEZeW2xGXltsRl5bbEZeW2xGXltsRl5bbEZeW2xGXltsRl5bbEZeW2xGXltsRl5bbEZeW2xGKS1JJXdpdGhHRiU2I0kpY29tYmluYXRHNiQlKnByb3RlY3RlZEdJKF9zeXNsaWJHRiVGKT5JKWdldEZpeGVkR0YlZio2JEkiZEdGJUkjc3BHRiVGJUYlRiVAQy85JUZneE8mRiQ2IzkkL0ZeXmxGandPJkZZRmFebC9GXl5sRl92TyZGX3FGYV5sL0ZeXmxGaXdPJkZoc0ZhXmwvRl5ebEZgck8mRmN1RmFebC9GXl5sRkBPJkZfd0ZhXmwvRl5ebEZcd08mRml4RmFebC9GXl5sIiM1TyZGaXlGYV5sL0ZeXmxGYnhPJkZhekZhXmwvRl5ebEZpdk8mRmh6RmFebC9GXl5sRmB4TyZGYFtsRmFebC9GXl5sRmd2TyZGaVtsRmFebC9GXl5sRmV2TyZGXlxsRmFebC9GXl5sRmF1TyZGY1xsRmFebC9GXl5sRmdbbE8mRmZcbEZhXmwvRl5ebEZbb08mRltdbEZhXmxPRl5bbEYlRiVGJUYpPkkkVm5kR0YlZio2JEkibkdGJUZqXWxGJUYlRiVDJT5JIlZHRiVGXltsPyhJImlHRiVGXltsRmp2Rl5ebEkldHJ1ZUdGZF1sPkZpYWwsJkZpYWxGanYtSSludW1iY29tYkdGJTYkRmJebEZbYmxGanZPLUkmZXZhbGZHRmRdbDYjLSZJJGxvZ0dGY11sNiNGXnU2I0ZpYWxGJUYlRiVGKT5JLlByZUNvbXBsZXhpdHlHRiVmKjYlRmZhbEZqXWxJImxHRiVGJUYlRiVDJT5JJHJlc0dGJUZeW2w/KEkia0dGJUZqdkZqdkZeXmxGXGJsPkZiY2wsJkZiY2xGanYtRmBibDYkRmJebEZkY2xGanZPLUZkYmw2Iy1GZ2JsNiMqJkZiY2xGanY5JkZqdkYlRiVGJUYpPkkpTU9mZmxpbmVHRiVmKkZlYWxGJUYlRiVDJUZhY2xGY2NsTy1GZGJsNiMtRmdibDYjLCQqJkZiY2xGanZGXl5sRmp2RkBGJUYlRiVGKT5JL0RhdGFDb21wbGV4aXR5R0YlZio2JkZmYWxGal1sRl9jbEZbXmxGJUYlRiVDJUZoYWxGamFsTy1GZGJsNiMtRmdibDYjKiYsKComKUZedSwkRmJebCNGanZGXnVGanYtSSVzcXJ0R0YlRmpibEYpRmp2Rl9kbEZqdkYpRmp2Rmp2KUZedTknRmp2RiVGJUYlRik+SS1UdGFibGVMb29rdXBHRiVmKjYkSSJtR0YlSSJ0R0YlRiVGJUYlTy1GZGJsNiMtRmdibDYjKiZGYl5sRl51Rl5ebEZqdkYlRiVGJUYpPkkrc3VjY2Vzc1Byb0dGJWYqNidGZmFsRmpdbEZjZmxGZGZsSSR2YWxHRiVGJUYlRiVDJkZoYWxGamFsPkkiQUdGJUZnZWxAJTEtRmRibDYjLCQqKEZeZmxGanZGX2RsRl51RmJnbEZJI0YpRl51OShPRmp2RmFhbEYlRiVGJUYpPkklVHZlckdGJWYqNiZGY2ZsSSJnR0YlSSNUa0dGJUZkZmxGJUYlRiVDJD5GYmNsLUZgZmw2JEZiXmxGXmZsTy1GZGJsNiMtRmdibDYjKigpRl51RmJjbEZqdilGXnUsJEZeXmxGKUZqdkZfZGxGanZGJUYlRiVGKT5JK3BhcmFTZWFyY2hHRiVmKjYpRmZhbEklZE1heEdGJUkoc3BTdGFydEdGJUkmc3BFbmRHRiVGX2NsRmFobEkrRXN0U3VjY1Byb0dGJUYlRiVGJT8oRltebEZfZGxGanZGXmZsRlxibEMkPkkmblN0YXJHRiUsJkZiXmxGanZGW15sRik/KEZqXWxGanZGanZGXl5sRlxibEMnPkZgaGwtRmddbEZpXWw+SSJQR0YlLUZcY2w2JUZqaWxGal1sRmpnbD5JIk1HRiUtRmFkbDYkRmppbEZqXWw+SSJER0YlLUZcZWw2JkZqaWxGal1sRmpnbEZbXmxAJDMzMUZhamxGaW8xRmVqbEZpbzFGaWpsIiMhKUMnPkkobUlkeE1heEdGJS1GZGJsNiMtRmdibDYjKiZGaGVsRmp2LUZcZmw2IylGXnUtRmNhbDYkRmJebEZqXWxGKT5JKG1JZHhNaW5HRiVGZl9sPkkodElkeE1heEdGJUZiW20+SSh0SWR4TWluR0YlRmp2PyhJJW1JZHhHRiVGYVxtRmp2RmVbbUZcYmw/KEkldElkeEdGJUZlXG1GanZGY1xtRlxibEMkPkZfZ2wtRmRibDYjLSZGaGJsNiMkIiRzI0ZJNiMsJkZqdkZqdjkqRilAJC8tRlxnbDYnRmppbEZqXWwpRl51RmdcbSlGXnVGaVxtRl9nbEZqdkMkPkkjVDFHRiUtRmBmbDYkRmpdbUZbXm1AJDFGXl5tRmJbbUMkPkkjVDJHRiUtRl1obDYmRmpdbUZgaGw5KUZbXm1AJDMxRmVebUZlW2wxRmd5RmBobEMsLUkncHJpbnRmR0YlNiNRQSoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKlxuRiUtRl9fbTYlUTAobSx0KT0oJWQsJWQpXG5GJUZnXG1GaVxtLUZfX202JVExKHNwLGQpPSglZCwlZClcbkYlRltebEZqXWwtRl9fbTYkUTRQcmVjb21wdXRhdGlvbjolYVxuRiVGYWpsLUZfX202JFEsTWVtb3J5OiVhXG5GJUZlamwtRl9fbTYkUSpEYXRhOiVhXG5GJUZpamwtRl9fbTYkUTNUX3RhYmxlTG9va3VwOiVhXG5GJUZeXm0tRl9fbTYkUStUX3ZlcjolYVxuRiVGZV5tLUZfX202JFE8QXZlcmFnZX5maXhlZH5udW1iZXJ+ZzolZlxuRiVGYGhsRl5fbUYlRiVGJUYp</Equation></Text-field>
+</Input>
+<Output>
+<Text-field superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" alignment="centred" firstindent="0" spacebelow="0" leftmargin="0" linespacing="0.0" initial="0" linebreak="space" rightmargin="0" bulletsuffix="" spaceabove="0" bullet="none" pagebreak-before="false"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVE1b3V0cHV0fnJlZGlyZWN0ZWQuLi5GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=">LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVE1b3V0cHV0fnJlZGlyZWN0ZWQuLi5GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=</Equation></Text-field>
+</Output>
+</Group>
+<Group view="presentation" hide-input="true" hide-output="false" inline-output="false" labelreference="L3" drawlabel="true" redirect-source="L1">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">%;</Text-field>
+</Input>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60V%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60Vnd%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `V` is implicitly declared local to procedure `Vnd`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60i%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60Vnd%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `i` is implicitly declared local to procedure `Vnd`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60res%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60PreComplexity%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `res` is implicitly declared local to procedure `PreComplexity`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60k%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60PreComplexity%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `k` is implicitly declared local to procedure `PreComplexity`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60res%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60MOffline%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `res` is implicitly declared local to procedure `MOffline`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60k%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60MOffline%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `k` is implicitly declared local to procedure `MOffline`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60V%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60DataComplexity%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `V` is implicitly declared local to procedure `DataComplexity`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60i%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60DataComplexity%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `i` is implicitly declared local to procedure `DataComplexity`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60V%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60successPro%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `V` is implicitly declared local to procedure `successPro`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60i%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60successPro%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `i` is implicitly declared local to procedure `successPro`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60A%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60successPro%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `A` is implicitly declared local to procedure `successPro`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60res%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60Tver%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `res` is implicitly declared local to procedure `Tver`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60sp%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `sp` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60nStar%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `nStar` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60d%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `d` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60g%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `g` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60P%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `P` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60M%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `M` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60D%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `D` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60mIdxMax%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `mIdxMax` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60mIdxMin%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `mIdxMin` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60tIdxMax%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `tIdxMax` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60tIdxMin%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `tIdxMin` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60mIdx%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `mIdx` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60tIdx%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `tIdx` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60val%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `val` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60T1%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `T1` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60T2%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60paraSearch%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `T2` is implicitly declared local to procedure `paraSearch`</Font></Hyperlink></Text-field>
+</Output>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L2" drawlabel="true" redirect-target="L5">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="paraSearch(160, 25, 3, 18, 64, 2^14, 0.5e-1):" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYrLUkjbWlHRiQ2JVErcGFyYVNlYXJjaEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JKG1mZW5jZWRHRiQ2JC1GIzYzLUkjbW5HRiQ2JFEkMTYwRicvRjNRJ25vcm1hbEYnLUkjbW9HRiQ2LVEiLEYnRj4vJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGRi8lKnN5bW1ldHJpY0dGRi8lKGxhcmdlb3BHRkYvJS5tb3ZhYmxlbGltaXRzR0ZGLyUnYWNjZW50R0ZGLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRjs2JFEjMjVGJ0Y+RkAtRjs2JFEiM0YnRj5GQC1GOzYkUSMxOEYnRj5GQC1GOzYkUSM2NEYnRj5GQC1JKG1zdWJzdXBHRiQ2KC1GOzYkUSIyRidGPi1GIzYnLUYsNiNRIUYnRi8vJStleGVjdXRhYmxlR0ZGLyUwZm9udF9zdHlsZV9uYW1lR1EoMkR+TWF0aEYnRjItRiM2Jy1GOzYkUSMxNEYnRj5GL0Zqb0ZccEYyLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJy8lL3N1YnNjcmlwdHNoaWZ0R0ZmcC9JK21zZW1hbnRpY3NHRiRRLFtub25lLG5vbmVdRidGQC1GOzYkUSUwLjA1RidGPi8lJ2ZhbWlseUdRMFRpbWVzfk5ld35Sb21hbkYnRmpvRlxwRj5GPi1GQTYtUSI6RidGPkZEL0ZIRkZGSUZLRk1GT0ZRL0ZUUSwwLjI3Nzc3NzhlbUYnL0ZXRmdxLUknbXNwYWNlR0YkNiYvJSdoZWlnaHRHUSYwLjBleEYnLyUmd2lkdGhHRlUvJSZkZXB0aEdGXnIvJSpsaW5lYnJlYWtHUSVhdXRvRidGZ29GX3FGam9GXHBGPg==">QyQtSStwYXJhU2VhcmNoRzYiNikiJGciIiNEIiIkIiM9IiNrLUkiXkclKnByb3RlY3RlZEc2JCIiIyIjOSQiIiYhIiMhIiI=</Equation></Text-field>
+</Input>
+<Output>
+<Text-field superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" alignment="centred" firstindent="0" spacebelow="0" leftmargin="0" linespacing="0.0" initial="0" linebreak="space" rightmargin="0" bulletsuffix="" spaceabove="0" bullet="none" pagebreak-before="false"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVE1b3V0cHV0fnJlZGlyZWN0ZWQuLi5GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=">LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVE1b3V0cHV0fnJlZGlyZWN0ZWQuLi5GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=</Equation></Text-field>
+</Output>
+</Group>
+<Group view="presentation" hide-input="true" hide-output="false" inline-output="false" labelreference="L5" drawlabel="true" redirect-source="L2">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">%;</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">******************************</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">(m,t)=(10,47)
+(sp,d)=(15,18)
+Precomputation:81.35959287
+Memory:82.52951787
+Data:49.82020357
+T_tableLookup:67.
+T_ver:80.90000000
+Average fixed number g:0.100000
+******************************
+******************************
+(m,t)=(11,45)
+(sp,d)=(15,18)
+Precomputation:81.35959287
+Memory:82.52951787
+Data:49.82020357
+T_tableLookup:67.
+T_ver:80.90000000
+Average fixed number g:0.100000
+******************************
+******************************
+(m,t)=(12,43)
+(sp,d)=(15,18)
+Precomputation:81.35959287
+Memory:82.52951787
+Data:49.82020357
+T_tableLookup:67.
+T_ver:80.90000000
+Average fixed number g:0.100000
+******************************
+******************************
+(m,t)=(13,41)
+(sp,d)=(15,18)
+Precomputation:81.35959287
+Memory:82.52951787
+Data:49.82020357
+T_tableLookup:67.
+T_ver:80.90000000
+Average fixed number g:0.100000
+******************************
+******************************
+(m,t)=(14,39)
+(sp,d)=(15,18)
+Precomputation:81.35959287
+Memory:82.52951787
+Data:49.82020357
+T_tableLookup:67.
+T_ver:80.90000000
+Average fixed number g:0.100000
+******************************
+******************************
+(m,t)=(15,37)
+(sp,d)=(15,18)
+Precomputation:81.35959287
+Memory:82.52951787
+Data:49.82020357
+T_tableLookup:67.
+T_ver:80.90000000
+Average fixed number g:0.100000
+******************************
+******************************
+(m,t)=(16,35)
+(sp,d)=(15,18)
+Precomputation:81.35959287
+Memory:82.52951787
+Data:49.82020357
+T_tableLookup:67.
+T_ver:80.90000000
+Average fixed number g:0.100000
+******************************
+******************************
+(m,t)=(17,33)
+(sp,d)=(15,18)
+Precomputation:81.35959287
+Memory:82.52951787
+Data:49.82020357
+T_tableLookup:67.
+T_ver:80.90000000
+Average fixed number g:0.100000
+******************************
+******************************
+(m,t)=(18,31)
+(sp,d)=(15,18)
+Precomputation:81.35959287
+Memory:82.52951787
+Data:49.82020357
+T_tableLookup:67.
+T_ver:80.90000000
+Average fixed number g:0.100000
+******************************
+******************************
+(m,t)=(19,29)
+(sp,d)=(15,18)
+Precomputation:81.35959287
+Memory:82.52951787
+Data:49.82020357
+T_tableLookup:67.
+T_ver:80.90000000
+Average fixed number g:0.100000
+******************************
+******************************
+(m,t)=(20,27)
+(sp,d)=(15,18)
+Precomputation:81.35959287
+Memory:82.52951787
+Data:49.82020357
+T_tableLookup:67.
+T_ver:80.90000000
+Average fixed number g:0.100000
+******************************
+******************************
+(m,t)=(21,25)
+(sp,d)=(15,18)
+Precomputation:81.35959287
+Memory:82.52951787
+Data:49.82020357
+T_tableLookup:67.
+T_ver:80.90000000
+Average fixed number g:0.100000
+******************************
+******************************
+(m,t)=(22,23)
+(sp,d)=(15,18)
+Precomputation:81.35959287
+Memory:82.52951787
+Data:49.82020357
+T_tableLookup:67.
+T_ver:80.90000000
+Average fixed number g:0.100000
+******************************
+******************************
+(m,t)=(23,21)
+(sp,d)=(15,18)
+Precomputation:81.35959287
+Memory:82.52951787
+Data:49.82020357
+T_tableLookup:67.
+T_ver:80.90000000
+Average fixed number g:0.100000
+******************************
+******************************
+(m,t)=(24,19)
+(sp,d)=(15,18)
+Precomputation:81.35959287
+Memory:82.52951787
+Data:49.82020357
+T_tableLookup:67.
+T_ver:80.90000000
+Average fixed number g:0.100000
+******************************
+******************************
+(m,t)=(25,17)
+(sp,d)=(15,18)
+Precomputation:81.35959287
+Memory:82.52951787
+Data:49.82020357
+T_tableLookup:67.
+T_ver:80.90000000
+Average fixed number g:0.100000
+******************************</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">******************************
+(m,t)=(26,15)
+(sp,d)=(15,18)
+Precomputation:81.35959287
+Memory:82.52951787
+Data:49.82020357
+T_tableLookup:67.
+T_ver:80.90000000
+Average fixed number g:0.100000
+******************************
+******************************
+(m,t)=(27,13)
+(sp,d)=(15,18)
+Precomputation:81.35959287
+Memory:82.52951787
+Data:49.82020357
+T_tableLookup:67.
+T_ver:80.90000000
+Average fixed number g:0.100000
+******************************
+******************************
+(m,t)=(28,11)
+(sp,d)=(15,18)
+Precomputation:81.35959287
+Memory:82.52951787
+Data:49.82020357
+T_tableLookup:67.
+T_ver:80.90000000
+Average fixed number g:0.100000
+******************************
+******************************
+(m,t)=(29,9)
+(sp,d)=(15,18)
+Precomputation:81.35959287
+Memory:82.52951787
+Data:49.82020357
+T_tableLookup:67.
+T_ver:80.90000000
+Average fixed number g:0.100000
+******************************
+******************************
+(m,t)=(30,7)
+(sp,d)=(15,18)
+Precomputation:81.35959287
+Memory:82.52951787
+Data:49.82020357
+T_tableLookup:67.
+T_ver:80.90000000
+Average fixed number g:0.100000
+******************************
+******************************
+(m,t)=(31,5)
+(sp,d)=(15,18)
+Precomputation:81.35959287
+Memory:82.52951787
+Data:49.82020357
+T_tableLookup:67.
+T_ver:80.90000000
+Average fixed number g:0.100000
+******************************
+******************************
+(m,t)=(32,3)
+(sp,d)=(15,18)
+Precomputation:81.35959287
+Memory:82.52951787
+Data:49.82020357
+T_tableLookup:67.
+T_ver:80.90000000
+Average fixed number g:0.100000
+******************************
+******************************
+(m,t)=(33,1)
+(sp,d)=(15,18)
+Precomputation:81.35959287
+Memory:82.52951787
+Data:49.82020357
+T_tableLookup:67.
+T_ver:80.90000000
+Average fixed number g:0.100000
+******************************</Text-field>
+</Output>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L4" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJSdmYW1pbHlHUTBUaW1lc35OZXd+Um9tYW5GJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group></Presentation-Block>
+</Worksheet>

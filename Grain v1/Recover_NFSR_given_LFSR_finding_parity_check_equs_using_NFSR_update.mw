@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="16" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="true"></View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" contextmenusize="automatic" plotdriver="opengl" elisiondigitsafter="100" plotoutput="terminal" helpbrowser="standard" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" errorcursor="false" longdelim="true" plotoptions="" quiet="false" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="-1" screenpixelheight="1024" warnlevel="3" screenheight="25" latexwidth="6.0" postplot="" prompt="&gt; " ShowLabels="true"/>
+<Styles><Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="SimSun" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="SimSun" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Serif" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="SimSun" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Serif" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Serif" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="SimSun" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Task-table>
+    <Task-category name="&lt;default&gt;">
+    </Task-category>
+</Task-table>
+<Task>
+</Task><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L1" drawlabel="true" redirect-target="L3">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="SetNFSR1 := {n65, n69, n70, n71, n72, n74, n75, n80, n81, n83, n84, n86, n87, n88, n89, n90, n92, n96, n98, n99, n101, n106, n115, n116, n117, n118, n120, n121, n122, n124, n126, n127, n128, n129, n130, n132, n133, n135, n141, n144, n145, n146, n147, n148, n149, n151, n152, n153, n154, n160, n161}:" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzZbXm4tSSNtb0dGJDYtUSJ+RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkMtRiw2LVEiI0YnRi9GMkY1RjdGOUY7Rj1GP0ZBRkQtSSNtaUdGJDYlUWhufmFsbH50aGV+dmFyaWFibGVzfnRoYXR+d2V+aGF2ZX5rbm93bn5hZnRlcn5hbGx+dGhlfjR+c2xpZGluZ0YnLyUnaXRhbGljR1EldHJ1ZUYnL0YwUSdpdGFsaWNGJy1JJ21zcGFjZUdGJDYmLyUnaGVpZ2h0R1EmMC4wZXhGJy8lJndpZHRoR0ZDLyUmZGVwdGhHRlcvJSpsaW5lYnJlYWtHUShuZXdsaW5lRidGKy1GSjYlUSlTZXRORlNSMUYnRk1GUC1GLDYtUSomY29sb25lcTtGJ0YvRjJGNUY3RjlGO0Y9Rj8vRkJRLDAuMjc3Nzc3OGVtRicvRkVGYG8tSShtZmVuY2VkR0YkNiYtRiM2YnEtRko2JVEkbjY1RidGTUZQLUYsNi1RIixGJ0YvRjIvRjZGT0Y3RjlGO0Y9Rj9GQS9GRVEsMC4zMzMzMzMzZW1GJy1GSjYlUSRuNjlGJ0ZNRlBGam8tRko2JVEkbjcwRidGTUZQRmpvLUZKNiVRJG43MUYnRk1GUEZqby1GSjYlUSRuNzJGJ0ZNRlBGam8tRko2JVEkbjc0RidGTUZQRmpvLUZKNiVRJG43NUYnRk1GUEZqby1GSjYlUSRuODBGJ0ZNRlBGam8tRko2JVEkbjgxRidGTUZQRmpvLUZKNiVRJG44M0YnRk1GUEZqby1GSjYlUSRuODRGJ0ZNRlBGam8tRko2JVEkbjg2RidGTUZQRmpvLUZKNiVRJG44N0YnRk1GUEZqby1GSjYlUSRuODhGJ0ZNRlBGam8tRko2JVEkbjg5RidGTUZQRmpvLUZKNiVRJG45MEYnRk1GUEZqby1GSjYlUSRuOTJGJ0ZNRlBGam8tRko2JVEkbjk2RidGTUZQRmpvLUZKNiVRJG45OEYnRk1GUEZqby1GSjYlUSRuOTlGJ0ZNRlBGam8tRko2JVElbjEwMUYnRk1GUEZqby1GSjYlUSVuMTA2RidGTUZQRmpvLUZKNiVRJW4xMTVGJ0ZNRlBGam8tRko2JVElbjExNkYnRk1GUEZqby1GSjYlUSVuMTE3RidGTUZQRmpvLUZKNiVRJW4xMThGJ0ZNRlBGam8tRko2JVElbjEyMEYnRk1GUEZqby1GSjYlUSVuMTIxRidGTUZQRmpvLUZKNiVRJW4xMjJGJ0ZNRlBGam8tRko2JVElbjEyNEYnRk1GUEZqby1GSjYlUSVuMTI2RidGTUZQRmpvLUZKNiVRJW4xMjdGJ0ZNRlBGam8tRko2JVElbjEyOEYnRk1GUEZqby1GSjYlUSVuMTI5RidGTUZQRmpvLUZKNiVRJW4xMzBGJ0ZNRlBGam8tRko2JVElbjEzMkYnRk1GUEZqby1GSjYlUSVuMTMzRidGTUZQRmpvLUZKNiVRJW4xMzVGJ0ZNRlBGam8tRko2JVElbjE0MUYnRk1GUEZqby1GSjYlUSVuMTQ0RidGTUZQRmpvLUZKNiVRJW4xNDVGJ0ZNRlBGam8tRko2JVElbjE0NkYnRk1GUEZqby1GSjYlUSVuMTQ3RidGTUZQRmpvLUZKNiVRJW4xNDhGJ0ZNRlBGam8tRko2JVElbjE0OUYnRk1GUEZqby1GSjYlUSVuMTUxRidGTUZQRmpvLUZKNiVRJW4xNTJGJ0ZNRlBGam8tRko2JVElbjE1M0YnRk1GUEZqby1GSjYlUSVuMTU0RidGTUZQRmpvLUZKNiVRJW4xNjBGJ0ZNRlBGam8tRko2JVElbjE2MUYnRk1GUEYvRi8vJSVvcGVuR1EifGZyRicvJSZjbG9zZUdRInxockYnLUYsNi1RIjpGJ0YvRjJGNUY3RjlGO0Y9Rj9GX29GYW9GUkYrLUZKNiVRKVNldE5GU1IyRidGTUZQRlxvLUZjbzYmLUYjNl5xRmdvRmpvRmBwRmpvRmNwRmpvRmZwRmpvRmlwRmpvRlxxRmpvRl9xRmpvRmJxRmpvRmVxRmpvRmhxRmpvRltyRmpvRl5yRmpvRmFyRmpvRmRyRmpvRmdyRmpvRmpyRmpvRl1zRmpvRmBzRmpvRmNzRmpvRmZzRmpvRmlzRmpvRlx0RmpvRl90RmpvRmJ0RmpvRmV0RmpvRmh0RmpvRlt1RmpvRl51RmpvRmF1RmpvRmR1RmpvRmd1RmpvRmp1RmpvRl12RmpvRmB2RmpvRmN2RmpvRmZ2RmpvRml2RmpvRlx3RmpvRl93RmpvRmJ3RmpvRmV3RmpvRmh3RmpvRlt4RmpvRl54RmpvRmF4RmpvRmR4RmpvRmd4RmpvRmp4RmpvRl15Ri9GL0ZmeUZpeUZcekZSLUZKNiVRJkRpZmZORidGTUZQRlxvLUZjbzYmLUYjNiUtRko2JVEkc2VxRidGTUZQLUZjbzYkLUYjNiotSSNtbkdGJDYkUSIwRidGL0Zqby1GSjYlUSJpRidGTUZQLUYsNi1RIj1GJ0YvRjJGNUY3RjlGO0Y9Rj9GX29GYW8tRmVbbDYkUSIxRidGLy1GLDYtUSMuLkYnRi9GMkY1RjdGOUY7Rj1GPy9GQlEsMC4yMjIyMjIyZW1GJ0ZELUZlW2w2JVEjODBGJy8lJ2ZhbWlseUdRLENvdXJpZXJ+TmV3RidGL0YvRi9GL0YvL0ZneVEiW0YnL0ZqeVEiXUYnRlx6RlJGKy1GLDYvUSRmb3JGJy8lJWJvbGRHRk8vRjBRJWJvbGRGJy8lK2ZvbnR3ZWlnaHRHRmZdbEYyRjVGN0Y5RjtGPUY/RkFGREYrRmhbbEYrLUYsNi9RJWZyb21GJ0ZjXWxGZV1sRmddbEYyRjVGN0Y5RjtGPUY/RkFGREYrRl5cbEYrLUYsNi9RI3RvRidGY11sRmVdbEZnXWxGMkY1RjdGOUY7Rj1GP0ZBRkRGKy1GZVtsNiRGaFxsRi9GKy1GLDYvUSNkb0YnRmNdbEZlXWxGZ11sRjJGNUY3RjlGO0Y9Rj9GQUZERlJGK0YrRitGK0Zmei1GY282Ji1GIzYmRmhbbC9GalxsUTBUaW1lc35OZXd+Um9tYW5GJy8lK2V4ZWN1dGFibGVHRjRGL0YvRlxdbEZeXWxGXG8tRko2JVEkY2F0RidGTUZQLUZjbzYkLUYjNiwtRiw2LVEiJ0YnRi9GMkY1RjdGOUY7Rj1GPy9GQlEsMC4xMTExMTExZW1GJ0ZELUZKNiVRIm5GJ0ZNRlBGY19sRmpvRmhbbC1GLDYtUSgmbWludXM7RidGL0YyRjVGN0Y5RjtGPUY/RmRcbC9GRUZlXGxGXlxsRmhebEZqXmxGL0YvRlx6RlJGKy1GLDYvUSRlbmRGJ0ZjXWxGZV1sRmddbEYyRjVGN0Y5RjtGPUY/RkFGREYrRmFebEZcekZSRistRko2JVEwRnJlZURpZmZTZXRORlNSRidGTUZQRlxvRistRmNvNiYtRiM2Ki1GSjYlUSRuODJGJ0ZNRlBGam9GXnJGam9GYXJGam9GZHJGL0YvRmZ5Rml5RistRiw2L1EmdW5pb25GJ0ZjXWxGZV1sRmddbEYyRjVGN0Y5RjtGPUY/RkFGREYrLUZKNiVRKGNvbnZlcnRGJ0ZNRlAtRmNvNiQtRiM2KEZmekZqby1GSjYlUSRzZXRGJ0ZNRlBGaF5sRmpebEYvRi9GK0ZcYWxGKy1GY282Ji1GIzZkdEZicUZqb0ZlcUZqb0ZocUZqb0ZbckZqby1GSjYlUSRuODVGJ0ZNRlBGam9GZ3JGam9GanJGam8tRko2JVEkbjkxRidGTUZQRmpvRl1zRmpvLUZKNiVRJG45M0YnRk1GUEZqby1GSjYlUSRuOTRGJ0ZNRlBGam8tRko2JVEkbjk1RidGTUZQRmpvRmBzRmpvLUZKNiVRJG45N0YnRk1GUEZqb0Zjc0Zqb0Zmc0Zqby1GSjYlUSVuMTAwRidGTUZQRmpvRmlzRmpvLUZKNiVRJW4xMDJGJ0ZNRlBGam8tRko2JVElbjEwM0YnRk1GUEZqby1GSjYlUSVuMTA0RidGTUZQRmpvLUZKNiVRJW4xMDVGJ0ZNRlBGam9GXHRGam8tRko2JVElbjEwN0YnRk1GUEZqby1GSjYlUSVuMTA4RidGTUZQRmpvLUZKNiVRJW4xMDlGJ0ZNRlBGam8tRko2JVElbjExMEYnRk1GUEZqby1GSjYlUSVuMTExRidGTUZQRmpvLUZKNiVRJW4xMTJGJ0ZNRlBGam8tRko2JVElbjExM0YnRk1GUEZqby1GSjYlUSVuMTE0RidGTUZQRmpvRl90RmpvRmJ0RmpvRmV0RmpvRmh0RmpvLUZKNiVRJW4xMTlGJ0ZNRlBGam9GW3VGam9GXnVGam9GYXVGam8tRko2JVElbjEyM0YnRk1GUEZqb0ZkdUZqby1GSjYlUSVuMTI1RidGTUZQRmpvRmd1RmpvRmp1RmpvRl12RmpvRmB2RmpvRmN2RmpvLUZKNiVRJW4xMzFGJ0ZNRlBGam9GZnZGam9GaXZGam8tRko2JVElbjEzNEYnRk1GUEZqb0Zcd0Zqby1GSjYlUSVuMTM2RidGTUZQRmpvLUZKNiVRJW4xMzdGJ0ZNRlBGam8tRko2JVElbjEzOEYnRk1GUEZqby1GSjYlUSVuMTM5RidGTUZQRmpvLUZKNiVRJW4xNDBGJ0ZNRlBGam9GX3dGam8tRko2JVElbjE0MkYnRk1GUEZqby1GSjYlUSVuMTQzRidGTUZQRmpvRmJ3RmpvRmV3RmpvRmh3RmpvRlt4RmpvRl54RmpvRmF4RmpvLUZKNiVRJW4xNTBGJ0ZNRlBGam9GZHhGam9GZ3hGam9GanhGam9GXXlGam8tRko2JVElbjE1NUYnRk1GUEZqby1GSjYlUSVuMTU2RidGTUZQRmpvLUZKNiVRJW4xNTdGJ0ZNRlBGam8tRko2JVElbjE2MkYnRk1GUEZqby1GSjYlUSVuMTY0RidGTUZQRi9GL0ZmeUZpeUZcekZSRitGUkYrRlJGK0ZGLUZKNiVRMH5zdGFydH5ndWVzc2luZ0YnRk1GUEZSRistRko2JVEvZ3Vlc3NTZXRORlNSMTFGJ0ZNRlBGXG8tRmNvNiYtRiM2Li1GSjYlUSRuNjRGJ0ZNRlBGam8tRko2JVEkbjc2RidGTUZQRmpvRl9jbEZqb0ZeZGxGam8tRko2JVEkbjU1RidGTUZQRmhebEZqXmxGL0YvRmZ5Rml5Rlx6RitGK0YrRkYtRko2JVFHfndoZW5+bj0xMzV+fmd1ZXNzaW5nfnRoZX5maXJzdH40fmJpdHNGJ0ZNRlBGUkYrLUZKNiVRL2d1ZXNzU2V0TkZTUjIxRidGTUZQRlxvLUZjbzYmLUYjNixGZmlsRmpvRmlpbEZqb0ZfY2xGam9GXmRsRmpvRlxqbEYvRi9GZnlGaXlGXHpGK0YrRitGRi1GSjYlUS5+cGFyaXR5fmNoZWNrRidGTUZQRlJGK0ZSRistRko2JVEvZ3Vlc3NTZXRORlNSMTJGJ0ZNRlBGXG8tRmNvNiYtRiM2Li1GSjYlUSRuNzdGJ0ZNRlBGam9GY2JsRmpvRmFkbEZqb0ZmZWxGam8tRko2JVEkbjU2RidGTUZQRmhebEZqXmxGL0YvRmZ5Rml5Rlx6RitGK0YrRkYtRko2JVFIfndoZW5+bj0xMzZ+fn5ndWVzc2luZ350aGV+Zmlyc3R+NH5iaXRzRidGTUZQRlJGKy1GSjYlUS9ndWVzc1NldE5GU1IyMkYnRk1GUEZcb0ZfW21GXHpGK0YrRitGUi1GUzYmRlVGWEZaL0ZnblElYXV0b0YnRlJGK0YrLUZKNiVRL2d1ZXNzU2V0TkZTUjEzRidGTUZQRlxvLUZjbzYmLUYjNihGW2RsRmpvRmRkbEZqb0ZiZmxGL0YvRmZ5Rml5Rlx6RitGK0YrRkYtRko2JVFJfndoZW5+bj0xNTJ+fn5+Z3Vlc3Npbmd+dGhlfmZpcnN0fjJ+Yml0c0YnRk1GUEZSRistRko2JVEvZ3Vlc3NTZXRORlNSMjNGJ0ZNRlBGXG9GZlxtRlx6RitGK0ZSRitGUkYrRitGKy1GSjYlUS9ndWVzc1NldE5GU1IxNEYnRk1GUEZcby1GY282Ji1GIzYsRmJjbEZqb0YrRmdkbEZqb0YrRlxmbEZqby1GSjYlUSRuNzlGJ0ZNRlBGL0YvRmZ5Rml5Rlx6RitGK0YrRkYtRko2JVFJfndoZW5+bj0xNDV+fn5+Z3Vlc3Npbmd+dGhlfmZpcnN0fjN+Yml0c0YnRk1GUEZSRistRko2JVEvZ3Vlc3NTZXRORlNSMjRGJ0ZNRlBGXG9GY11tRlx6RitGK0ZSRl9cbUZSRistRko2JVEvZ3Vlc3NTZXRORlNSMTVGJ0ZNRlBGXG8tRmNvNiYtRiM2JC1GSjYjUSFGJ0YvRi9GZnlGaXlGXHpGK0YrRitGK0YrRitGK0YrRitGK0YrRitGRi1GSjYlUUl+d2hlbn5uPTE0Nn5+fn5ndWVzc2luZ350aGV+Zmlyc3R+MH5iaXRzRidGTUZQRlJGKy1GSjYlUS9ndWVzc1NldE5GU1IyNUYnRk1GUEZcby1GY282Ji1GIzYkRmNzRi9GL0ZmeUZpeUZcekYrRitGUkZfXG1GUkYrRistRko2JVEvZ3Vlc3NTZXRORlNSMTZGJ0ZNRlBGXG8tRmNvNiYtRiM2LC1GSjYlUSRuNzNGJ0ZNRlBGam9GK0ZdYmxGam9GK0ZcY2xGam8tRko2JVEkbjc4RidGTUZQRi9GL0ZmeUZpeUZcekYrRitGK0YrRitGK0YrRitGK0YrRitGK0ZGLUZKNiVRSX53aGVufm49MTQ0fn5+fmd1ZXNzaW5nfnRoZX5maXJzdH4zfmJpdHNGJ0ZNRlBGUkYrLUZKNiVRL2d1ZXNzU2V0TkZTUjI2RidGTUZQRlxvRmdfbUZcekZSRl9cbUZSRistRko2JVEvZ3Vlc3NTZXRORlNSMTdGJ0ZNRlBGXG8tRmNvNiYtRiM2JkZgYmxGam9GZWNsRi9GL0ZmeUZpeUZcekYrRitGK0YrRitGK0YrRitGK0YrRitGK0ZGLUZKNiVRSn53aGVufm49MTUwfn5+fmd1ZXNzaW5nfnRoZX5maXJzdH4xfmJpdHN+RidGTUZQRlJGKy1GSjYlUS9ndWVzc1NldE5GU1IyN0YnRk1GUEZcb0ZqYG1GXHpGUkYrRlJGK0YrLUZKNiVRL2d1ZXNzU2V0TkZTUjE4RidGTUZQRlxvLUZjbzYmLUYjNictRko2JVEkbjYzRidGTUZQRmpvRitGaWVsRi9GL0ZmeUZpeUZcekYrRitGK0YrRitGK0YrRitGK0YrRitGK0ZGLUZKNiVRS353aGVufm49MTQzfn5+fmd1ZXNzaW5nfnRoZX5maXJzdH4xfmJpdHN+fkYnRk1GUEZSRistRko2JVEvZ3Vlc3NTZXRORlNSMjhGJ0ZNRlBGXG9GZ2FtRlx6RlJGX1xtRlJGK0YrRistRko2JVEvZ3Vlc3NTZXRORlNSMTlGJ0ZNRlBGXG8tRmNvNiYtRiM2Jy1GSjYlUSRuNjBGJ0ZNRlBGam9GK0ZdZWxGL0YvRmZ5Rml5Rlx6RitGK0YrRitGK0YrRitGK0YrRitGK0YrRkYtRko2JVFKfndoZW5+bj0xNDB+fn5+Z3Vlc3Npbmd+dGhlfmZpcnN0fjF+Yml0c35GJ0ZNRlBGUkYrLUZKNiVRL2d1ZXNzU2V0TkZTUjI5RidGTUZQRlxvRmdibUZcekZSRitGUkYrLUZKNiVRMGd1ZXNzU2V0TkZTUjExMEYnRk1GUEZcby1GY282Ji1GIzYnRmNlbEZqb0YrRl9mbEYvRi9GZnlGaXlGXHpGK0YrRitGK0YrRitGK0YrRitGK0YrRitGRkZeY21GUkYrLUZKNiVRMGd1ZXNzU2V0TkZTUjIxMEYnRk1GUEZcby1GY282Ji1GIzYpRmNlbEZqb0YrRl9mbEZqb0ZqckYvRi9GZnlGaXlGXHpGK0YrRitGK0YrRitGUkYrRlJGK0YrLUZKNiVRMGd1ZXNzU2V0TkZTUjExMUYnRk1GUEZcby1GY282Ji1GIzYnRmlibEZqb0YrLUZKNiVRJG42MkYnRk1GUEYvRi9GZnlGaXlGXHpGK0YrRitGK0YrRitGK0YrRitGK0YrRitGRi1GSjYlUUl+d2hlbn5uPTE0Mn5+fmd1ZXNzaW5nfnRoZX5maXJzdH4xfmJpdHN+RidGTUZQRlJGKy1GSjYlUTBndWVzc1NldE5GU1IyMTFGJ0ZNRlBGXG9GZWRtRlx6RitGK0YrRitGK0YrRlJGX1xtRlItRiw2L0YuRmhebEZqXmxGL0YyRjVGN0Y5RjtGPUY/RkFGREYrLUZKNiVRMGd1ZXNzU2V0TkZTUjExMkYnRk1GUEZcby1GY282Ji1GIzYkRmhjbEYvRi9GZnlGaXlGXHpGK0YrRitGK0YrRitGK0YrRitGK0YrRitGRi1GSjYlUUh+d2hlbn5uPTE1MX5+Z3Vlc3Npbmd+dGhlfmZpcnN0fjB+Yml0c35GJ0ZNRlBGUkYrLUZKNiVRMGd1ZXNzU2V0TkZTUjIxMkYnRk1GUEZcb0ZnZW1GXHpGK0YrRlJGK0ZSRitGYmVtRistRko2JVEwZ3Vlc3NTZXRORlNSMTEzRidGTUZQRlxvLUZjbzYmLUYjNiRGZ2dsRi9GL0ZmeUZpeUZcekYrRitGK0YrRitGK0YrRitGK0YrRitGK0ZGLUZKNiVRSH53aGVufm49MTYxfn5ndWVzc2luZ350aGV+Zmlyc3R+MH5iaXRzfkYnRk1GUEZSRistRko2JVEwZ3Vlc3NTZXRORlNSMjEzRidGTUZQRlxvRmRmbUZcekYrRitGUkZfXG1GUkYrLUZKNiVRMGd1ZXNzU2V0TkZTUjExNEYnRk1GUEZcby1GY282Ji1GIzYkRmpkbEYvRi9GZnlGaXlGXHpGK0YrRitGK0YrRitGK0YrRitGK0YrRitGRi1GSjYlUUh+d2hlbn5uPTE2M35+Z3Vlc3Npbmd+dGhlfmZpcnN0fjB+Yml0c35GJ0ZNRlBGUkYrLUZKNiVRMGd1ZXNzU2V0TkZTUjIxNEYnRk1GUEZcb0ZhZ21GXHpGK0YrRlJGK0ZSRitGKy1GSjYlUTBndWVzc1NldE5GU1IxMTVGJ0ZNRlBGXG8tRmNvNiYtRiM2JEZlZmxGL0YvRmZ5Rml5Rlx6RitGK0YrRitGK0YrRitGK0YrRitGK0YrRkYtRko2JVFIfndoZW5+bj0xNjR+fmd1ZXNzaW5nfnRoZX5maXJzdH4wfmJpdHN+RidGTUZQRlJGKy1GSjYlUTBndWVzc1NldE5GU1IyMTVGJ0ZNRlBGXG9GXmhtRlx6RitGK0ZSRitGUkYrRlJGK0YrRistRko2JVEwZ3Vlc3NTZXRORlNSMTE2RidGTUZQRlxvLUZjbzYmLUYjNiRGaGZsRi9GL0ZmeUZpeUZcekYrRitGK0YrRitGK0YrRitGK0YrRitGK0ZGLUZKNiVRSH53aGVufm49MTU0fn5ndWVzc2luZ350aGV+Zmlyc3R+MH5iaXRzfkYnRk1GUEZSRistRko2JVEwZ3Vlc3NTZXRORlNSMjE2RidGTUZQRlxvRltpbUZcekZSRitGUkYrLUZKNiVRMGd1ZXNzU2V0TkZTUjExN0YnRk1GUEZcby1GY282Ji1GIzYkRltnbEYvRi9GZnlGaXlGXHpGK0YrRitGK0YrRitGK0YrRitGK0YrRitGRi1GSjYlUUh+d2hlbn5uPTE1NX5+Z3Vlc3Npbmd+dGhlfmZpcnN0fjB+Yml0c35GJ0ZNRlBGUkYrLUZKNiVRMGd1ZXNzU2V0TkZTUjIxN0YnRk1GUEZcb0ZoaW1GXHpGUkYrRlJGK0ZSRistRko2JVEwZ3Vlc3NTZXRORlNSMTE4RidGTUZQRlxvLUZjbzYmLUYjNiRGYWdsRi9GL0ZmeUZpeUZcekYrRitGK0YrRitGK0YrRitGK0YrRitGK0ZGLUZKNiVRSH53aGVufm49MTU4fn5ndWVzc2luZ350aGV+Zmlyc3R+MH5iaXRzfkYnRk1GUEZSRistRko2JVEwZ3Vlc3NTZXRORlNSMjE4RidGTUZQRlxvRmVqbUZcekZSRitGUkYrRlJGKy1GSjYlUTBndWVzc1NldE5GU1IxMTlGJ0ZNRlBGXG8tRmNvNiYtRiM2JEZeZ2xGL0YvRmZ5Rml5Rlx6RitGK0YrRitGK0YrRitGK0YrRitGK0YrRkYtRko2JVFIfndoZW5+bj0xNTd+fmd1ZXNzaW5nfnRoZX5maXJzdH4wfmJpdHN+RidGTUZQRlJGKy1GSjYlUTBndWVzc1NldE5GU1IyMTlGJ0ZNRlBGXG9GYltuRlx6RlJGX1xtRlJGK0ZSRistRko2JVEwZ3Vlc3NTZXRORlNSMTIwRidGTUZQRlxvLUZjbzYmLUYjNiRGYGVsRi9GL0ZmeUZpeUZcekYrRitGK0YrRitGK0YrRitGK0YrRitGK0ZGLUZKNiVRSH53aGVufm49MTU2fn5ndWVzc2luZ350aGV+Zmlyc3R+MH5iaXRzfkYnRk1GUEZSRistRko2JVEwZ3Vlc3NTZXRORlNSMjIwRidGTUZQRlxvRl9cbkZcekZSRitGUkYrRitGUkYrLUZKNiVRMGd1ZXNzU2V0TkZTUjEyMUYnRk1GUEZcby1GY282Ji1GIzYmRmlgbEZqb0ZkZ2xGL0YvRmZ5Rml5Rlx6RitGK0YrRitGK0YrRitGK0YrRitGK0YrRkYtRko2JVFIfndoZW5+bj0xNjJ+fmd1ZXNzaW5nfnRoZX5maXJzdH4xfmJpdHN+RidGTUZQRlJGKy1GSjYlUTBndWVzc1NldE5GU1IyMjFGJ0ZNRlBGXG9GXF1uRlx6RlJGK0ZSRitGK0YrRlJGKy1GSjYlUTBndWVzc1NldE5GU1IxMjJGJ0ZNRlBGXG8tRmNvNiYtRiM2JEZmYmxGL0YvRmZ5Rml5Rlx6RitGK0YrRitGK0YrRitGK0YrRitGK0YrRkYtRko2JVFPfndoZW5+bj0xNjAsMTU5LDE1M35ndWVzc2luZ350aGV+Zmlyc3R+MH5iaXRzfkYnRk1GUEZSRistRko2JVEwZ3Vlc3NTZXRORlNSMjIyRidGTUZQRlxvRmldbkZcekZSRitGUkYrRistRko2JVEwZ3Vlc3NTZXRORlNSMTIzRidGTUZQRlxvLUZjbzYmLUYjNiotRko2JVEkbjYxRidGTUZQRmpvLUZKNiVRJG42NkYnRk1GUEZqby1GSjYlUSRuNjdGJ0ZNRlBGam8tRko2JVEkbjY4RidGTUZQRi9GL0ZmeUZpeUZcekYrRitGK0YrRitGK0YrRitGK0YrRitGK0ZGLUZKNiVRVX53aGVufm49MTQxLDE0NiwxNDcsMTQ4fn5+Z3Vlc3Npbmd+dGhlfmZpcnN0fjB+Yml0c35GJ0ZNRlBGUkYrLUZKNiVRMGd1ZXNzU2V0TkZTUjIyM0YnRk1GUEZcb0ZmXm5GXHpGUkYrRlJGK0YrRistRko2JVEwZ3Vlc3NTZXRORlNSMTI0RidGTUZQRlxvLUZjbzYmLUYjNiotRko2JVEkbjUxRidGTUZQRmpvLUZKNiVRJG41MkYnRk1GUEZqby1GSjYlUSRuNTNGJ0ZNRlBGam8tRko2JVEkbjU0RidGTUZQRi9GL0ZmeUZpeUZcekYrRitGK0YrRitGK0YrRitGK0YrRitGK0ZGLUZKNiVRVX53aGVufm49MTMxLDEzMiwxMzMsMTM0fn5+Z3Vlc3Npbmd+dGhlfmZpcnN0fjB+Yml0c35GJ0ZNRlBGUkYrLUZKNiVRMGd1ZXNzU2V0TkZTUjIyNEYnRk1GUEZcb0ZfYG5GXHpGUkZfXG1GUkZfXG1GUkZfXG1GUkZfXG1GUkYrRkYtRko2JVFcc35TZXRORlNSMSYjODc4ODtTZXRORlNSMX51bmlvbn5ndWVzc1NldE5GU1IxMX51bmlvbn5ndWVzc1NldE5GU1IxMn51bmlvbn5ndWVzc1NldE5GU1IxM351bmlvbn5ndWVzc1NldE5GU1IxNH51bmlvbn5ndWVzc1NldE5GU1IxNUYnRk1GUEZSRitGRi1GSjYlUVtjbH5+fn5+fn5+fn5+fn51bmlvbn5ndWVzc1NldE5GU1IxNn5+dW5pb25+Z3Vlc3NTZXRORlNSMTd+dW5pb25+Z3Vlc3NTZXRORlNSMTh+dW5pb25+Z3Vlc3NTZXRORlNSMTl+dW5pb25+Z3Vlc3NTZXRORlNSMTEwfn51bmlvbn5ndWVzc1NldE5GU1IxMTF+dW5pb25+Z3Vlc3NTZXRORlNSMTEyfnVuaW9ufmd1ZXNzU2V0TkZTUjExM351bmlvbn5ndWVzc1NldE5GU1IxMTR+dW5pb25+Z3Vlc3NTZXRORlNSMTE1fnVuaW9ufmd1ZXNzU2V0TkZTUjExNn51bmlvbn5ndWVzc1NldE5GU1IxMTd+dW5pb25+Z3Vlc3NTZXRORlNSMTE4fnVuaW9ufmd1ZXNzU2V0TkZTUjExOX51bmlvbn5ndWVzc1NldE5GU1IxMjB+dW5pb25+Z3Vlc3NTZXRORlNSMTIxfnVuaW9ufmd1ZXNzU2V0TkZTUjEyMkYnRk1GUEZSRitGK0YrRkYtRko2JVFPfnVuaW9ufmd1ZXNzU2V0TkZTUjEyM35+dW5pb25+Z3Vlc3NTZXRORlNSMTI0OkYnRk1GUEZSRl9cbUZSRitGK0ZGLUZKNiVRW3NTZXRORlNSMiYjODc4ODtTZXRORlNSMn51bmlvbn5ndWVzc1NldE5GU1IyMX51bmlvbn5ndWVzc1NldE5GU1IyMn51bmlvbn5ndWVzc1NldE5GU1IyM351bmlvbn5ndWVzc1NldE5GU1IyNH51bmlvbn5ndWVzc1NldE5GU1IyNUYnRk1GUEZSRitGK0ZGLUZKNiVRZ2Vsfn5+fn5+fn5+fn5+fnVuaW9ufmd1ZXNzU2V0TkZTUjI2fn51bmlvbn5ndWVzc1NldE5GU1IyN351bmlvbn5ndWVzc1NldE5GU1IyOH51bmlvbn5ndWVzc1NldE5GU1IyOX51bmlvbn5ndWVzc1NldE5GU1IyMTB+dW5pb25+Z3Vlc3NTZXRORlNSMjExfnVuaW9ufmd1ZXNzU2V0TkZTUjIxMn51bmlvbn5ndWVzc1NldE5GU1IyMTN+dW5pb25+Z3Vlc3NTZXRORlNSMjE0fnVuaW9ufmd1ZXNzU2V0TkZTUjIxNX51bmlvbn5ndWVzc1NldE5GU1IyMTZ+dW5pb25+Z3Vlc3NTZXRORlNSMjE3fnVuaW9ufmd1ZXNzU2V0TkZTUjIxOH51bmlvbn5ndWVzc1NldE5GU1IyMTl+dW5pb25+Z3Vlc3NTZXRORlNSMjIwfnVuaW9ufmd1ZXNzU2V0TkZTUjIyMX51bmlvbn5ndWVzc1NldE5GU1IyMjJ+dW5pb25+Z3Vlc3NTZXRORlNSMjIzfnVuaW9ufmd1ZXNzU2V0TkZTUjIyNDpGJ0ZNRlBGUkZnXm1GaF5sRmpebEYv">Q2ZxPkkpU2V0TkZTUjFHNiI8VUkkbjY1R0YlSSRuNjlHRiVJJG43MEdGJUkkbjcxR0YlSSRuNzJHRiVJJG43NEdGJUkkbjc1R0YlSSRuODBHRiVJJG44MUdGJUkkbjgzR0YlSSRuODRHRiVJJG44NkdGJUkkbjg3R0YlSSRuODhHRiVJJG44OUdGJUkkbjkwR0YlSSRuOTJHRiVJJG45NkdGJUkkbjk4R0YlSSRuOTlHRiVJJW4xMDFHRiVJJW4xMDZHRiVJJW4xMTVHRiVJJW4xMTZHRiVJJW4xMTdHRiVJJW4xMThHRiVJJW4xMjBHRiVJJW4xMjFHRiVJJW4xMjJHRiVJJW4xMjRHRiVJJW4xMjZHRiVJJW4xMjdHRiVJJW4xMjhHRiVJJW4xMjlHRiVJJW4xMzBHRiVJJW4xMzJHRiVJJW4xMzNHRiVJJW4xMzVHRiVJJW4xNDFHRiVJJW4xNDRHRiVJJW4xNDVHRiVJJW4xNDZHRiVJJW4xNDdHRiVJJW4xNDhHRiVJJW4xNDlHRiVJJW4xNTFHRiVJJW4xNTJHRiVJJW4xNTNHRiVJJW4xNTRHRiVJJW4xNjBHRiVJJW4xNjFHRiUhIiI+SSlTZXRORlNSMkdGJTxTRidGKEYpRipGK0YsRi1GLkYvRjBGMUYyRjNGNEY1RjZGN0Y4RjlGOkY7RjxGPUY+Rj9GQEZBRkJGQ0ZERkVGRkZHRkhGSUZKRktGTEZNRk5GT0ZQRlFGUkZTRlRGVUZWRldGWj5JJkRpZmZOR0YlNyMtSSRzZXFHJSpwcm90ZWN0ZWRHNiQiIiEvSSJpR0YlOyIiIiIjISlGWj8oRmFvRmNvRmNvRmRvSSV0cnVlR0Zdbz4mRmluNiNGYW8tSSRjYXRHRl1vNiQuSSJuR0YlLCZGYW9GY29GWkZjb0ZaPkkwRnJlZURpZmZTZXRORlNSR0YlLUkmdW5pb25HRl1vNiQtRmNwNiQ8JkkkbjgyR0YlRjJGM0Y0LUkoY29udmVydEdGXW82JEZpbkkkc2V0R0Zdbzxob0YuRi9GMEYxSSRuODVHRiVGNUY2SSRuOTFHRiVGN0kkbjkzR0YlSSRuOTRHRiVJJG45NUdGJUY4SSRuOTdHRiVGOUY6SSVuMTAwR0YlRjtJJW4xMDJHRiVJJW4xMDNHRiVJJW4xMDRHRiVJJW4xMDVHRiVGPEklbjEwN0dGJUklbjEwOEdGJUklbjEwOUdGJUklbjExMEdGJUklbjExMUdGJUklbjExMkdGJUklbjExM0dGJUklbjExNEdGJUY9Rj5GP0ZASSVuMTE5R0YlRkFGQkZDSSVuMTIzR0YlRkRJJW4xMjVHRiVGRUZGRkdGSEZJSSVuMTMxR0YlRkpGS0klbjEzNEdGJUZMSSVuMTM2R0YlSSVuMTM3R0YlSSVuMTM4R0YlSSVuMTM5R0YlSSVuMTQwR0YlRk1JJW4xNDJHRiVJJW4xNDNHRiVGTkZPRlBGUUZSRlNJJW4xNTBHRiVGVEZVRlZGV0klbjE1NUdGJUklbjE1NkdGJUklbjE1N0dGJUklbjE2MkdGJUklbjE2NEdGJUZaPkkvZ3Vlc3NTZXRORlNSMTFHRiU8J0kkbjU1R0YlSSRuNjRHRiVJJG43NkdGJUZkcUZpcUZaPkkvZ3Vlc3NTZXRORlNSMjFHRiVGZXNGWj5JL2d1ZXNzU2V0TkZTUjEyR0YlPCdJJG41NkdGJUkkbjc3R0YlRmBxRmpxRmFyRlo+SS9ndWVzc1NldE5GU1IyMkdGJUZddEZaPkkvZ3Vlc3NTZXRORlNSMTNHRiU8JUZocUZbckZlckZaPkkvZ3Vlc3NTZXRORlNSMjNHRiVGZHRGWj5JL2d1ZXNzU2V0TkZTUjE0R0YlPCZJJG43OUdGJUZlcUZcckZjckZaPkkvZ3Vlc3NTZXRORlNSMjRHRiVGaXRGWj5JL2d1ZXNzU2V0TkZTUjE1R0YlPCJGWj5JL2d1ZXNzU2V0TkZTUjI1R0YlPCNGOUZaPkkvZ3Vlc3NTZXRORlNSMTZHRiU8JkkkbjczR0YlSSRuNzhHRiVGXnFGY3FGWj5JL2d1ZXNzU2V0TkZTUjI2R0YlRmV1Rlo+SS9ndWVzc1NldE5GU1IxN0dGJTwkRl9xRmZxRlo+SS9ndWVzc1NldE5GU1IyN0dGJUZcdkZaPkkvZ3Vlc3NTZXRORlNSMThHRiU8JEkkbjYzR0YlRmJyRlo+SS9ndWVzc1NldE5GU1IyOEdGJUZhdkZaPkkvZ3Vlc3NTZXRORlNSMTlHRiU8JEkkbjYwR0YlRl5yRlo+SS9ndWVzc1NldE5GU1IyOUdGJUZndkZaPkkwZ3Vlc3NTZXRORlNSMTEwR0YlPCRGYHJGZHJGWj5JMGd1ZXNzU2V0TkZTUjIxMEdGJTwlRjZGYHJGZHJGWj5JMGd1ZXNzU2V0TkZTUjExMUdGJTwkSSRuNjJHRiVGYnFGWj5JMGd1ZXNzU2V0TkZTUjIxMUdGJUZjd0ZaPkkwZ3Vlc3NTZXRORlNSMTEyR0YlPCNGZ3FGWj5JMGd1ZXNzU2V0TkZTUjIxMkdGJUZpd0ZaPkkwZ3Vlc3NTZXRORlNSMTEzR0YlPCNGXHNGWj5JMGd1ZXNzU2V0TkZTUjIxM0dGJUZeeEZaPkkwZ3Vlc3NTZXRORlNSMTE0R0YlPCNGXXJGWj5JMGd1ZXNzU2V0TkZTUjIxNEdGJUZjeEZaPkkwZ3Vlc3NTZXRORlNSMTE1R0YlPCNGZnJGWj5JMGd1ZXNzU2V0TkZTUjIxNUdGJUZoeEZaPkkwZ3Vlc3NTZXRORlNSMTE2R0YlPCNGZ3JGWj5JMGd1ZXNzU2V0TkZTUjIxNkdGJUZdeUZaPkkwZ3Vlc3NTZXRORlNSMTE3R0YlPCNGaHJGWj5JMGd1ZXNzU2V0TkZTUjIxN0dGJUZieUZaPkkwZ3Vlc3NTZXRORlNSMTE4R0YlPCNGanJGWj5JMGd1ZXNzU2V0TkZTUjIxOEdGJUZneUZaPkkwZ3Vlc3NTZXRORlNSMTE5R0YlPCNGaXJGWj5JMGd1ZXNzU2V0TkZTUjIxOUdGJUZcekZaPkkwZ3Vlc3NTZXRORlNSMTIwR0YlPCNGX3JGWj5JMGd1ZXNzU2V0TkZTUjIyMEdGJUZhekZaPkkwZ3Vlc3NTZXRORlNSMTIxR0YlPCRGaHBGW3NGWj5JMGd1ZXNzU2V0TkZTUjIyMUdGJUZmekZaPkkwZ3Vlc3NTZXRORlNSMTIyR0YlPCNGYXFGWj5JMGd1ZXNzU2V0TkZTUjIyMkdGJUZbW2xGWj5JMGd1ZXNzU2V0TkZTUjEyM0dGJTwmSSRuNjFHRiVJJG42NkdGJUkkbjY3R0YlSSRuNjhHRiVGWj5JMGd1ZXNzU2V0TkZTUjIyM0dGJUZgW2xGWj5JMGd1ZXNzU2V0TkZTUjEyNEdGJTwmSSRuNTFHRiVJJG41MkdGJUkkbjUzR0YlSSRuNTRHRiVGWj5JMGd1ZXNzU2V0TkZTUjIyNEdGJUZpW2xGWg==</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="true" hide-output="false" inline-output="false" labelreference="L3" drawlabel="true" redirect-source="L1">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">print(<Label label="L1" view="label" executable="true"></Label>); # input placeholder</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L2" drawlabel="true" redirect-target="L5">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="getInputSetofGfunc := proc (d) i := d-80; return {cat('n', i), cat('n', i+9), cat('n', i+15), cat('n', i+21), cat('n', i+28), cat('n', i+33), cat('n', i+37), cat('n', i+45), cat('n', i+52), cat('n', i+60), cat('n', i+63)} end proc:" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzZqby1JI21vR0YkNi1RIiNGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjQvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGQy1JI21pR0YkNiVRX3F+bn4oPj1+ODApaXN+dGhlfmN1cnJlbnR+b3V0cHV0fm9mfmcoeCksdGhpc35mdW5jdGlvbn53aWxsfnJldHVybn50aGV+aW5kZXh+c2V0fm9mfnRoZX5yZWxhdGVkfmlucHV0RicvJSdpdGFsaWNHUSV0cnVlRicvRjBRJ2l0YWxpY0YnLUknbXNwYWNlR0YkNiYvJSdoZWlnaHRHUSYwLjBleEYnLyUmd2lkdGhHRkMvJSZkZXB0aEdGVC8lKmxpbmVicmVha0dRKG5ld2xpbmVGJy1GUDYmRlJGVUZXL0ZaUSVhdXRvRictRkc2JVEzZ2V0SW5wdXRTZXRvZkdmdW5jRidGSkZNLUYsNi1RKiZjb2xvbmVxO0YnRi9GMkY1RjdGOUY7Rj1GPy9GQlEsMC4yNzc3Nzc4ZW1GJy9GRUZhby1GLDYvUSVwcm9jRicvJSVib2xkR0ZML0YwUSVib2xkRicvJStmb250d2VpZ2h0R0Zpb0YyRjVGN0Y5RjtGPUY/RkFGRC1JKG1mZW5jZWRHRiQ2JC1GIzYmLUZHNiVRImRGJ0ZKRk0vJSdmYW1pbHlHUTBUaW1lc35OZXd+Um9tYW5GJy8lK2V4ZWN1dGFibGVHRjRGL0YvLUZHNiNRIUYnRk8tRiw2LVEifkYnRi9GMkY1RjdGOUY7Rj1GP0ZBRkRGXHFGXHFGXHEtRkc2JVEiaUYnRkpGTUZdb0ZhcC1GLDYtUSgmbWludXM7RidGL0YyRjVGN0Y5RjtGPUY/L0ZCUSwwLjIyMjIyMjJlbUYnL0ZFRmZxLUkjbW5HRiQ2JFEjODBGJ0YvRlxxLUYsNi1RIjpGJ0YvRjJGNUY3RjlGO0Y9Rj9GYG9GYm9GT0ZccUZccUZccUZccS1GLDYvUSdyZXR1cm5GJ0Zmb0Zob0Zqb0YyRjVGN0Y5RjtGPUY/RkFGREZccS1GXXA2Ji1GIzZGLUZHNiVRJGNhdEYnRkpGTS1GXXA2JC1GIzYqLUYsNi1RIidGJ0YvRjJGNUY3RjlGO0Y9Rj8vRkJRLDAuMTExMTExMWVtRidGRC1GRzYlUSJuRidGSkZNRl1zLUYsNi1RIixGJ0YvRjIvRjZGTEY3RjlGO0Y9Rj9GQS9GRVEsMC4zMzMzMzMzZW1GJ0ZfcUZkcEZncEYvRi9GZXNGZnItRl1wNiQtRiM2KkZdc0Zic0Zdc0Zlc0ZfcS1GLDYtUSIrRidGL0YyRjVGN0Y5RjtGPUY/RmVxRmdxLUZpcTYkUSI5RidGL0YvRi9GZXNGZnItRl1wNiQtRiM2KkZdc0Zic0Zdc0Zlc0ZfcUZfdC1GaXE2JFEjMTVGJ0YvRi9GL0Zlc0ZccUZmci1GXXA2JC1GIzYqRl1zRmJzRl1zRmVzRl9xRl90LUZpcTYkUSMyMUYnRi9GL0YvRmVzRmZyLUZdcDYkLUYjNipGXXNGYnNGXXNGZXNGX3FGX3QtRmlxNiRRIzI4RidGL0YvRi9GZXNGZnItRl1wNiQtRiM2KkZdc0Zic0Zdc0Zlc0ZfcUZfdC1GaXE2JFEjMzNGJ0YvRi9GL0Zlc0Zmci1GXXA2JC1GIzYqRl1zRmJzRl1zRmVzRl9xRl90LUZpcTYkUSMzN0YnRi9GL0YvRmVzRmZyLUZdcDYkLUYjNipGXXNGYnNGXXNGZXNGX3FGX3QtRmlxNiRRIzQ1RidGL0YvRi9GZXNGZnItRl1wNiQtRiM2KkZdc0Zic0Zdc0Zlc0ZfcUZfdC1GaXE2JFEjNTJGJ0YvRi9GL0Zlc0Zmci1GXXA2JC1GIzYqRl1zRmJzRl1zRmVzRl9xRl90LUZpcTYkUSM2MEYnRi9GL0YvRmVzLUYjNiVGZnItRl1wNiQtRiM2KkZdc0Zic0Zdc0Zlc0ZfcUZfdC1GaXE2JFEjNjNGJ0YvRi9GL0YvRmlwRmRwRmdwRi9GLy8lJW9wZW5HUSJ8ZnJGJy8lJmNsb3NlR1EifGhyRidGXHJGT0ZccS1GLDYvUSRlbmRGJ0Zmb0Zob0Zqb0YyRjVGN0Y5RjtGPUY/RkFGREZcckZPRlxxRk9GKy1GRzYlUVtzfm5+KD49ODApfmlzfnRoZX5jdXJyZW50fm91dHB1dH5vZn5nKHgpLHRoaXN+ZnVuY3Rpb25+d2lsbH5yZXR1cm5+dGhlfmluZGV4fnNldH5vZn50aGV+cmVsYXRlZH5pbnB1dH5saW5lYXJseX5leGlzdHN+aW5+dGhlfmcoeClGJ0ZKRk1GT0ZccS1GRzYlUTZnZXRMaW5JbnB1dFNldG9mR2Z1bmNGJ0ZKRk1GXW9GY29GXHBGaXBGT0ZccUZccUZccUZccUZfcUZdb0ZhcEZicUZocUZcckZPRlxxRlxxRlxxRlxxRl9yRlxxLUZdcDYmLUYjNipGZnItRl1wNiQtRiM2KkZdc0Zic0Zdc0Zlc0ZfcUZfdC1GaXE2JFEjMTRGJ0YvRi9GL0Zlcy1GIzYlRmZyLUZdcDYkLUYjNipGXXNGYnNGXXNGZXNGX3FGX3QtRmlxNiRRIzYyRidGL0YvRi9GL0ZpcEZkcEZncEYvRi9GZnhGaXhGXHJGT0ZccUZccUZccUZPRlxxRlx5RlxyRlxxRmRwRmdwRi8=">QyY+STNnZXRJbnB1dFNldG9mR2Z1bmNHNiJmKjYjSSJkR0YlRiVGJUYlQyQ+SSJpR0YlLCY5JCIiIiEjISlGLk88LS1JJGNhdEclKnByb3RlY3RlZEc2JC5JIm5HRiVGKy1GMzYkRjYsJkYrRi4iIipGLi1GMzYkRjYsJkYrRi4iIzpGLi1GMzYkRjYsJkYrRi4iI0BGLi1GMzYkRjYsJkYrRi4iI0dGLi1GMzYkRjYsJkYrRi4iI0xGLi1GMzYkRjYsJkYrRi4iI1BGLi1GMzYkRjYsJkYrRi4iI1hGLi1GMzYkRjYsJkYrRi4iI19GLi1GMzYkRjYsJkYrRi4iI2dGLi1GMzYkRjYsJkYrRi4iI2pGLkYlRiVGJSEiIj5JNmdldExpbklucHV0U2V0b2ZHZnVuY0dGJWYqRidGJUYlRiVDJEYqTzwkLUYzNiRGNiwmRitGLiIjOUYuLUYzNiRGNiwmRitGLiIjaUYuRiVGJUYlRmpu</Equation></Text-field>
+</Input>
+<Output>
+<Text-field superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" alignment="centred" firstindent="0" spacebelow="0" leftmargin="0" linespacing="0.0" initial="0" linebreak="space" rightmargin="0" bulletsuffix="" spaceabove="0" bullet="none" pagebreak-before="false"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVE1b3V0cHV0fnJlZGlyZWN0ZWQuLi5GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=">LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVE1b3V0cHV0fnJlZGlyZWN0ZWQuLi5GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=</Equation></Text-field>
+</Output>
+</Group>
+<Group view="presentation" hide-input="true" hide-output="false" inline-output="false" labelreference="L5" drawlabel="true" redirect-source="L2">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">%;</Text-field>
+</Input>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60i%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60getInputSetofGfunc%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `i` is implicitly declared local to procedure `getInputSetofGfunc`</Font></Hyperlink></Text-field>
+</Output>
+<Output>
+<Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60i%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60getLinInputSetofGfunc%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `i` is implicitly declared local to procedure `getLinInputSetofGfunc`</Font></Hyperlink></Text-field>
+</Output>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L4" drawlabel="true" redirect-target="L7">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="countParity := 0:" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzZhYGwtSSNtaUdGJDYmUSxjb3VudFBhcml0eUYnLyUnZmFtaWx5R1EsQ291cmllcn5OZXdGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYuUSomY29sb25lcTtGJ0YvL0Y2USdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGQC8lKXN0cmV0Y2h5R0ZALyUqc3ltbWV0cmljR0ZALyUobGFyZ2VvcEdGQC8lLm1vdmFibGVsaW1pdHNHRkAvJSdhY2NlbnRHRkAvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZPLUkjbW5HRiQ2JVEiMEYnRi9GPC1GOTYuUSI6RidGL0Y8Rj5GQUZDRkVGR0ZJRktGTUZQLUknbXNwYWNlR0YkNiYvJSdoZWlnaHRHUSYwLjBleEYnLyUmd2lkdGhHUSYwLjBlbUYnLyUmZGVwdGhHRmhuLyUqbGluZWJyZWFrR1EobmV3bGluZUYnLUY5Ni1RIn5GJ0Y8Rj5GQUZDRkVGR0ZJRksvRk5GW28vRlFGW28tRjk2L1EkZm9yRicvJSVib2xkR0Y0L0Y2USVib2xkRicvJStmb250d2VpZ2h0R0ZccEY+RkFGQ0ZFRkdGSUZLRmRvRmVvRmFvLUYsNiVRIm5GJ0YyRjVGYW8tRjk2L1ElZnJvbUYnRmlvRltwRl1wRj5GQUZDRkVGR0ZJRktGZG9GZW9GYW8tRlM2JFEkMTEwRidGPEZhby1GOTYvUSN0b0YnRmlvRltwRl1wRj5GQUZDRkVGR0ZJRktGZG9GZW9GYW8tRlM2JFEkMTY0RidGPEZhby1GOTYvUSNkb0YnRmlvRltwRl1wRj5GQUZDRkVGR0ZJRktGZG9GZW9GWUZhb0Zhb0Zhb0Zhby1GLDYlUSdwcmludGZGJ0YyRjUtSShtZmVuY2VkR0YkNiQtRiM2KS1GLDYjUSFGJy1JI21zR0YkNiNRPi0tLS0tLS0tLS0tLW46JWQtLS0tLS0tLS0tLVxuRictRjk2LVEiLEYnRjxGPi9GQkY0RkNGRUZHRklGS0Zkby9GUVEsMC4zMzMzMzMzZW1GJ0ZfcC9GMFEwVGltZXN+TmV3flJvbWFuRicvJStleGVjdXRhYmxlR0ZARjxGPC1GOTYtRlhGPEY+RkFGQ0ZFRkdGSUZLRk1GUEZZRmFvRmFvRmFvRmFvLUYsNiVRJXNldDFGJ0YyRjUtRjk2LUY7RjxGPkZBRkNGRUZHRklGS0ZNRlAtRiw2JVEzZ2V0SW5wdXRTZXRvZkdmdW5jRidGMkY1LUZlcTYkLUYjNiZGX3BGZnJGaHJGPEY8RmpyRllGYW9GYW9GYW9GYW8tRiw2JVEoTGluU2V0MUYnRjJGNUZfcy1GLDYlUTZnZXRMaW5JbnB1dFNldG9mR2Z1bmNGJ0YyRjVGZHNGanJGWUZhb0Zhb0Zhb0Zhby1GOTYvUSNpZkYnRmlvRltwRl1wRj5GQUZDRkVGR0ZJRktGZG9GZW9GYW9GXHNGYW8tRjk2L1Enc3Vic2V0RidGaW9GW3BGXXBGPkZBRkNGRUZHRklGS0Zkb0Zlb0Zhby1GLDYlUSlTZXRORlNSMUYnRjJGNUZhby1GOTYvUSRhbmRGJ0Zpb0ZbcEZdcEY+RkFGQ0ZFRkdGSUZLRmRvRmVvRmFvRmhzRmFvRmF0RmFvRmR0RmFvLUY5Ni9RJXRoZW5GJ0Zpb0ZbcEZdcEY+RkFGQ0ZFRkdGSUZLRmRvRmVvRllGYW9GYW9GYW9GYW9GYW9GYW9GYW9GYXEtRmVxNiQtRiM2JkZpcS1GXXI2I1E2UGFyaXR5fmNoZWNrfmZvdW5kLlxuRidGaXFGPEY8RmpyRllGYW9GYW9GYW9GYW9GYW9GYW9GYW9GYW9GK0Y4RistRjk2LlEiK0YnRi9GPEY+RkFGQ0ZFRkdGSUZLL0ZOUSwwLjIyMjIyMjJlbUYnL0ZRRmh1LUZTNiVRIjFGJ0YvRjxGVkZZRmFvRmFvRmFvRmFvLUY5Ni9RJWVsc2VGJ0Zpb0ZbcEZdcEY+RkFGQ0ZFRkdGSUZLRmRvRmVvRllGYW9GYW9GYW9GYW9GYW9GYW9GYW8tRiw2JkZjcUYvRjJGNS1GZXE2JS1GIzYrRmlxLUZdcjYjUUR1bmRldGVybWluZWR+dmFyaWFibGVzfmlufnNldDE6JWFcbkYnLUY5Ni5GYnJGL0Y8Rj5GY3JGQ0ZFRkdGSUZLRmRvRmRyLUYsNiZGXnNGL0YyRjUtRjk2LkZjb0YvRjxGPkZBRkNGRUZHRklGS0Zkb0Zlby1GOTYwUSZtaW51c0YnRi9GaW9GW3BGXXBGPkZBRkNGRUZHRklGS0Zkb0Zlb0Zdd0ZkdEY8Ri9GPEZWRllGXXdGXXdGXXdGXXdGXXdGXXdGYHYtRmVxNiUtRiM2LUZpcS1GXXI2I1FHdW5kZXRlcm1pbmVkfnZhcmlhYmxlc35pbn5MaW5TZXQxOiVhXG5GJ0ZpdkZoc0Zdd0Zfd0Zdd0ZkdEZoci8lMGZvbnRfc3R5bGVfbmFtZUdRKDJEfk1hdGhGJ0Y8Ri9GPEZWRllGYW9GYW9GYW9GYW8tRjk2L1EjZmlGJ0Zpb0ZbcEZdcEY+RkFGQ0ZFRkdGSUZLRmRvRmVvRmpyRllGYW9GWUZhb0Zhb0Zhb0ZhcS1GZXE2JC1GIzYoRmlxLUZdcjYjUT8qKioqKioqKioqKioqKioqKioqKioqKioqKioqXG5GJ0ZpcUZmckZockY8RjxGanJGWUZhb0Zhb0Zhb0Zhb0Zhby1GLDYlUSVzZXQyRidGMkY1Rl9zRmFzLUZlcTYkLUYjNiZGX3BGaHJGaXdGPEY8RmpyRllGYW9GYW9GYW9GYW8tRiw2JVEoTGluU2V0MkYnRjJGNUZfc0ZbdEZpeEZqckZZRmFvRmFvRmFvRmFvRl50RmFvRmZ4RmFvRmF0RmFvLUYsNiVRKVNldE5GU1IyRidGMkY1RmFvRmd0RmFvRl15RmFvRmF0RmFvRmB5RmFvRmp0RllGYW9GYW9GYW9GYW9GYW9GYW9GYW9GYXEtRmVxNiQtRiM2KEZpcUZhdUZpcUZockZpd0Y8RjxGanJGWUZhb0Zhb0Zhb0Zhb0Zhb0Zhb0Zhb0Zhb0YrRjhGK0ZkdUZqdUZWRllGYW9GYW9GYW9GYW9GXXZGWUZhb0Zhb0Zhb0Zhb0Zhb0Zhb0Zgdi1GZXE2JS1GIzYtRmlxLUZdcjYjUUR1bmRldGVybWluZWR+dmFyaWFibGVzfmlufnNldDI6JWFcbkYnRml2LUYsNiZGaHhGL0YyRjVGXXdGX3dGXXdGYHlGaHJGaXdGPEYvRjxGVkZZRl13Rl13Rl13Rl13Rl13Rl13RmB2LUZlcTYlLUYjNi1GaXEtRl1yNiNRR3VuZGV0ZXJtaW5lZH52YXJpYWJsZXN+aW5+TGluU2V0MjolYVxuRidGaXZGXXlGXXdGX3dGXXdGYHlGaHJGaXdGPEYvRjxGVkZZRmFvRmFvRmFvRmFvRlx4RmpyRllGYW9GYW9GYW9GYW9GWUZhb0Zhb0Zhby1GOTYtUSIjRidGPEY+RkFGQ0ZFRkdGSUZLRmRvRmVvRmFxLUZlcTYkLUYjNiZGaXFGY3hGaXFGPEY8RmpyRllGYW9GYW9GYW9GZ3otRiw2JVEkaWZ+RidGMkY1LUZlcTYmRmZzRjwvJSVvcGVuR1EifGZyRicvJSZjbG9zZUdRInxockYnRmFvRmF0RmFvLUYsNiVRMEZyZWVEaWZmU2V0TkZTUkYnRjJGNUZhb0ZndEZhb0Zcc0Zhb0ZhdEZhb0ZkdEZhb0ZndEZhb0ZmeEZhb0ZhdEZhb0ZgeUZhb0ZndEZhb0Zoc0Zhb0ZhdEZhb0ZpW2xGYW9GanRGWUZhb0Zhb0Zhb0Znei1GLDYlUSx+fn5+fnByaW50ZkYnRjJGNS1GZXE2JC1GIzYoRmlxLUZdcjYjUTNQYXJpdHl+Y2hlY2t+Zm91bmRGJ0ZpcUZockZpd0Y8RjxGanJGWUZhb0Zhb0Zhb0Znei1GLDYlUSZ+fn5+fkYnRjJGNUYrRjhGK0ZkdUZqdUZWRllGYW9GYW9GYW9GZ3otRiw2JVElfmZpOkYnRjJGNUZZRmFvRllGYW9GYW9GYW9GWUZhby1GOTYvUSRlbmRGJ0Zpb0ZbcEZdcEY+RkFGQ0ZFRkdGSUZLRmRvRmVvRmFvRl5xRmpyRmFvRllGWUZhb0Zgdi1GZXE2JS1GIzYnRmlxLUZdcjYjUUN0aGV+bnVtYmVyfm9mfnBhcml0eX5jaGVja35lcXVzOiVkRidGaXZGK0Y8Ri9GPEZWRlktRlo2JkZmbkZpbkZcby9GX29RJWF1dG9GJ0ZpcUZmckZockY8">Qyg+SSxjb3VudFBhcml0eUc2IiIiISEiIj8oSSJuR0YlIiQ1IiIiIiIkayJJJXRydWVHJSpwcm90ZWN0ZWRHQyotSSdwcmludGZHRiU2JFE+LS0tLS0tLS0tLS0tbjolZC0tLS0tLS0tLS0tXG5GJUYpPkklc2V0MUdGJS1JM2dldElucHV0U2V0b2ZHZnVuY0dGJTYjRik+SShMaW5TZXQxR0YlLUk2Z2V0TGluSW5wdXRTZXRvZkdmdW5jR0YlRjhAJS1JJGFuZEdGLjYkLUknc3Vic2V0R0YuNiRGNUkpU2V0TkZTUjFHRiUtRkI2JEY6RkRDJC1GMTYjUTZQYXJpdHl+Y2hlY2t+Zm91bmQuXG5GJT5GJCwmRiRGK0YrRitDJC1GMTYkUUR1bmRldGVybWluZWR+dmFyaWFibGVzfmlufnNldDE6JWFcbkYlLUkmbWludXNHRi5GQy1GMTYkUUd1bmRldGVybWluZWR+dmFyaWFibGVzfmlufkxpblNldDE6JWFcbkYlLUZSRkYtRjE2I1E/KioqKioqKioqKioqKioqKioqKioqKioqKioqKlxuRiU+SSVzZXQyR0YlRjY+SShMaW5TZXQyR0YlRjtAJS1GPzYkLUZCNiRGZW5JKVNldE5GU1IyR0YlLUZCNiRGZ25GXW9GR0MkLUYxNiRRRHVuZGV0ZXJtaW5lZH52YXJpYWJsZXN+aW5+c2V0MjolYVxuRiUtRlJGXG8tRjE2JFFHdW5kZXRlcm1pbmVkfnZhcmlhYmxlc35pbn5MaW5TZXQyOiVhXG5GJS1GUkZfb0YnLUYxNiRRQ3RoZX5udW1iZXJ+b2Z+cGFyaXR5fmNoZWNrfmVxdXM6JWRGJUYkRic=</Equation></Text-field>
+</Input>
+<Output>
+<Text-field superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" alignment="centred" firstindent="0" spacebelow="0" leftmargin="0" linespacing="0.0" initial="0" linebreak="space" rightmargin="0" bulletsuffix="" spaceabove="0" bullet="none" pagebreak-before="false"><Equation executable="false" style="2D Output" display="LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVE1b3V0cHV0fnJlZGlyZWN0ZWQuLi5GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=">LUkjbWlHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2JVE1b3V0cHV0fnJlZGlyZWN0ZWQuLi5GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRic=</Equation></Text-field>
+</Output>
+</Group>
+<Group view="presentation" hide-input="true" hide-output="false" inline-output="false" labelreference="L7" drawlabel="true" redirect-source="L4">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">%;</Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">------------n:110-----------
+undetermined variables in set1:{n30, n39, n45, n51, n58, n63, n67, n82, n93}</Text-field>
+<Text-field style="Line Printed Output" layout="Line Printed Output">undetermined variables in LinSet1:{n44}
+****************************
+undetermined variables in set2:{n30, n39, n45, n51, n58, n63, n67, n82, n93}
+undetermined variables in LinSet2:{n44}
+------------n:111-----------
+undetermined variables in set1:{n31, n40, n46, n52, n59, n64, n68, n76, n91, n94}
+undetermined variables in LinSet1:{n45, n93}
+****************************
+undetermined variables in set2:{n31, n40, n46, n52, n59, n64, n68, n76, n91, n94}
+undetermined variables in LinSet2:{n45, n93}
+------------n:112-----------
+undetermined variables in set1:{n32, n41, n47, n53, n60, n77, n95}
+undetermined variables in LinSet1:{n46, n94}
+****************************
+undetermined variables in set2:{n32, n41, n47, n53, n60, n77, n95}
+undetermined variables in LinSet2:{n46, n94}
+------------n:113-----------
+undetermined variables in set1:{n33, n42, n48, n54, n61, n66, n78, n85, n93}
+undetermined variables in LinSet1:{n47, n95}
+****************************
+undetermined variables in set2:{n33, n42, n48, n54, n61, n66, n78, n85, n93}
+undetermined variables in LinSet2:{n47, n95}
+------------n:114-----------
+undetermined variables in set1:{n34, n43, n49, n55, n62, n67, n79, n94, n97}
+undetermined variables in LinSet1:{n48}
+****************************
+undetermined variables in set2:{n34, n43, n49, n55, n62, n67, n79, n94, n97}
+undetermined variables in LinSet2:{n48}
+------------n:115-----------
+undetermined variables in set1:{n35, n44, n50, n56, n63, n68, n95}
+undetermined variables in LinSet1:{n49, n97}
+****************************
+undetermined variables in set2:{n35, n44, n50, n56, n63, n68, n95}
+undetermined variables in LinSet2:{n49, n97}
+------------n:116-----------
+undetermined variables in set1:{n36, n45, n51, n57, n64, n73}
+undetermined variables in LinSet1:{n50}
+****************************
+undetermined variables in set2:{n36, n45, n51, n57, n64, n73}
+undetermined variables in LinSet2:{n50}
+------------n:117-----------
+undetermined variables in set1:{n37, n46, n52, n58, n82, n97, n100}
+undetermined variables in LinSet1:{n51}
+****************************
+undetermined variables in set2:{n37, n46, n52, n58, n82, n97, n100}
+undetermined variables in LinSet2:{n51}
+------------n:118-----------
+undetermined variables in set1:{n38, n47, n53, n59, n66}
+undetermined variables in LinSet1:{n52, n100}
+****************************
+undetermined variables in set2:{n38, n47, n53, n59, n66}
+undetermined variables in LinSet2:{n52, n100}
+------------n:119-----------
+undetermined variables in set1:{n39, n48, n54, n60, n67, n76, n91, n102}
+undetermined variables in LinSet1:{n53}
+****************************
+undetermined variables in set2:{n39, n48, n54, n60, n67, n76, n91, n102}
+undetermined variables in LinSet2:{n53}
+------------n:120-----------
+undetermined variables in set1:{n40, n49, n55, n61, n68, n73, n77, n85, n100, n103}
+undetermined variables in LinSet1:{n54, n102}
+****************************
+undetermined variables in set2:{n40, n49, n55, n61, n68, n73, n77, n85, n100, n103}
+undetermined variables in LinSet2:{n54, n102}
+------------n:121-----------
+undetermined variables in set1:{n41, n50, n56, n62, n78, n93, n104}
+undetermined variables in LinSet1:{n55, n103}
+****************************
+undetermined variables in set2:{n41, n50, n56, n62, n78, n93, n104}
+undetermined variables in LinSet2:{n55, n103}
+------------n:122-----------
+undetermined variables in set1:{n42, n51, n57, n63, n79, n94, n102, n105}
+undetermined variables in LinSet1:{n56, n104}
+****************************
+undetermined variables in set2:{n42, n51, n57, n63, n79, n94, n102, n105}
+undetermined variables in LinSet2:{n56, n104}
+------------n:123-----------
+undetermined variables in set1:{n43, n52, n58, n64, n76, n95, n103}
+undetermined variables in LinSet1:{n57, n105}
+****************************
+undetermined variables in set2:{n43, n52, n58, n64, n76, n95, n103}
+undetermined variables in LinSet2:{n57, n105}
+------------n:124-----------
+undetermined variables in set1:{n44, n53, n59, n77, n104, n107}
+undetermined variables in LinSet1:{n58}
+****************************
+undetermined variables in set2:{n44, n53, n59, n77, n104, n107}
+undetermined variables in LinSet2:{n58}
+------------n:125-----------
+undetermined variables in set1:{n45, n54, n60, n66, n73, n78, n82, n97, n105, n108}
+undetermined variables in LinSet1:{n59, n107}
+****************************
+undetermined variables in set2:{n45, n54, n60, n66, n73, n78, n82, n97, n105, n108}
+undetermined variables in LinSet2:{n59, n107}
+------------n:126-----------
+undetermined variables in set1:{n46, n55, n61, n67, n79, n91, n109}
+undetermined variables in LinSet1:{n60, n108}
+****************************
+undetermined variables in set2:{n46, n55, n61, n67, n79, n91, n109}
+undetermined variables in LinSet2:{n60, n108}
+------------n:127-----------
+undetermined variables in set1:{n47, n56, n62, n68, n107, n110}
+undetermined variables in LinSet1:{n61, n109}
+****************************
+undetermined variables in set2:{n47, n56, n62, n68, n107, n110}
+undetermined variables in LinSet2:{n61, n109}
+------------n:128-----------
+undetermined variables in set1:{n48, n57, n63, n76, n85, n93, n100, n108, n111}
+undetermined variables in LinSet1:{n62, n110}
+****************************
+undetermined variables in set2:{n48, n57, n63, n76, n85, n93, n100, n108, n111}
+undetermined variables in LinSet2:{n62, n110}
+------------n:129-----------
+undetermined variables in set1:{n49, n58, n64, n77, n82, n94, n109, n112}
+undetermined variables in LinSet1:{n63, n111}
+****************************
+undetermined variables in set2:{n49, n58, n64, n77, n82, n94, n109, n112}
+undetermined variables in LinSet2:{n63, n111}
+------------n:130-----------
+undetermined variables in set1:{n50, n59, n78, n95, n102, n110, n113}
+undetermined variables in LinSet1:{n64, n112}
+****************************
+undetermined variables in set2:{n50, n59, n78, n95, n102, n110, n113}
+undetermined variables in LinSet2:{n64, n112}
+------------n:131-----------
+undetermined variables in set1:{n51, n60, n66, n79, n103, n111, n114}
+undetermined variables in LinSet1:{n113}
+****************************
+undetermined variables in set2:{n51, n60, n66, n79, n103, n111, n114}
+undetermined variables in LinSet2:{n113}
+------------n:132-----------
+undetermined variables in set1:{n52, n61, n67, n73, n85, n97, n104, n112}
+undetermined variables in LinSet1:{n66, n114}
+****************************
+undetermined variables in set2:{n52, n61, n67, n73, n85, n97, n104, n112}
+undetermined variables in LinSet2:{n66, n114}
+------------n:133-----------
+undetermined variables in set1:{n53, n62, n68, n105, n113}
+undetermined variables in LinSet1:{n67}
+****************************
+undetermined variables in set2:{n53, n62, n68, n105, n113}
+undetermined variables in LinSet2:{n67}
+------------n:134-----------
+undetermined variables in set1:{n54, n63, n82, n91, n114}
+undetermined variables in LinSet1:{n68}
+****************************
+undetermined variables in set2:{n54, n63, n82, n91, n114}
+undetermined variables in LinSet2:{n68}
+------------n:135-----------
+undetermined variables in set1:{n55, n64, n76, n100, n107}
+undetermined variables in LinSet1:{}
+****************************
+undetermined variables in set2:{n55, n64, n76, n100, n107}
+undetermined variables in LinSet2:{}
+------------n:136-----------
+undetermined variables in set1:{n56, n77, n93, n108, n119}
+undetermined variables in LinSet1:{}
+****************************
+undetermined variables in set2:{n56, n77, n93, n108, n119}
+undetermined variables in LinSet2:{}
+------------n:137-----------
+undetermined variables in set1:{n57, n66, n78, n85, n94, n102, n109}
+undetermined variables in LinSet1:{n119}
+****************************
+undetermined variables in set2:{n57, n66, n78, n85, n94, n102, n109}
+undetermined variables in LinSet2:{n119}
+------------n:138-----------
+undetermined variables in set1:{n58, n67, n73, n79, n91, n95, n103, n110}
+undetermined variables in LinSet1:{}
+****************************
+undetermined variables in set2:{n58, n67, n73, n79, n91, n95, n103, n110}
+undetermined variables in LinSet2:{}
+------------n:139-----------
+undetermined variables in set1:{n59, n68, n104, n111, n119}
+undetermined variables in LinSet1:{n73}
+****************************
+undetermined variables in set2:{n59, n68, n104, n111, n119}
+undetermined variables in LinSet2:{n73}
+------------n:140-----------
+undetermined variables in set1:{n60, n93, n97, n105, n112, n123}
+undetermined variables in LinSet1:{}
+****************************
+undetermined variables in set2:{n60, n93, n97, n105, n112, n123}
+undetermined variables in LinSet2:{}
+------------n:141-----------
+undetermined variables in set1:{n61, n76, n82, n94, n113}
+undetermined variables in LinSet1:{n123}
+****************************
+undetermined variables in set2:{n61, n76, n82, n94, n113}
+undetermined variables in LinSet2:{n123}
+------------n:142-----------
+undetermined variables in set1:{n62, n77, n95, n107, n114, n125}
+undetermined variables in LinSet1:{n76}
+****************************
+undetermined variables in set2:{n62, n77, n95, n107, n114, n125}
+undetermined variables in LinSet2:{n76}
+------------n:143-----------
+undetermined variables in set1:{n63, n78, n91, n100, n108, n123}
+undetermined variables in LinSet1:{n77, n125}
+****************************
+undetermined variables in set2:{n63, n78, n91, n100, n108, n123}
+undetermined variables in LinSet2:{n77, n125}
+------------n:144-----------
+undetermined variables in set1:{n64, n73, n79, n85, n97, n109}
+undetermined variables in LinSet1:{n78}
+****************************
+undetermined variables in set2:{n64, n73, n79, n85, n97, n109}
+undetermined variables in LinSet2:{n78}
+------------n:145-----------
+undetermined variables in set1:{n93, n102, n110, n125}
+undetermined variables in LinSet1:{n79}
+****************************
+undetermined variables in set2:{n93, n102, n110, n125}
+undetermined variables in LinSet2:{n79}
+------------n:146-----------
+undetermined variables in set1:{n66, n94, n103, n111}
+undetermined variables in LinSet1:{}
+****************************
+undetermined variables in set2:{n66, n94, n103, n111}
+undetermined variables in LinSet2:{}
+------------n:147-----------
+undetermined variables in set1:{n67, n76, n82, n95, n100, n104, n112, n119}
+undetermined variables in LinSet1:{}
+****************************
+undetermined variables in set2:{n67, n76, n82, n95, n100, n104, n112, n119}
+undetermined variables in LinSet2:{}
+------------n:148-----------
+undetermined variables in set1:{n68, n77, n105, n113, n131}
+undetermined variables in LinSet1:{n82}
+****************************
+undetermined variables in set2:{n68, n77, n105, n113, n131}
+undetermined variables in LinSet2:{n82}
+------------n:149-----------
+undetermined variables in set1:{n78, n97, n102, n114}
+undetermined variables in LinSet1:{n131}
+****************************
+undetermined variables in set2:{n78, n97, n102, n114}
+undetermined variables in LinSet2:{n131}
+------------n:150-----------
+undetermined variables in set1:{n79, n85, n91, n103, n107}
+undetermined variables in LinSet1:{}
+****************************
+undetermined variables in set2:{n79, n85, n91, n103, n107}
+undetermined variables in LinSet2:{}
+------------n:151-----------
+undetermined variables in set1:{n104, n108, n123, n131, n134}
+undetermined variables in LinSet1:{n85}
+****************************
+undetermined variables in set2:{n104, n108, n123, n131, n134}
+undetermined variables in LinSet2:{n85}
+------------n:152-----------
+undetermined variables in set1:{n93, n100, n105, n109}
+undetermined variables in LinSet1:{n134}
+****************************
+undetermined variables in set2:{n93, n100, n105, n109}
+undetermined variables in LinSet2:{n134}
+------------n:153-----------
+undetermined variables in set1:{n73, n82, n94, n110, n125, n136}
+undetermined variables in LinSet1:{}
+****************************
+undetermined variables in set2:{n73, n82, n94, n110, n125, n136}
+undetermined variables in LinSet2:{}
+------------n:154-----------
+undetermined variables in set1:{n95, n102, n107, n111, n119, n134, n137}
+undetermined variables in LinSet1:{n136}
+****************************
+undetermined variables in set2:{n95, n102, n107, n111, n119, n134, n137}
+undetermined variables in LinSet2:{n136}
+------------n:155-----------
+undetermined variables in set1:{n103, n108, n112, n138}
+undetermined variables in LinSet1:{n137}
+****************************
+undetermined variables in set2:{n103, n108, n112, n138}
+undetermined variables in LinSet2:{n137}
+------------n:156-----------
+undetermined variables in set1:{n76, n85, n91, n97, n104, n109, n113, n136, n139}
+undetermined variables in LinSet1:{n138}
+****************************
+undetermined variables in set2:{n76, n85, n91, n97, n104, n109, n113, n136, n139}
+undetermined variables in LinSet2:{n138}
+------------n:157-----------
+undetermined variables in set1:{n77, n105, n110, n114, n137, n140}
+undetermined variables in LinSet1:{n91, n139}
+****************************
+undetermined variables in set2:{n77, n105, n110, n114, n137, n140}
+undetermined variables in LinSet2:{n91, n139}
+------------n:158-----------
+undetermined variables in set1:{n78, n93, n111, n123, n138}
+undetermined variables in LinSet1:{n140}
+****************************
+undetermined variables in set2:{n78, n93, n111, n123, n138}
+undetermined variables in LinSet2:{n140}
+------------n:159-----------
+undetermined variables in set1:{n79, n94, n100, n107, n112, n131, n139, n142}
+undetermined variables in LinSet1:{n93}
+****************************
+undetermined variables in set2:{n79, n94, n100, n107, n112, n131, n139, n142}
+undetermined variables in LinSet2:{n93}
+------------n:160-----------
+undetermined variables in set1:{n95, n108, n113, n125, n140, n143}
+undetermined variables in LinSet1:{n94, n142}
+****************************
+undetermined variables in set2:{n95, n108, n113, n125, n140, n143}
+undetermined variables in LinSet2:{n94, n142}
+------------n:161-----------
+undetermined variables in set1:{n102, n109, n114}
+undetermined variables in LinSet1:{n95, n143}
+****************************
+undetermined variables in set2:{n102, n109, n114}
+undetermined variables in LinSet2:{n95, n143}
+------------n:162-----------
+undetermined variables in set1:{n82, n91, n97, n103, n110, n119, n134, n142}
+undetermined variables in LinSet1:{}
+****************************
+undetermined variables in set2:{n82, n91, n97, n103, n110, n119, n134, n142}
+undetermined variables in LinSet2:{}
+------------n:163-----------
+undetermined variables in set1:{n104, n111, n143}
+undetermined variables in LinSet1:{n97}
+****************************
+undetermined variables in set2:{n104, n111, n143}
+undetermined variables in LinSet2:{n97}
+------------n:164-----------
+undetermined variables in set1:{n93, n105, n112, n136}
+undetermined variables in LinSet1:{}
+****************************
+undetermined variables in set2:{n93, n105, n112, n136}
+undetermined variables in LinSet2:{}
+the number of parity check equs:0</Text-field>
+</Output>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L6" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJSdmYW1pbHlHUTBUaW1lc35OZXd+Um9tYW5GJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group></Presentation-Block>
+</Worksheet>
